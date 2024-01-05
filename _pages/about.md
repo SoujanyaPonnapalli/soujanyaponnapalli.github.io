@@ -8,7 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-Last update: Jan 5th, 2024
+
+<!-- UC Berkeley -->
+I am a postdoctoral scholar at the University of California, Berkeley.
+I work with [Prof. Natacha Crooks](https://nacrooks.github.io/)
+  and am part of the [Sky Computing Lab](https://sky.cs.berkeley.edu/) in the EECS Department.
+
+<!-- UT Austin -->
+At the University of Texas at Austin, I was advised by [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
+  and part of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
+Broadly, my research interests are in and around distributed storage systems. My work primarily focuses on building I/O efficient storage systems for emerging technologies like Blockchains and Persistent Memory. Before grad school, I completed my Bachelors with Honors in Computer Science and Engineering from International Institute of Information Technology Hyderabad (IIIT-H). I received the best all-rounder gold medal for excelling in academics and my contributions to Sports and Cultural activities at the institute.
+
+<!-- IIIT Hyderbad -->
+
+
+
+
+
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
