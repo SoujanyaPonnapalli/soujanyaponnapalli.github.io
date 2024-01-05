@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Soujanya Ponnapalli"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Postdoctoral Scholar | Sky Lab | EECS Department"
   location         : "465 Soda Hall, Berkeley CA"
   employer         : University of California, Berkeley
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/soujanya-ponnapalli-553275107"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
