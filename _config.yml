@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Soujanya Ponnapalli / Soujanya's Homepage"
+title                    : "Soujanya Ponnapalli / Homepage"
 title_separator          : "-"
 name                     : &name "Soujanya Ponnapalli"
 description              : &description "Postdoctoral Scholar at UC Berkeley | EECS Department"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Soujanya Ponnapalli"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
