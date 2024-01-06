@@ -27,7 +27,7 @@ My [PhD dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
 
 <!-- IIIT Hyderbad -->
 Before grad school, I completed my Bachelors with Honors in Computer Science and Engineering
-  from International Institute of Information Technology, Hyderabad [IIIT-H](https://iiit.ac.in/)
+  from [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/)
   where I worked with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
 I received the best all-rounder gold medal for excelling in academics and for my contributions
   to the cultural and extracurricular activities at the institute.
