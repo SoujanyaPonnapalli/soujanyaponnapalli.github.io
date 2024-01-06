@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: #"academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title:  "About me" #"academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+===
 
 <!-- UC Berkeley -->
 I am a postdoctoral scholar at the University of California Berkeley.
