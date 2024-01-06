@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-===
-
 <!-- UC Berkeley -->
 I am a postdoctoral scholar at the University of California Berkeley.
 I work with [Prof. Natacha Crooks](https://nacrooks.github.io/) and
