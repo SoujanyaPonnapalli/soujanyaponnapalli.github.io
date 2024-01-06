@@ -12,7 +12,7 @@ redirect_from:
 I am a postdoctoral scholar at University of California, Berkeley.
 I work with [Prof. Natacha Crooks](https://nacrooks.github.io/) and am part of
   the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at the EECS Department.
-I am interested in working on untrusted storage systems and
+I am currently working on untrusted storage systems and
   crash- and byzantine-fault tolerant distributed systems.
 
 <!-- UT Austin -->
