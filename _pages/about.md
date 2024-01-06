@@ -18,7 +18,7 @@ I am currently working on untrusted storage systems and
 <!-- UT Austin -->
 Before joining Berkeley, I completed my PhD at the CS Department at [UT Austin](https://www.utexas.edu/).
 I worked with [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
-  and am part of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
+  and was part of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
 My [PhD dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
   focused on minimizing I/O bottlenecks in modern systems' infrastructure
   to achieve high throughput and scalability.
