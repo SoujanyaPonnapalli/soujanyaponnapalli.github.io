@@ -16,8 +16,8 @@ At present, my research focuses on building efficient untrusted storage systems 
   crash- and byzantine-fault tolerant distributed systems.
 
 <!-- UT Austin -->
-Prior to joining Berkeley, I completed my PhD at the CS Department at [UT Austin](https://www.utexas.edu/).
-  under the guidance of [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
+Prior to joining Berkeley, I completed my PhD at the CS Department at [UT Austin](https://www.utexas.edu/),
+  under the guidance of [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) and
   as a member of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
 My [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
   focused on minimizing I/O bottlenecks in modern systems' infrastructure
@@ -25,10 +25,10 @@ My [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
 
 <!-- IIIT Hyderbad -->
 Before studying at Austin, I obtained my Bachelor's degree with Honors in Computer Science and Engineering
-  from the [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/)
+  from the [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/),
   where I collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
 I was awarded the best all-rounder gold medal for excelling in academics and for my contributions
-  to the cultural and extracurricular activities at the institute.
+  to the extracurricular activities at the institute.
 
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 
