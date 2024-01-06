@@ -8,26 +8,33 @@ redirect_from:
   - /about.html
 ---
 
+<!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
+
+Prior to joining Berkeley, I completed my PhD in the CS Department at UT Austin, under the guidance of Prof. Vijay Chidambaram, as a member of the Systems and Storage Lab. My doctoral dissertation centered on minimizing I/O bottlenecks within modern systems’ infrastructure to achieve heightened throughput and scalability.
+
+Preceding my graduate studies, I obtained my Bachelor's degree with Honors in Computer Science and Engineering from the International Institute of Information Technology, Hyderabad (IIIT-H), where I collaborated with Prof. Suresh Purini. I was honored with the best all-rounder gold medal for academic excellence and my significant contributions to cultural and extracurricular activities at the institute." -->
+
+
 <!-- UC Berkeley -->
-I am a postdoctoral scholar at University of California, Berkeley.
-I work with [Prof. Natacha Crooks](https://nacrooks.github.io/) and am part of
-  the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at the EECS Department.
-I am currently working on untrusted storage systems and
+I am a postdoctoral scholar at the University of California, Berkeley.
+I work with [Prof. Natacha Crooks](https://nacrooks.github.io/) and am affiliated with
+  the [Sky Computing Lab](https://sky.cs.berkeley.edu/) within the EECS Department.
+At present, my research focuses on building efficient untrusted storage systems and
   crash- and byzantine-fault tolerant distributed systems.
 
 <!-- UT Austin -->
-Before joining Berkeley, I completed my PhD at the CS Department at [UT Austin](https://www.utexas.edu/).
-I worked with [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
-  and was part of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
-My [PhD dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
+Prior to joining Berkeley, I completed my PhD at the CS Department at [UT Austin](https://www.utexas.edu/).
+  under the guidance of [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
+  as a member of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
+My [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
   focused on minimizing I/O bottlenecks in modern systems' infrastructure
   to achieve high throughput and scalability.
 
 <!-- IIIT Hyderbad -->
-Before grad school, I completed my Bachelors with Honors in Computer Science and Engineering
-  from [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/)
-  where I worked with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
-I received the best all-rounder gold medal for excelling in academics and for my contributions
+Before studying at Austin, I obtained my Bachelor's degree with Honors in Computer Science and Engineering
+  from the [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/)
+  where I collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
+I was awarded the best all-rounder gold medal for excelling in academics and for my contributions
   to the cultural and extracurricular activities at the institute.
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
