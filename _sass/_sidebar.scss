@@ -62,7 +62,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width;
+    width: $right-sidebar-width-wide;
   }
 }
 
