@@ -16,7 +16,7 @@ I am interested in working on untrusted storage systems and
   crash- and byzantine-fault tolerant distributed systems.
 
 <!-- UT Austin -->
-Before joining Berkeley, I completed my PhD at the CS Department at the University of Texas at Austin.
+Before joining Berkeley, I completed my PhD at the CS Department at [UT Austin](https://www.utexas.edu/).
 I worked with [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
   and am part of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
 My [PhD dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
