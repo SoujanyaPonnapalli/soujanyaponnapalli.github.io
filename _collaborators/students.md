@@ -7,6 +7,7 @@ collection: collaborators
 Students and Mentees
 =======
 
+* David Chu, PhD student at UC Berkeley
 * Reggie Frank, PhD student at UC Berkeley
 * Micah Murray, PhD student at UC Berkeley
 * Souvik Banerjee, Undergrad at UT Austin (now at Apple)
