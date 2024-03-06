@@ -10,14 +10,13 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+-----
 * Postdoctoral scholar in EECS, UC Berkeley, 2023 - Ongoing
 * Ph.D in Computer Science, UT Austin, 2017 - 2023
 * Bachelors in Computer Science and Engineering, IIIT-Hyderabad, 2013 - 2017
 
 Work experience
-======
-
+-----
 * 2023 - Ongoing
   * Postdoctoral scholar in EECS, UC Berkeley
   * Sky Computing Lab
@@ -50,6 +49,21 @@ Work experience
   * Operating systems, 2015-2016
 
 
+Organizational Roles
+-----
+* Programming Committee, Eurosys'24
+* External Review Committee, ATC'24
+* Reviewer, ACM Journal, TOCS'24
+* Hallway Discussion Lead, SOSP'21
+* External Review Committee, NSDI'19
+* Shadow Programming Committee, Eurosys'20
+* Chair for GAAP at UT Austin
+  * Graduate Application Assistance Program (GAAP) mentors underprivileged students with
+  their PhD applications to UT Austin, 2020-2021
+* Graduate Representative for Computer Science (GRACS), UT Austin, 2020-2021
+* Mentor for Women in Computer Science, UT Austin, 2019-2020
+
+
 <!-- Skills
 ======
 * Skill 1
@@ -60,19 +74,19 @@ Work experience
 * Skill 3 -->
 
 Publications
-======
+-----
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
-======
+-----
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
-======
+-----
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
