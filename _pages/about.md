@@ -34,6 +34,19 @@ She obtained her Bachelor's degree with Honors in Computer Science and Engineeri
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
   to the institute's extracurricular activities.
 
+Organizational Roles
+=======
+* Programming Committee, Eurosys'24
+* External Review Committee, ATC'24
+* Hallway Discussion Lead, SOSP'21
+* External Review Committee, NSDI'19
+* Shadow Programming Committee, Eurosys'20
+
+* Chaired the graduate application assistance program (GAAP) at UT Austin to mentor 
+underprivileged students with their applications to graduate programs at US schools, UT Austin, 2020-2021
+* Graduate Representative for Computer Science, UT Austin, 2020-2021
+* Mentor for Women in Computer Science, UT Austin, 2019-2020
+
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 
 Prior to joining Berkeley, I completed my PhD in the CS Department at UT Austin, under the guidance of Prof. Vijay Chidambaram, as a member of the Systems and Storage Lab. My doctoral dissertation centered on minimizing I/O bottlenecks within modern systems’ infrastructure to achieve heightened throughput and scalability.
