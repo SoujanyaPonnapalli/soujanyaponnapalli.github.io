@@ -4,14 +4,19 @@ excerpt: #"Short description of portfolio item number 1<br/><img src='/images/50
 collection: collaborators
 ---
 
-Students and Mentees
+Mentors and Industry Collaborators
 -----
-- David Chu, PhD student at UC Berkeley
-- Reggie Frank, PhD student at UC Berkeley
-- Micah Murray, PhD student at UC Berkeley
-- Souvik Banerjee, Undergrad at UT Austin (now at Apple)
-- Gilad Oved, Undergrad at UT Austin
-- Evan Kaminsky, Undergrad at UT Austin
-- Zachary Keener, Undergrad at UT Austin
-
-# This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+- Phil Bernstein, Ongoing
+- Jonathan Goldstein, Ongoing
+- Jose M. Faleiro, Ongoing
+- Marcos K. Aguilera, 2021
+- Kim Keeton, 2021
+- Sharad Singal, 2021
+- Anirudh Badam, 2020
+- Ranveer Chandra, 2020
+- Ant Rowstron, 2019
+- Dushayanth Narayanan, 2019
+- Ittai Abraham, 2018
+- Michael Wei, 2018
+- Amy Tai, 2018
+- Saurabh Kadekodi, 2021

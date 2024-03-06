@@ -4,13 +4,14 @@ excerpt: #"Short description of portfolio item number 1<br/><img src='/images/50
 collection: collaborators
 ---
 
-Advisors and Academic Collaborators
+Students and Mentees
 -----
-- Natacha Crooks, Prof at UC Berkeley (Postdoc advisor)
-- Vijay Chidambaram, Prof at UT Austin (PhD advisor)
-- Dahlia Malhi, Prof at UC Santa Barbara
-- Greg Ganger, Prof at CMU
-- Zsolt Istav, Prof at TU Darmstadt
-
+- David Chu, PhD student at UC Berkeley
+- Reggie Frank, PhD student at UC Berkeley
+- Micah Murray, PhD student at UC Berkeley
+- Souvik Banerjee, Undergrad at UT Austin (now at Apple)
+- Gilad Oved, Undergrad at UT Austin
+- Evan Kaminsky, Undergrad at UT Austin
+- Zachary Keener, Undergrad at UT Austin
 
 # This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
