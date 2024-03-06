@@ -18,6 +18,10 @@ Education
 Work experience
 ======
 
+* 2023 - Ongoing
+  * Postdoctoral scholar in EECS, UC Berkeley
+  * Sky Computing Lab
+
 * Summer 2022
   * Microsoft Research, Redmond, WA
   * Jonathan Goldstein and Phil Bernstein
@@ -35,7 +39,7 @@ Work experience
   * Michael Wei and Dahlia Malkhi
 
 * Research Scholar
-  * Semiconductor Research Scholars
+  * Semiconductor Research Corporation
 
 * Research Assistant
   * UT Austin, Prof. Vijay Chidambaram, 2017 - 2023
