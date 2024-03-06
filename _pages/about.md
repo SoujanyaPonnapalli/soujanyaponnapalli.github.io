@@ -38,6 +38,7 @@ Organizational Roles
 =======
 * Programming Committee, Eurosys'24
 * External Review Committee, ATC'24
+* Reviewer, ACM Journal, TOCS'24
 * Hallway Discussion Lead, SOSP'21
 * External Review Committee, NSDI'19
 * Shadow Programming Committee, Eurosys'20
