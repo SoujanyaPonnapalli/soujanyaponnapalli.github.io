@@ -42,8 +42,9 @@ Organizational Roles
 * External Review Committee, NSDI'19
 * Shadow Programming Committee, Eurosys'20
 
-* Chaired the graduate application assistance program (GAAP) at UT Austin to mentor 
-underprivileged students with their applications to graduate programs at US schools, UT Austin, 2020-2021
+* Chair for GAAP at UT Austin
+  * Graduate Application Assistance Program (GAAP) mentors underprivileged students with
+  their PhD applications to UT Austin, 2020-2021
 * Graduate Representative for Computer Science, UT Austin, 2020-2021
 * Mentor for Women in Computer Science, UT Austin, 2019-2020
 
