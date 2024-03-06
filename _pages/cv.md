@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV here](https://github.com/SoujanyaPonnapalli/soujanyaponnapalli.github.io/blob/master/SoujanyaPonnapalli.pdf)
+
 Education
 -----
 * Postdoctoral scholar in EECS, UC Berkeley, 2023 - Ongoing
