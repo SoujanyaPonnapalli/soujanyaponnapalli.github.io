@@ -16,8 +16,8 @@ Primarily, her work is at the intersection of distributed systems and storage sy
 She built IO-efficient infrastructures for modern applications like blockchains,
   has designed key-value stores and file systems for modern hardware like Persistent Memory and CXL,
   and has proposed efficient recovery for distributed databases.
-She is currently building distributed databases for the cloud that can tolerate
-  byzantine behavior from hardware failures.
+She is currently building distributed databases for the cloud that tolerate crash faults
+  and byzantine behavior from hardware faults.
 
 <!-- UT Austin -->
 Prior to joining Berkeley, she completed her PhD at the CS Department at [UT Austin](https://www.utexas.edu/),
@@ -25,14 +25,14 @@ Prior to joining Berkeley, she completed her PhD at the CS Department at [UT Aus
   is a member of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/) and the [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/).
 Her [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
   focused on minimizing I/O bottlenecks in modern systems' infrastructure
-  to achieve high throughput and scalability.
+  for achieving high throughput and scalability.
 
 <!-- IIIT Hyderbad -->
 She obtained her Bachelor's degree with Honors in Computer Science and Engineering
   from the [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/),
   where she collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
-  to extracurricular activities at the institute.
+  to the institute's extracurricular activities.
 
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 
