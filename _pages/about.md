@@ -1,7 +1,7 @@
 ---
 permalink: /
-title:  "About me" #"academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title:  "" #"About me" #"academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+excerpt: "" #"About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,26 +9,30 @@ redirect_from:
 ---
 
 <!-- UC Berkeley -->
-I am a postdoctoral scholar at the University of California, Berkeley.
-I work with [Prof. Natacha Crooks](https://nacrooks.github.io/) and am affiliated with
-  the [Sky Computing Lab](https://sky.cs.berkeley.edu/) within the EECS Department.
-At present, my research focuses on building efficient untrusted storage systems and
-  crash- and byzantine-fault tolerant distributed systems.
+Soujanya is a postdoctoral scholar at the University of California, Berkeley.
+She works with [Prof. Natacha Crooks](https://nacrooks.github.io/) and is affiliated with
+  the [Sky Computing Lab](https://sky.cs.berkeley.edu/) in the EECS Department at Berkeley.
+Primarily, her work is at the intersection of distributed systems and storage systems.
+She built IO-efficient infrastructures for modern applications like blockchains,
+  has designed key-value stores and file systems for modern hardware like Persistent Memory and CXL,
+  and has proposed efficient recovery for distributed databases.
+She is currently building distributed databases for the cloud that can tolerate
+  byzantine behavior from hardware failures.
 
 <!-- UT Austin -->
-Prior to joining Berkeley, I completed my PhD at the CS Department at [UT Austin](https://www.utexas.edu/),
+Prior to joining Berkeley, she completed her PhD at the CS Department at [UT Austin](https://www.utexas.edu/),
   under the guidance of [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) and
-  as a member of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/).
-My [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
+  is a member of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/) and the [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/).
+Her [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
   focused on minimizing I/O bottlenecks in modern systems' infrastructure
   to achieve high throughput and scalability.
 
 <!-- IIIT Hyderbad -->
-Before studying at Austin, I obtained my Bachelor's degree with Honors in Computer Science and Engineering
+Before studying at Austin, she obtained her Bachelor's degree with Honors in Computer Science and Engineering
   from the [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/),
-  where I collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
-I was awarded the best all-rounder gold medal for excelling in academics and for my contributions
-  to the extracurricular activities at the institute.
+  where she collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
+She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
+  to extracurricular activities at the institute.
 
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 
