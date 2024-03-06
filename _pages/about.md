@@ -11,7 +11,7 @@ redirect_from:
 <!-- UC Berkeley -->
 Soujanya is a postdoctoral scholar at the University of California, Berkeley.
 She works with [Prof. Natacha Crooks](https://nacrooks.github.io/) and is affiliated with
-  the [Sky Computing Lab](https://sky.cs.berkeley.edu/) in the EECS Department at Berkeley.
+  the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at Berkeley's EECS Department.
 Primarily, her work is at the intersection of distributed systems and storage systems.
 She built IO-efficient infrastructures for modern applications like blockchains,
   has designed key-value stores and file systems for modern hardware like Persistent Memory and CXL,
@@ -28,7 +28,7 @@ Her [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf
   to achieve high throughput and scalability.
 
 <!-- IIIT Hyderbad -->
-Before studying at Austin, she obtained her Bachelor's degree with Honors in Computer Science and Engineering
+She obtained her Bachelor's degree with Honors in Computer Science and Engineering
   from the [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/),
   where she collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
