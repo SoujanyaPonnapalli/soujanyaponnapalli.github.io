@@ -35,7 +35,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
   to the institute's extracurricular activities.
 
 Organizational Roles
-=======
+-----
 * Programming Committee, Eurosys'24
 * External Review Committee, ATC'24
 * Reviewer, ACM Journal, TOCS'24
