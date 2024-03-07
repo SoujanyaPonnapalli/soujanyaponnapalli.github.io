@@ -48,8 +48,12 @@ layout: default
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
-    
-        </header>
+
+        {% if page.authors}
+          <p>{{ page.authors }} </p>
+        {% endif %}
+
+      </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
