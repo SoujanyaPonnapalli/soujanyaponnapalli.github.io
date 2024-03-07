@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "Workshop"
+type: "Undergrad Virtualization"
 permalink: /undergrad-virtualization
 venue: "UT Austin, CS Department, Prof. Vijay Chidambaram"
 date: 2020-08-01

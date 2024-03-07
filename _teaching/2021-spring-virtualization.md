@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "Workshop"
+type: "Masters Virtualization"
 permalink: /masters-virtualization
 venue: "UT Austin, CS Department, Prof. Vijay Chidambaram"
 date: 2023-08-01

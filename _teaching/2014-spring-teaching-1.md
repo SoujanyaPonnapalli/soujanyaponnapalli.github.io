@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "Workshop"
+type: "Undergrad Operating Systems"
 permalink: /teaching/undergrad-os
 venue: "IIIT-Hyderabad, Prof. Suresh Purini"
 date: 2015-08-01
