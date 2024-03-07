@@ -1,5 +1,6 @@
 ---
 title: "Crashmonkey and ACE: Systematically testing file-system crash consistency"
+authors: "Jayashree Mohan,  Ashlie Martinez,  Soujanya Ponnapalli,  Pandian Raju,  Vijay Chidambaram"
 collection: publications
 permalink: 'tocs/crashmonkey'
 excerpt: 'This paper presents CrashMonkey and Ace, a set of tools to systematically find crash-consistency bugs in Linux file systems. CrashMonkey is a record-and-replay framework that simulates power-loss crashes while executing a given workload, and checks if the file system recovers to a consistent state after each crash. Ace automatically generates workloads to be run on the target file system. CrashMonkey and Ace are based on a new approach to test file-system crash consistency: bounded black-box crash testing (B3) which alleviates the consequences of having an infinite set of possible workloads to test. CrashMonkey and Ace are able to find 24 out of the 26 crash-consistency bugs reported in the last 5 years. These tools also revealed 10 new crash-consistency bugs in widely used, mature Linux file systems, 7 of which existed in the kernel since 2014. They also found a crash-consistency bug in a verified file system, FSCQ.\\

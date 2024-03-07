@@ -1,5 +1,6 @@
 ---
 title: "Finding Crash-Consistency Bugs with Bounded Black-Box Crash Testing"
+authors: "Jayashree Mohan,  Ashlie Martinez,  Soujanya Ponnapalli,  Pandian Raju,  Vijay Chidambaram"
 collection: publications
 permalink: 'osdi18/crashmonkey'
 excerpt: 'This paper presents a new approach to test file-system crash consistency: bounded black-box crash testing (B3). B3 tests the file system in a black-box manner using workloads with file-system operations. Since the space of possible workloads is infinite, B3 bounds this space based on the insights from studying recent crash-consistency bugs reported in Linux file systems. Most reported bugs can be reproduced using small workloads with three or fewer operations, and all reported bugs result from crashes after fsync () related system calls. We build CrashMonkey and Ace, to demonstrate the effectiveness of this approach. These tools find 24 out of the 26 recent crash-consistency bugs and reveal 10 new crash-consistency bugs that result in severe consequences like broken rename atomicity and loss of persisted files.\\

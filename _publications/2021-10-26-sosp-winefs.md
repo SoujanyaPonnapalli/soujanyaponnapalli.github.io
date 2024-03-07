@@ -1,5 +1,6 @@
 ---
 title: "WineFS: a hugepage-aware file system for persistent memory that ages gracefully"
+authors: "Rohan Kadekodi,  Saurabh Kadekodi,  Soujanya Ponnapalli,  Harshad Shirwadkar,  Gregory Ganger,  Aasheesh Kolli,  Vijay Chidambaram"
 collection: publications
 permalink: 'sosp21/winefs'
 excerpt: 'Modern persistent-memory (PM) file systems degrade in performance with usage due to their inability to use hugepages. This paper introduces WineFS, a novel hugepage-aware PM file system that largely eliminates this effect.

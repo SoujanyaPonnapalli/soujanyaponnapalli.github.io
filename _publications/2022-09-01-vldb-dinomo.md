@@ -1,5 +1,6 @@
 ---
 title: "DINOMO: an elastic, scalable, high-performance key-value store for DPM"
+authors: "Sekwon Lee,  Soujanya Ponnapalli,  Sharad Singhal,  Marcos Aguilera,  Kimberly Keeton,  Vijay Chidambaram"
 collection: publications
 permalink: 'vldb/dinomo'
 excerpt: 'This paper presents Dinomo, a novel key-value store for disaggregated persistent memory (DPM). Dinomo is the first key-value store for DPM that simultaneously achieves high common-case performance, scalability, and lightweight online reconfiguration simultaneously. Dinomo uses a novel combination of techniques such as ownership partitioning, disaggregated adaptive caching, selective replication, and lock-free and log-free indexing to achieve these goals. Dinomo achieves at least 3.8X better throughput than a state-of-the-art DPM key-value store while providing fast reconfiguration.\\
