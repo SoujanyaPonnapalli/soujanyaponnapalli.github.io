@@ -1,11 +1,11 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "Operating Systems"
+type: "Workshop"
 permalink: /teaching/undergrad-os
 venue: "IIIT-Hyderabad, Prof. Suresh Purini"
-# date: 2014-01-01
-# location: "City, Country"
+date: Fall 2015
+location: "Hyderabad, India"
 ---
 <!-- 
 This is a description of a teaching experience. You can use markdown like any other post.
