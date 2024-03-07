@@ -1,5 +1,6 @@
 ---
 title: "mLSM: Making Authenticated Storage Faster in Ethereum"
+authors: "Pandian Raju, Soujanya Ponnapalli, Evan Kaminsky, Gilad Oved, Zachary Keener, Vijay Chidambaram, Ittai Abraham"
 collection: publications
 permalink: 'hotstorage18/mlsm'
 excerpt: 'This paper presents a novel data-authenticating structure, Merkelized LSM (mLSM). In authenticated storage each read returns a value and a proof that allows the client to verify the value returned is correct. Such authentication leads to high read and write amplification (64x in the worst case). mLSM significantly reduces the read and write amplification while still allowing client verification of reads, and thus improves the performance of applications like Ethereum.\\
