@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /teaching/undergrad-os
 venue: "IIIT-Hyderabad, Prof. Suresh Purini"
-date: Fall 2015
+date: 2015
 location: "Hyderabad, India"
 ---
 <!-- 
