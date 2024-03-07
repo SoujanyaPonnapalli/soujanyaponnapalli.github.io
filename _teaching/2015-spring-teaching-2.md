@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "TA for Undergraduate Virtualization Course"
 collection: teaching
 type: "Undergrad Virtualization"
 permalink: /undergrad-virtualization

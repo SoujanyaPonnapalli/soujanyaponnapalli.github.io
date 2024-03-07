@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant"
+title: "TA for Undergraduate Operating Systems Course"
 collection: teaching
 type: "Undergrad Operating Systems"
 permalink: /teaching/undergrad-os
