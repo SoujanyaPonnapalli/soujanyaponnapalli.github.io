@@ -4,7 +4,7 @@ collection: teaching
 type: "Workshop"
 permalink: /masters-virtualization
 venue: "UT Austin, CS Department, Prof. Vijay Chidambaram"
-date: Fall 2023
+date: 2023-08-01
 location: "Austin, Texas"
 ---
 
