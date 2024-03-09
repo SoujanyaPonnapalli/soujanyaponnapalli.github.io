@@ -34,6 +34,13 @@ She obtained her Bachelor's degree with Honors in Computer Science and Engineeri
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
   to the institute's extracurricular activities.
 
+Recent News
+-----
+
+* Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/) for my proposal on
+building scalable and IO-efficient authenticated storage systems
+
+
 Organizational Roles
 -----
 * Programming Committee, Eurosys'25
