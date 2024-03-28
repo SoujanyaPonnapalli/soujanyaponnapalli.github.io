@@ -43,6 +43,7 @@ building scalable and IO-efficient authenticated storage systems
 
 Organizational Roles
 -----
+* Programming Committee, NSDI'25
 * Programming Committee, Eurosys'25
 * External Review Committee, ATC'24
 * Reviewer, ACM Journal, TOCS'24
