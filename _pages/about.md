@@ -34,21 +34,17 @@ She obtained her Bachelor's degree with Honors in Computer Science and Engineeri
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
   to the institute's extracurricular activities.
 
-Ph.D. Dissertation
------
-
-[Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)\\
-Committee: Vijay Chidambaram, Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
-
-
-Recent News
+### Recent News
 -----
 
 * Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/) for my proposal on
 building scalable and IO-efficient authenticated storage systems
 
+* [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)\\
+Committee: Vijay Chidambaram, Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
 
-Organizational Roles
+
+### Organizational Roles
 -----
 * Programming Committee, NSDI'25
 * Programming Committee, Eurosys'25
