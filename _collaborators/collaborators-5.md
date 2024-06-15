@@ -6,7 +6,7 @@ collection: collaborators
 
 Student Collaborators
 -----
-- Regginald Frank, PhD student at UC Berkeley
+- Reginald Frank, PhD student at UC Berkeley
 - Tyler Griggs, PhD student at UC Berkeley
 - Micah Murray, PhD student at UC Berkeley
 - David Chu, PhD student at UC Berkeley
