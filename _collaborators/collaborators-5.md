@@ -4,11 +4,12 @@ excerpt: #"Short description of portfolio item number 1<br/><img src='/images/50
 collection: collaborators
 ---
 
-Students and Mentees
+Student Collaborators
 -----
-- David Chu, PhD student at UC Berkeley
-- Reggie Frank, PhD student at UC Berkeley
+- Regginald Frank, PhD student at UC Berkeley
+- Tyler Griggs, PhD student at UC Berkeley
 - Micah Murray, PhD student at UC Berkeley
+- David Chu, PhD student at UC Berkeley
 - Souvik Banerjee, Undergrad at UT Austin (now at Apple)
 - Gilad Oved, Undergrad at UT Austin
 - Evan Kaminsky, Undergrad at UT Austin
