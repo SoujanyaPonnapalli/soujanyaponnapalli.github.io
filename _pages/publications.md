@@ -23,12 +23,15 @@ Sekwon Lee, **Soujanya Ponnapalli**, Sharad Singhal, Marcos Aguilera, Kimberly K
 
 
 ## WineFS: a hugepage-aware file system for persistent memory that ages gracefully 
-Proceedings of the VLDB Endowment (pVLDB), 2022 <br>
+ACM SIGOPS 28th Symposium on Operating Systems Principles, 2021 <br>
 Rohan Kadekodi, Saurabh Kadekodi, **Soujanya Ponnapalli**, Harshad Shirwadkar, Gregory Ganger, Aasheesh Kolli, Vijay Chidambaram <br>
 [Paper](https://dl.acm.org/doi/pdf/10.1145/3477132.3483567)
 [Slides](https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21-slides.pdf)
 [Talk](https://www.youtube.com/watch?v=16Ami3IsYI8&ab_channel=ACMSIGOPS)
 [Citation](https://www.cs.utexas.edu/~vijay/bibtex/winefs-sosp21.bib) <br>
+> *Modern persistent-memory (PM) file systems perform well in benchmark settings, when the file system is freshly created and empty. But after being aged by usage, as will be the normal mode in practice, their memory-mapped performance degrades significantly. This paper shows that the cause is their inability to use 2MB hugepages to map files when aged, having to use 4KB pages instead and suffering many extra page faults and TLB misses as a result.*
+> *We introduce WineFS, a novel hugepage-aware PM file system that largely eliminates this effect. WineFS combines a new alignment-aware allocator with fragmentation-avoiding approaches to consistency and concurrency to preserve the ability to use hugepages. Experiments show that WineFS resists the effects of aging and outperforms state-of-the-art PM file systems in both aged and un-aged settings. For example, in an aged setup, the LMDB memory-mapped database obtains 2x higher write throughput on WineFS compared to NOVA, and 70% higher throughput compared to ext4-DAX. When reading a memory-mapped persistent radix tree, WineFS results in 56% lower median latency than NOVA.*
+
 
 
 ## RainBlock: Faster Transaction Processing for Public Blockchains 
