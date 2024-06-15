@@ -11,13 +11,13 @@ author_profile: true
  <br>
 </p>
 <center>
-  <a href="https://www.usenix.org/conference/hotstorage18/presentation/raju" target="_blank"><img src="../_publications/mlsm.png" style="width: 60vw"></a>
+  <a href="https://www.usenix.org/conference/hotstorage18/presentation/raju" target="_blank"><img src="../images/paper_mlsm.png" style="width: 60vw"></a>
 </center>
 
 ## mLSM: Making Authenticated Storage Faster in Ethereum
 <p>
 <a href="https://www.usenix.org/conference/hotstorage18/presentation/raju" target="_blank">
-<img src="../_publications/mlsm.png" style="width: 60vw">
+<img src="../images/paper_mlsm.png" style="width: 60vw">
 </a>
 </p>
 
