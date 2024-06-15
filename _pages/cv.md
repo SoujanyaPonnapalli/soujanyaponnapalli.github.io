@@ -9,11 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-[CV Download Link!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
+<!-- [CV Download Link!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf) -->
 
-<img src="../images/cv1.png" style="width: 50vw;margin-left=100px">
-<img src="../images/cv2.png" style="width: 50vw;margin-left=100px">
-<img src="../images/cv3.png" style="width: 50vw;margin-left=100px">
+<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf">
+<img src="../images/cv1.png" style="width: 50vw;margin-left=100px"> </a>
+<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf">
+<img src="../images/cv2.png" style="width: 50vw;margin-left=100px"></a>
+<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf">
+<img src="../images/cv3.png" style="width: 50vw;margin-left=100px"></a>
 
 
 <!-- ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=1)
