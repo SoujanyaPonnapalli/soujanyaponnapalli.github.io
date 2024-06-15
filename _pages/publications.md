@@ -17,7 +17,7 @@ Sekwon Lee, **Soujanya Ponnapalli**, Sharad Singhal, Marcos Aguilera, Kimberly K
   <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 30vw;margin-left=0"></a></span>
 </p> 
 
-<br><br>
+<br><br><br><br><br><br><br><br>
 
 ## mLSM: Making Authenticated Storage Faster in Ethereum 
 USENIX Workshop on Hot Topics in Storage and File Systems, 2018 <br>
