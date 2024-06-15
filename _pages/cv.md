@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV here](https://github.com/SoujanyaPonnapalli/soujanyaponnapalli.github.io/blob/master/SoujanyaPonnapalli.pdf)
+[Download](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
+
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
 
 Education
 -----
