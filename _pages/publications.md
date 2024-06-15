@@ -9,7 +9,7 @@ author_profile: true
 PhD Dissertation, University of Texas at Austin, 2023 <br>
 **Soujanya Ponnapalli**, Vijay Chidambaram <br>
 [Paper](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)
-[Slides](https://wuklab.github.io/words/words22-lee-slides.pdf)
+[Slides](https://people.eecs.berkeley.edu/~soujanya/slides/defense.pptx)
 > *This dissertation studies the performance limitations of three distinct systems: monolithic key-value stores, distributed transactional stores, and public blockchains. First, it attributes their low throughput and poor scalability to I/O-bottlenecks that are inherent to the systems’ design and architecture. Next, it addresses the question: How do we architect systems to minimize I/O-bottlenecks and simultaneously achieve high throughput and scalability? It proposes a fundamental redesign of systems by carefully crafting the roles and responsibilities of each system component to improve the utilization of underlying resources.*
 
 
