@@ -34,6 +34,13 @@ She obtained her Bachelor's degree with Honors in Computer Science and Engineeri
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
   to the institute's extracurricular activities.
 
+Ph.D. Dissertation
+-----
+
+[Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)\\
+Committee: Vijay Chidambaram, Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
+
+
 Recent News
 -----
 
