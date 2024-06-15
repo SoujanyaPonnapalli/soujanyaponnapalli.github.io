@@ -4,7 +4,7 @@ excerpt: #"Short description of portfolio item number 1<br/><img src='/images/50
 collection: collaborators
 ---
 
-Peers
+Peers and Collaborators
 -----
 - Sekwon Lee, 2020-2023
 - Rohan Kadekodi, 2020-2023
