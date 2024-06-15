@@ -48,7 +48,7 @@ USENIX Annual Technical Conference (ATC), 2021<br>
 Proceedings of the VLDB Endowment (pVLDB), 2021 <br>
 Zsolt Istvan,  **Soujanya Ponnapalli**,  Vijay Chidambaram <br>
 [Paper](https://dl.acm.org/doi/pdf/10.14778/3450980.3450986)
-[Slides](https://www.youtube.com/watch?v=beM1qWI7tho&ab_channel=VLDB2021))
+[Slides](https://www.youtube.com/watch?v=beM1qWI7tho&ab_channel=VLDB2021)
 [Talk](https://www.youtube.com/watch?v=beM1qWI7tho&ab_channel=VLDB2021)
 [Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:lbGn4Hm5ml4J:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UQVdM0:AFWwaeYAAAAAZekTbM27vjR36aCY7495-eseBnM&scisig=AFWwaeYAAAAAZekTbM6Bbho1Vqw_ns0yEUMuCUE&scisf=4&ct=citation&cd=-1&hl=en)
 > *This paper presents our novel approach "Software-Defined Data Protection" (SDP). Its simple, yet powerful premise is to decouple often changing policies from request-level enforcement to allow distributed smart storage nodes to implement the latter at line-rate. Existing and future data protection frameworks can be translated to the same hardware interface which allows storage nodes to offload enforcement efficiently both for company-specific rules and regulations, such as GDPR or CCPA*
