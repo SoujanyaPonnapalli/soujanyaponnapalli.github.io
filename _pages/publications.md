@@ -5,24 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## RainBlock: Faster Transaction Processing for Public Blockchains 
-USENIX Annual Technical Conference (ATC), 2021<br>
-**Soujanya Ponnapalli**,  Aashaka Shah,  Souvik Banerjee,  Amy Tai,  Malkhi Dahlia,  Vijay Chidambaram,  Michael Wei <br>
-[Paper](https://www.usenix.org/system/files/atc21-ponnapalli.pdf)
-[Slides](https://www.usenix.org/system/files/atc21_slides_ponnapalli.pdf)
-[Talk](https://www.youtube.com/watch?v=oyrWI2LaDq8&ab_channel=USENIX)
-[Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:NIvCRZAdxToJ:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UX2tRg:AFWwaeYAAAAAZejwrRjGIK6bzK9zu2owfCzohDg&scisig=AFWwaeYAAAAAZejwrSlgAQcwDgpjj6iKBXWs82U&scisf=4&ct=citation&cd=-1&hl=en)
-<br>
-
-
-## WineFS: a hugepage-aware file system for persistent memory that ages gracefully 
-Proceedings of the VLDB Endowment (pVLDB), 2022 <br>
-Rohan Kadekodi, Saurabh Kadekodi, **Soujanya Ponnapalli**, Harshad Shirwadkar, Gregory Ganger, Aasheesh Kolli, Vijay Chidambaram <br>
-[Paper](https://dl.acm.org/doi/pdf/10.1145/3477132.3483567)
-[Slides](https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21-slides.pdf)
-[Talk](https://www.youtube.com/watch?v=16Ami3IsYI8&ab_channel=ACMSIGOPS)
-[Citation](https://www.cs.utexas.edu/~vijay/bibtex/winefs-sosp21.bib) <br>
-
 
 ## DINOMO: an elastic, scalable, high-performance kv-store for Disaggregated PM 
 Proceedings of the VLDB Endowment (pVLDB), 2022 <br>
@@ -37,6 +19,26 @@ Sekwon Lee, **Soujanya Ponnapalli**, Sharad Singhal, Marcos Aguilera, Kimberly K
 </p> 
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+## WineFS: a hugepage-aware file system for persistent memory that ages gracefully 
+Proceedings of the VLDB Endowment (pVLDB), 2022 <br>
+Rohan Kadekodi, Saurabh Kadekodi, **Soujanya Ponnapalli**, Harshad Shirwadkar, Gregory Ganger, Aasheesh Kolli, Vijay Chidambaram <br>
+[Paper](https://dl.acm.org/doi/pdf/10.1145/3477132.3483567)
+[Slides](https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21-slides.pdf)
+[Talk](https://www.youtube.com/watch?v=16Ami3IsYI8&ab_channel=ACMSIGOPS)
+[Citation](https://www.cs.utexas.edu/~vijay/bibtex/winefs-sosp21.bib) <br>
+
+
+## RainBlock: Faster Transaction Processing for Public Blockchains 
+USENIX Annual Technical Conference (ATC), 2021<br>
+**Soujanya Ponnapalli**,  Aashaka Shah,  Souvik Banerjee,  Amy Tai,  Malkhi Dahlia,  Vijay Chidambaram,  Michael Wei <br>
+[Paper](https://www.usenix.org/system/files/atc21-ponnapalli.pdf)
+[Slides](https://www.usenix.org/system/files/atc21_slides_ponnapalli.pdf)
+[Talk](https://www.youtube.com/watch?v=oyrWI2LaDq8&ab_channel=USENIX)
+[Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:NIvCRZAdxToJ:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UX2tRg:AFWwaeYAAAAAZejwrRjGIK6bzK9zu2owfCzohDg&scisig=AFWwaeYAAAAAZejwrSlgAQcwDgpjj6iKBXWs82U&scisf=4&ct=citation&cd=-1&hl=en)
+<br>
+
 
 ## mLSM: Making Authenticated Storage Faster in Ethereum 
 USENIX Workshop on Hot Topics in Storage and File Systems, 2018 <br>
