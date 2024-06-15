@@ -14,8 +14,6 @@ Sekwon Lee, **Soujanya Ponnapalli**, Sharad Singhal, Marcos Aguilera, Kimberly K
 [Talk](https://www.youtube.com/watch?v=Q1-nqbrmu0o&ab_channel=WukLab)
 [Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:yoFaNvcx5YUJ:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UQBrxM:AFWwaeYAAAAAZekHtxNW12bx341L-MmdskgZspo&scisig=AFWwaeYAAAAAZekHt9zGwIn9fvV_xoXalY9bNkE&scisf=4&ct=citation&cd=-1&hl=en) <br>
 > *We present Dinomo, a novel key-value store for disaggregated persistent memory (DPM). Dinomo is the first key-value store for DPM that simultaneously achieves high common-case performance, scalability, and lightweight online reconfiguration. We observe that previously proposed key-value stores for DPM had architectural limitations that prevent them from achieving all three goals simultaneously. Dinomo uses a novel combination of techniques such as ownership partitioning, disaggregated adaptive caching, selective replication, and lock-free and log-free indexing to achieve these goals. Compared to a state-of-the-art DPM key-value store, Dinomo achieves at least 3.8X better throughput at scale on various workloads and higher scalability, while providing fast reconfiguration.*
-
-
 <!-- <p>
  <span style="float: left"><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width:30vw;margin-right=0"></a></span>
  <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width:20vw"></a></span>
@@ -42,7 +40,7 @@ USENIX Annual Technical Conference (ATC), 2021<br>
 [Talk](https://www.youtube.com/watch?v=oyrWI2LaDq8&ab_channel=USENIX)
 [Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:NIvCRZAdxToJ:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UX2tRg:AFWwaeYAAAAAZejwrRjGIK6bzK9zu2owfCzohDg&scisig=AFWwaeYAAAAAZejwrSlgAQcwDgpjj6iKBXWs82U&scisf=4&ct=citation&cd=-1&hl=en)
 <br>
-
+> *We present RAINBLOCK, a public blockchain that achieves high transaction throughput. The chief insight behind RAINBLOCK is that the number of transactions in each block is limited by I/O bottlenecks. By removing these I/O bottlenecks, RAINBLOCK allows miners to process more transactions in the same amount of time. The paper makes two novel contributions: the RAINBLOCK architecture that removes I/O from the critical path of processing transactions, and the distributed, multi-versioned DSM-TREE data structure that stores the system state efficiently. A single RAINBLOCK miner processes 27.4 K transactions per second (27× higher than an Ethereum miner). In a geo-distributed settings, RAINBLOCK miners process 20K transactions per second.*
 
 ## Software-defined data protection: Low overhead policy compliance is within reach 
 Proceedings of the VLDB Endowment (pVLDB), 2021 <br>
@@ -51,6 +49,7 @@ Zsolt Istvan,  **Soujanya Ponnapalli**,  Vijay Chidambaram <br>
 [Slides](https://www.youtube.com/watch?v=beM1qWI7tho&ab_channel=VLDB2021))
 [Talk](https://www.youtube.com/watch?v=beM1qWI7tho&ab_channel=VLDB2021)
 [Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:lbGn4Hm5ml4J:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UQVdM0:AFWwaeYAAAAAZekTbM27vjR36aCY7495-eseBnM&scisig=AFWwaeYAAAAAZekTbM6Bbho1Vqw_ns0yEUMuCUE&scisf=4&ct=citation&cd=-1&hl=en)
+> *This paper presents our novel approach "Software-Defined Data Protection" (SDP). Its simple, yet powerful premise is to decouple often changing policies from request-level enforcement to allow distributed smart storage nodes to implement the latter at line-rate. Existing and future data protection frameworks can be translated to the same hardware interface which allows storage nodes to offload enforcement efficiently both for company-specific rules and regulations, such as GDPR or CCPA*
 
 
 ## mLSM: Making Authenticated Storage Faster in Ethereum 
