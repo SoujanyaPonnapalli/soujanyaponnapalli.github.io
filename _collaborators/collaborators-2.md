@@ -7,7 +7,6 @@ collection: collaborators
 Mentors and Industry Collaborators
 -----
 - Jonathan Goldstein, Ongoing
-- Phil Bernstein, Ongoing
 - Marcos K. Aguilera, 2021
 - Kim Keeton, 2021
 - Sharad Singal, 2021
