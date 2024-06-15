@@ -9,10 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-[Download](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
+[Latest CV is here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
 
-![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.jpg)
-
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv1.jpg)
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv2.jpg)
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv3.jpg)
+<!-- 
 Education
 -----
 * Postdoctoral scholar in EECS, UC Berkeley, 2023 - Ongoing
@@ -50,9 +52,9 @@ Work experience
 
 * Teaching Assistant
   * Virtualization, 2022-2023
-  * Operating systems, 2015-2016
+  * Operating systems, 2015-2016 -->
 
-
+<!-- 
 Organizational Roles
 -----
 * Programming Committee, Eurosys'25
@@ -65,7 +67,7 @@ Organizational Roles
   * Graduate Application Assistance Program (GAAP) mentors underprivileged students with
   their PhD applications to UT Austin, 2020-2021
 * Graduate Representative for Computer Science (GRACS), UT Austin, 2020-2021
-* Mentor for Women in Computer Science, UT Austin, 2019-2020
+* Mentor for Women in Computer Science, UT Austin, 2019-2020 -->
 
 
 <!-- Skills
@@ -77,7 +79,7 @@ Organizational Roles
   * Sub-skill 2.3
 * Skill 3 -->
 
-Publications
+<!-- Publications
 -----
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -93,5 +95,5 @@ Teaching
 -----
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
