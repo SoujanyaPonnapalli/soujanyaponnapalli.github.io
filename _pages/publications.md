@@ -7,6 +7,8 @@ author_profile: true
 
 
 ## mLSM: Making Authenticated Storage Faster in Ethereum 
+**USENIX Workshop on Hot Topics in Storage and File Systems, 2018**
+Authors: Pandian Raju, **Soujanya Ponnapalli**, Evan Kaminsky, Gilad Oved, Zachary Keener, Vijay Chidambaram, Ittai Abraham
 
 | Abstract      | Solution Preview |
 | ------------- | ------------- |
