@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Minimizing I/O Bottlnecks to Achieve Scalable and High-Throughput Systems
+PhD Dissertation, University of Texas at Austin, 2023 <br>
+**Soujanya Ponnapalli**, Vijay Chidambaram <br>
+[Paper](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)
+[Slides](https://wuklab.github.io/words/words22-lee-slides.pdf)
+<br>
+> *This dissertation studies the performance limitations of three distinct systems: monolithic key-value stores, distributed transactional stores, and public blockchains. First, it attributes their low throughput and poor scalability to I/O-bottlenecks that are inherent to the systems’ design and architecture. Next, it addresses the question: How do we architect systems to minimize I/O-bottlenecks and simultaneously achieve high throughput and scalability? It proposes a fundamental redesign of systems by carefully crafting the roles and responsibilities of each system component to improve the utilization of underlying resources.*
+
+
 ## DINOMO: an elastic, scalable, high-performance kv-store for Disaggregated PM 
 Proceedings of the VLDB Endowment (pVLDB), 2022 <br>
 Sekwon Lee, **Soujanya Ponnapalli**, Sharad Singhal, Marcos Aguilera, Kimberly Keeton, Vijay Chidambaram <br>
