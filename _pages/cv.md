@@ -11,9 +11,10 @@ redirect_from:
 
 [CV Download Link!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
 
-->![Alt text](../images/cv1.png)<-
-->![Alt text](../images/cv2.png)<-
-->![Alt text](../images/cv3.png)<-
+<img src="../images/cv1.png" style="width: 60vw;margin-left=100px">
+<img src="../images/cv2.png" style="width: 60vw;margin-left=100px">
+<img src="../images/cv3.png" style="width: 60vw;margin-left=100px">
+
 
 <!-- ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=1)
 ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=2)
