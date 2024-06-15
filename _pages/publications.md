@@ -15,22 +15,22 @@ Pandian Raju, **Soujanya Ponnapalli**, Evan Kaminsky, Gilad Oved, Zachary Keener
 [Citation](https://www.usenix.org/biblio/export/bibtex/216872) <br>
 <p>
   <span style="float: left"><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width: 30vw;margin-left=0"></a></span>
-  <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 25vw;margin-right=0"></a></span>
+  <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 30vw;margin-right=0"></a></span>
 </p> 
 
 
-| Abstract      | Solution Preview |
+<!-- | Abstract      | Solution Preview |
 | ------------- | ------------- |
-| <center><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width: 30vw"></a></center> | <center><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 30vw"></a></center> |
+| <center><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width: 30vw"></a></center> | <center><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 30vw"></a></center> | -->
 
 
-## mLSM: Making Authenticated Storage Faster in Ethereum 
+<!-- ## mLSM: Making Authenticated Storage Faster in Ethereum 
 USENIX Workshop on Hot Topics in Storage and File Systems, 2018 <br>
 Pandian Raju, **Soujanya Ponnapalli**, Evan Kaminsky, Gilad Oved, Zachary Keener, Vijay Chidambaram, Ittai Abraham
 
 | Abstract      | Solution Preview |
 | ------------- | ------------- |
-| <center><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width: 30vw"></a></center> | <center><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 30vw"></a></center> |
+| <center><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width: 30vw"></a></center> | <center><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 30vw"></a></center> | -->
 
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
