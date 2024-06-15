@@ -56,6 +56,15 @@ Pandian Raju, **Soujanya Ponnapalli**, Evan Kaminsky, Gilad Oved, Zachary Keener
 [Slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf)
 [Talk](https://www.usenix.org/conference/hotstorage18/presentation/raju)
 [Citation](https://www.usenix.org/biblio/export/bibtex/216872) <br>
+> *Ethereum provides authenticated storage: each read
+returns a value and a proof that allows the client to verify
+the value returned is correct. We experimentally show
+that such authentication leads to high read and write amplification (64× in the worst case). We present a novel
+data structure, Merkelized LSM (mLSM), that significantly reduces the read and write amplification while still
+allowing client verification of reads. mLSM significantly
+increases the performance of the storage subsystem in
+Ethereum, thereby increasing the performance of a wide
+range of Ethereum applications.*
 <p>
  <span style="float: left"><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width:30vw;margin-left=0"></a></span>
  <!-- <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width:20vw"></a></span> -->
