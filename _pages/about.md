@@ -41,7 +41,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 building scalable and IO-efficient authenticated storage systems
 
 * [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)\\
-Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/)
+Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) <br>
 Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
 
 
