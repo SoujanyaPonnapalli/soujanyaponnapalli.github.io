@@ -5,7 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-
 ## DINOMO: an elastic, scalable, high-performance kv-store for Disaggregated PM 
 Proceedings of the VLDB Endowment (pVLDB), 2022 <br>
 Sekwon Lee, **Soujanya Ponnapalli**, Sharad Singhal, Marcos Aguilera, Kimberly Keeton, Vijay Chidambaram <br>
@@ -14,10 +13,6 @@ Sekwon Lee, **Soujanya Ponnapalli**, Sharad Singhal, Marcos Aguilera, Kimberly K
 [Talk](https://www.youtube.com/watch?v=Q1-nqbrmu0o&ab_channel=WukLab)
 [Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:yoFaNvcx5YUJ:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UQBrxM:AFWwaeYAAAAAZekHtxNW12bx341L-MmdskgZspo&scisig=AFWwaeYAAAAAZekHt9zGwIn9fvV_xoXalY9bNkE&scisf=4&ct=citation&cd=-1&hl=en) <br>
 > *We present Dinomo, a novel key-value store for disaggregated persistent memory (DPM). Dinomo is the first key-value store for DPM that simultaneously achieves high common-case performance, scalability, and lightweight online reconfiguration. We observe that previously proposed key-value stores for DPM had architectural limitations that prevent them from achieving all three goals simultaneously. Dinomo uses a novel combination of techniques such as ownership partitioning, disaggregated adaptive caching, selective replication, and lock-free and log-free indexing to achieve these goals. Compared to a state-of-the-art DPM key-value store, Dinomo achieves at least 3.8X better throughput at scale on various workloads and higher scalability, while providing fast reconfiguration.*
-<!-- <p>
- <span style="float: left"><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width:30vw;margin-right=0"></a></span>
- <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width:20vw"></a></span>
-</p>  -->
 
 
 ## WineFS: a hugepage-aware file system for persistent memory that ages gracefully 
@@ -68,10 +63,6 @@ allowing client verification of reads. mLSM significantly
 increases the performance of the storage subsystem in
 Ethereum, thereby increasing the performance of a wide
 range of Ethereum applications.*
-<!-- <p>
- <span style="float: left"><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width:30vw;margin-left=0"></a></span>
- <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width:20vw"></a></span>
-</p>  -->
 
 
 <!-- | Abstract   | Solution Preview |
