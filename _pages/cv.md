@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<span style="color:blue">
+<span style="color:red">
   [Latest CV is here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
 </span>
 
