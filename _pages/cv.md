@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "[Latest CV is Here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)" #"CV"
+title: "\href{Latest CV is here!}{https://people.eecs.berkeley.edu/~soujanya/cv.pdf}" #"CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
