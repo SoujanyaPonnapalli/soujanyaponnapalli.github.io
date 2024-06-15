@@ -40,6 +40,15 @@ USENIX Annual Technical Conference (ATC), 2021<br>
 <br>
 
 
+## Software-defined data protection: Low overhead policy compliance is within reach 
+Proceedings of the VLDB Endowment (pVLDB), 2021 <br>
+Zsolt Istvan,  **Soujanya Ponnapalli**,  Vijay Chidambaram <br>
+[Paper](https://dl.acm.org/doi/pdf/10.14778/3450980.3450986)
+[Slides](https://www.youtube.com/watch?v=beM1qWI7tho&ab_channel=VLDB2021))
+[Talk](https://www.youtube.com/watch?v=beM1qWI7tho&ab_channel=VLDB2021)
+[Citation](https://scholar.googleusercontent.com/scholar.bib?q=info:lbGn4Hm5ml4J:scholar.google.com/&output=citation&scisdr=ClE48TFbEPS13UQVdM0:AFWwaeYAAAAAZekTbM27vjR36aCY7495-eseBnM&scisig=AFWwaeYAAAAAZekTbM6Bbho1Vqw_ns0yEUMuCUE&scisf=4&ct=citation&cd=-1&hl=en)
+
+
 ## mLSM: Making Authenticated Storage Faster in Ethereum 
 USENIX Workshop on Hot Topics in Storage and File Systems, 2018 <br>
 Pandian Raju, **Soujanya Ponnapalli**, Evan Kaminsky, Gilad Oved, Zachary Keener, Vijay Chidambaram, Ittai Abraham <br>
