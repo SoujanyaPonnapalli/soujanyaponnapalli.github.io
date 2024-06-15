@@ -9,17 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
-<span style="color:red">
-  [Latest CV is here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
-</span>
+[CV Download Link!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
 
-<!-- ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv1.jpg)
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv1.jpg)
 ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv2.jpg)
-![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv3.jpg) -->
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv3.jpg)
 
-![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=1)
+<!-- ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=1)
 ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=2)
-![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=3)
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=3) -->
 
 <!-- Education
 -----
