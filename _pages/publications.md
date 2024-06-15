@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
-mLSM: Making Authenticated Storage Faster in Ethereum
+> mLSM: Making Authenticated Storage Faster in Ethereum
 <h4>Pandian Raju, Soujanya Ponnapalli, Evan Kaminsky, Gilad Oved, Zachary Keener, Vijay Chidambaram, Ittai Abraham</h4>
 [Paper](https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf)
 [Slides](https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf)
