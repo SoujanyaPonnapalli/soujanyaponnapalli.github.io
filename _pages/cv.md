@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "" #"CV"
+title: "[Latest CV is Here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)" #"CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-<span style="color:red">
+<!-- <span style="color:red">
   [Latest CV is here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
-</span>
+</span> -->
 
 ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv1.jpg)
 ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv2.jpg)
