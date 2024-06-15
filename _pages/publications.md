@@ -14,8 +14,8 @@ Pandian Raju, **Soujanya Ponnapalli**, Evan Kaminsky, Gilad Oved, Zachary Keener
 [Talk](https://www.usenix.org/conference/hotstorage18/presentation/raju)
 [Citation](https://www.usenix.org/biblio/export/bibtex/216872) <br>
 <p>
-  <span style="float: right"><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width: 25vw;margin-left=0"></a></span>
-  <span style="float: left"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 20vw;margin-right=0"></a></span>
+  <span style="float: left"><a href="https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf" target="_blank"><img src="../images/abstract_mlsm.png" style="width: 30vw;margin-left=0"></a></span>
+  <span style="float: right"><a href="https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf" target="_blank"><img src="../images/paper_mlsm.png" style="width: 25vw;margin-right=0"></a></span>
 </p> 
 
 
