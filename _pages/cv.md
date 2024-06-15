@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Latest CV is here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
+<span style="color:blue">
+  [Latest CV is here!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
+</span>
 
 ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv1.jpg)
 ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv2.jpg)
