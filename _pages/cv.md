@@ -11,11 +11,11 @@ redirect_from:
 
 <!-- [CV Download Link!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf) -->
 
-<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf">
+<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf" target="_blank">
 <img src="../images/cv1.png" style="width: 50vw;margin-left=100px"> </a>
-<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf">
+<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf" target="_blank">
 <img src="../images/cv2.png" style="width: 50vw;margin-left=100px"></a>
-<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf">
+<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf" target="_blank">
 <img src="../images/cv3.png" style="width: 50vw;margin-left=100px"></a>
 
 
