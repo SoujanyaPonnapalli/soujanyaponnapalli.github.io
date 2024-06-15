@@ -12,4 +12,4 @@ presents a new architecture RAINBLOCK that alleviates these IO bottlenecks in
 the critical path of processing transactions to achieve higher 
 end-to-end transaction throughput.
 
-![](https://www.youtube.com/watch?v=KBlS81En1bY)
+![SNIA Storage Developer Conference 2022](https://www.youtube.com/watch?v=KBlS81En1bY)
