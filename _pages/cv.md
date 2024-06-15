@@ -11,7 +11,7 @@ redirect_from:
 
 [Download](https://people.eecs.berkeley.edu/~soujanya/cv.pdf)
 
-![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.png)
+![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.jpg)
 
 Education
 -----
