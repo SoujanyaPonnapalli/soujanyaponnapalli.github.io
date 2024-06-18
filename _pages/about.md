@@ -47,13 +47,13 @@ Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
 
 ### Organizational Roles
 -----
-* Programming Committee, NSDI'25
-* Programming Committee, Eurosys'25
+* Program Committee, NSDI'25
+* Program Committee, Eurosys'25
 * External Review Committee, ATC'24
 * Reviewer, ACM Journal, TOCS'24
 * Hallway Discussion Lead, SOSP'21
 * External Review Committee, NSDI'19
-* Shadow Programming Committee, Eurosys'20
+* Shadow Program Committee, Eurosys'20
 * Chair for GAAP at UT Austin
   * Graduate Application Assistance Program (GAAP) mentors underprivileged students with
   their PhD applications to UT Austin, 2020-2021
