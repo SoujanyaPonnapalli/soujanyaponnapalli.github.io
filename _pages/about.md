@@ -44,6 +44,12 @@ building scalable and IO-efficient authenticated storage systems
 Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) <br>
 Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
 
+### Reach out to me!
+-----
+
+I am organizing the Database and Systems seminars at the sky lab for 2024-25!
+If you are interested in giving a talk about your research on core systems, databases,
+ML systems or systems for ML, reach out to me: soujanya at berkeley dot edu!
 
 ### Organizational Roles
 -----
