@@ -34,6 +34,13 @@ She obtained her Bachelor's degree with Honors in Computer Science and Engineeri
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
   to the institute's extracurricular activities.
 
+### Reach out to me!
+-----
+
+I am organizing the [Database and Sky Seminar Series](https://sky.cs.berkeley.edu/) for 2024-25!
+If you are interested in giving a research talk on core systems, databases,
+ML systems or systems for ML, reach out to me: soujanya at berkeley dot edu!
+
 ### Recent News
 -----
 
@@ -43,13 +50,6 @@ building scalable and IO-efficient authenticated storage systems
 * [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)\\
 Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) <br>
 Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
-
-### Reach out to me!
------
-
-I am organizing the Database and Systems seminars at the sky lab for 2024-25!
-If you are interested in giving a talk about your research on core systems, databases,
-ML systems or systems for ML, reach out to me: soujanya at berkeley dot edu!
 
 ### Organizational Roles
 -----
@@ -65,6 +65,7 @@ ML systems or systems for ML, reach out to me: soujanya at berkeley dot edu!
   their PhD applications to UT Austin, 2020-2021
 * Graduate Representative for Computer Science (GRACS), UT Austin, 2020-2021
 * Mentor for Women in Computer Science, UT Austin, 2019-2020
+
 
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 
