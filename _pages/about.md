@@ -53,6 +53,8 @@ Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
 
 ### Organizational Roles
 -----
+* Program Committee, ATC'25
+* External Review Committee, FAST'25
 * Program Committee, NSDI'25
 * Program Committee, Eurosys'25
 * External Review Committee, ATC'24
