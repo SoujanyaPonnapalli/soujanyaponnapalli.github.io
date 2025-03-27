@@ -34,15 +34,12 @@ She obtained her Bachelor's degree with Honors in Computer Science and Engineeri
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
   to the institute's extracurricular activities.
 
-### Reach out to me!
------
-
-I am organizing the [Database and Sky Seminar Series](https://sky.cs.berkeley.edu/) for 2024-25!
-If you are interested in giving a research talk on core systems, databases,
-ML systems or systems for ML, reach out to me: soujanya at berkeley dot edu!
-
 ### Recent News
 -----
+
+* Our paper: "Real Life is Uncertain. Consensus Should Be Too!" is accepted to appear in the proceedings of HotOS'25.
+
+* [SkyStore: Cost-Optimized Object Storage Across Regions and Clouds](https://arxiv.org/pdf/2502.20818) is accepted to appear in the proceedings of VLDB'25.
 
 * Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/) for my proposal on
 building scalable and IO-efficient authenticated storage systems
@@ -50,6 +47,13 @@ building scalable and IO-efficient authenticated storage systems
 * [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)\\
 Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) <br>
 Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
+
+### Reach out to me!
+-----
+
+I am organizing the [Database and Sky Seminar Series](https://sky.cs.berkeley.edu/) for 2024-25!
+If you are interested in giving a research talk on core systems, databases,
+ML systems or systems for ML, reach out to me: soujanya at berkeley dot edu!
 
 ### Organizational Roles
 -----
