@@ -8,8 +8,8 @@ Student Collaborators
 -----
 - Reginald Frank, PhD student at UC Berkeley
 - Tyler Griggs, PhD student at UC Berkeley
-- Micah Murray, PhD student at UC Berkeley
 - David Chu, PhD student at UC Berkeley
+- Shu Liu, PhD student at UC Berkeley
 - Souvik Banerjee, Undergrad at UT Austin (now at Apple)
 - Gilad Oved, Undergrad at UT Austin
 - Evan Kaminsky, Undergrad at UT Austin
