@@ -37,7 +37,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 ### Recent News
 -----
 
-* Our paper: "Real Life is Uncertain. Consensus Should Be Too!" is accepted to appear in the proceedings of HotOS'25
+* "Real Life is Uncertain. Consensus Should Be Too!" is accepted to appear in the proceedings of HotOS'25
 
 * [SkyStore: Cost-Optimized Object Storage Across Regions and Clouds](https://arxiv.org/pdf/2502.20818) is accepted to appear in the proceedings of VLDB'25
 
