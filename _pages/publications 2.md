@@ -5,32 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## SkyStore: Cost-Optimized Object Storage Across Regions and Clouds
-Proceedings of the VLDB Endowment (pVLDB), 2025 <br>
-Shu Liu, Xiangxi Mo, Moshik Hershcovitch, Henric Zhang, Audrey Cheng, Guy Girmonsky, Gil Vernik, Michael Factor, Tiemo Bang, **Soujanya Ponnapalli**, Natacha Crooks, Joseph E Gonzalez, Danny Harnik, Ion Stoica <br>
-[Paper](https://arxiv.org/pdf/2502.20818)
-[Code](https://github.com/skyplane-project/skystore)
-> *Modern applications span multiple clouds to reduce costs, avoid
-vendor lock-in, and leverage low-availability resources in another
-cloud. However, standard object stores operate within a single cloud,
-forcing users to manually manage data placement across clouds,
-i.e., navigate their diverse APIs and handle heterogeneous costs for
-network and storage. This is often a complex choice: users must
-either pay to store objects in a remote cloud, or pay to transfer
-them over the network based on application access patterns and
-cloud provider cost offerings. To address this, we present SkyStore,
-a unified object store that addresses cost-optimal data management
-across regions and clouds. SkyStore introduces a virtual object and
-bucket API to hide the complexity of interacting with multiple
-clouds. At its core, SkyStore has a novel TTL-based data placement
-policy that dynamically replicates and evicts objects according to
-application access patterns while optimizing for lower cost. Our
-evaluation shows that across various workloads, SkyStore reduces
-the overall cost by up to 6× over academic baselines and commercial alternatives like AWS multi-region buckets. SkyStore also has
-comparable latency, and its availability and fault tolerance are on
-par with standard cloud offerings.*
-
-
 ## Minimizing I/O Bottlnecks to Achieve Scalable and High-Throughput Systems
 PhD Dissertation, University of Texas at Austin, 2023 <br>
 **Soujanya Ponnapalli**, Vijay Chidambaram <br>
