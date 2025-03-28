@@ -5,6 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
+## Real Life is Uncertain. Consensus Should Be Too!
+Hot Topics in Operating Systems (HotOS), 2025 <br>
+Reginald Frank, Neil Giridharan, Octavio Lomeli-Castro, 
+**Soujanya Ponnapalli**, Marcos K. Aguilera, Natacha Crooks <br>
+> * Modern distributed systems rely on consensus protocols to build a fault-tolerant-core upon which they can build applications. Consensus protocols are correct under a specific failure model, where up to 𝑓 machines can fail. We argue that this 𝑓 -threshold failure model oversimplifies the real world and limits potential opportunities to optimize for cost or performance. We argue instead for a probabilistic failure model that captures the complex and nuanced nature of faults observed in practice. Probabilistic consensus protocols can explicitly leverage individual machine failure curves and explore side-stepping traditional bottlenecks such as majority quorum intersection, enabling systems that are more reliable, efficient, cost-effective, and sustainable.
+
 ## SkyStore: Cost-Optimized Object Storage Across Regions and Clouds
 Proceedings of the VLDB Endowment (pVLDB), 2025 <br>
 Shu Liu, Xiangxi Mo, Moshik Hershcovitch, Henric Zhang, Audrey Cheng, Guy Girmonsky, Gil Vernik, Michael Factor, Tiemo Bang, **Soujanya Ponnapalli**, Natacha Crooks, Joseph E Gonzalez, Danny Harnik, Ion Stoica <br>
