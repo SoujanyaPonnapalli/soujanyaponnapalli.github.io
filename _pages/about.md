@@ -53,7 +53,7 @@ Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
 
 I am organizing the [Sky Seminar Series](https://sky.cs.berkeley.edu/) for 2024-25!
 If you are interested in giving a research talk on core systems, databases,
-ML systems or systems for ML, then reach out to me!
+ML systems or systems for ML, feel free to reach out to me!
 
 ### Organizational Roles
 -----
