@@ -37,7 +37,9 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 ### Recent News
 -----
 
-* [Real Life is Uncertain. Consensus Should Be Too!]() is accepted to appear in the proceedings of HotOS'25
+* [Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!]() invited for a talk at ETH Zurich, 06-18-2025.
+
+* [Real Life is Uncertain. Consensus Should Be Too!](https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf) is accepted to appear in the proceedings of HotOS'25
 
 * [SkyStore: Cost-Optimized Object Storage Across Regions and Clouds](https://arxiv.org/pdf/2502.20818) is accepted to appear in the proceedings of VLDB'25
 
