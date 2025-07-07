@@ -46,8 +46,8 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 * [SkyStore: Cost-Optimized Object Storage Across Regions and Clouds](https://arxiv.org/pdf/2502.20818) <br>
 Accepted to appear in the proceedings of VLDB'25
 
-* Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/) for my proposal on
-building scalable and IO-efficient authenticated storage systems
+* Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/)<br>
+Proposal: Building Scalable and IO-efficient Authenticated Storage Systems
 
 * [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)<br>
 Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) <br>
