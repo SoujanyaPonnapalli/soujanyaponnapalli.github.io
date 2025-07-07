@@ -37,11 +37,14 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 ### Recent News
 -----
 
-* [Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!]() invited for a talk at ETH Zurich, 06-18-2025.
+* Invited for a talk at ETH Zurich, 06-18-2025<br>
+[Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!]()
 
-* [Real Life is Uncertain. Consensus Should Be Too!](https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf) is accepted to appear in the proceedings of HotOS'25
+* [Real Life is Uncertain. Consensus Should Be Too!](https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf)<br>
+ Accepted to appear in the proceedings of HotOS'25
 
-* [SkyStore: Cost-Optimized Object Storage Across Regions and Clouds](https://arxiv.org/pdf/2502.20818) is accepted to appear in the proceedings of VLDB'25
+* [SkyStore: Cost-Optimized Object Storage Across Regions and Clouds](https://arxiv.org/pdf/2502.20818) <br>
+Accepted to appear in the proceedings of VLDB'25
 
 * Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/) for my proposal on
 building scalable and IO-efficient authenticated storage systems
