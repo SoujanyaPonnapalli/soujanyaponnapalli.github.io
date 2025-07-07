@@ -49,7 +49,7 @@ Accepted to appear in the proceedings of VLDB'25
 * Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/) for my proposal on
 building scalable and IO-efficient authenticated storage systems
 
-* [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)\\
+* [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)<br>
 Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) <br>
 Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
 
