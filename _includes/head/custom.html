@@ -481,6 +481,25 @@
   .news-content a:hover {
     text-decoration: underline;
   }
+
+  .news-timeline-horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+  }
+  .news-timeline-horizontal .news-item {
+    flex: 1 1 250px;
+    min-width: 220px;
+    max-width: 320px;
+    margin: 0;
+  }
+  @media (max-width: 900px) {
+    .news-timeline-horizontal {
+      flex-direction: column;
+    }
+  }
 </style>
 
 <!-- end custom head snippets -->

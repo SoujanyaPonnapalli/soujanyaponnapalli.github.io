@@ -57,6 +57,47 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 </div>
 
 
+### On ArXiv
+-----
+<div class="news-timeline">
+
+  <div class="news-item">
+    <div class="news-year">2025</div>
+    <div class="news-content">
+      <a href="https://www.arxiv.org/abs/2505.04014">Rollbaccine: Herd Immunity against Storage Rollback Attacks in TEEs [Technical Report]</a><br>
+      arXiv preprint
+    </div>
+  </div>
+
+</div>
+
+### Ongoing Research Projects
+-----
+
+<div class="news-timeline news-timeline-horizontal">
+
+  <div class="news-item">
+    <div class="news-content">
+      <a href="https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf">Probabilistic Consensus</a><br>
+      2024-Ongoing
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-content">
+      <a href="https://www.youtube.com/watch?v=KqOtzIuAmFk&list=PLfwvyNe91s6h17_c8zlCO2wxOYGg6HBVf&ab_channel=UCBSkyComputing">IO Efficiency of Consensus</a><br>
+      2024-Ongoing
+    </div>
+  </div>
+  <div class="news-item">
+    <div class="news-content">
+      <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-97.pdf">Fair Sharing in Multi-Tenant Storage Systems</a><br>
+      2024-Ongoing
+    </div>
+  </div>
+
+</div>
+
+
 ### Selected News
 -----
 
@@ -160,7 +201,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 
-Prior to joining Berkeley, I completed my PhD in the CS Department at UT Austin, under the guidance of Prof. Vijay Chidambaram, as a member of the Systems and Storage Lab. My doctoral dissertation centered on minimizing I/O bottlenecks within modern systems’ infrastructure to achieve heightened throughput and scalability.
+Prior to joining Berkeley, I completed my PhD in the CS Department at UT Austin, under the guidance of Prof. Vijay Chidambaram, as a member of the Systems and Storage Lab. My doctoral dissertation centered on minimizing I/O bottlenecks within modern systems' infrastructure to achieve heightened throughput and scalability.
 
 Preceding my graduate studies, I obtained my Bachelor's degree with Honors in Computer Science and Engineering from the International Institute of Information Technology, Hyderabad (IIIT-H), where I collaborated with Prof. Suresh Purini. I was honored with the best all-rounder gold medal for academic excellence and my significant contributions to cultural and extracurricular activities at the institute." -->
 
