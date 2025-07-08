@@ -190,7 +190,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 
 <div class="roles-grid">
   <div class="role-box conference">
-    <div class="role-title">  I organize the <a href="https://sky.cs.berkeley.edu/">Sky Seminar Series</a> at Berkeley for 2024-25. If you are interested in presenting your recent systems research, reach out to me! </div>
+    <div class="role-title">  Soujanya organizes the <a href="https://sky.cs.berkeley.edu/">Sky Seminar Series</a> at Berkeley for 2024-25. If you are interested in presenting your recent systems research, feel free to reach out! </div>
     <div class="role-items">
       <span class="role-item"><a href="mailto:soujanya@berkeley.edu">bMail</a></span>
       <span class="role-item"><a href="mailto:soujanyap95@gmail.com">GMail</a></span>
