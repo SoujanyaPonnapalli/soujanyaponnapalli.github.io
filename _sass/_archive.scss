@@ -10,8 +10,8 @@
   }
 
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include span(9 of 12);
+    @include prefix(0 of 12); /* No left margin - content starts at left */
   }
 
   a {
@@ -40,8 +40,19 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  margin-bottom: 0.5em;
+  font-family: $header-font-family;
+  font-weight: $font-weight-bold;
+
+  a {
+    color: $darker-gray;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
 
   a + a {
     opacity: 0.5;
@@ -90,6 +101,81 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 0.5em;
+  padding: 0.7em;
+  background: $body-color;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+  }
+
+  /* Publication-specific styles - match about.md font sizes */
+  .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    font-size: 1.25em !important;
+    font-weight: 600;
+    color: #0d6efd;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .archive__item-excerpt {
+    margin-bottom: 0.2em;
+    line-height: 0.5;
+    color: #495057;
+    font-size: 1em !important;
+  }
+
+  /* Publication venue text - make it 0.3em */
+  .archive__item-title + p {
+    font-size: 0.5em !important;
+    margin-bottom: 0.2em;
+    line-height: 0.5;
+    color: #495057;
+  }
+
+  /* Publication links styling */
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3em;
+    margin-top: 0.5em;
+  }
+
+  .publication-link-item {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    background: #e3f2fd;
+    color: #0d6efd;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.8em;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid #bbdefb;
+
+    &:hover {
+      background: #0d6efd;
+      color: white;
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(13, 110, 253, 0.3);
+    }
+  }
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
@@ -105,6 +191,77 @@
   .page__meta {
     margin: 0 0 4px;
   }
+
+  /* Collaborators-specific styles */
+  .archive__item-excerpt {
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    
+    li {
+      margin-bottom: 0.2em;
+      padding: 0.2em 0;
+      line-height: 1.2;
+    }
+    
+    p {
+      margin-bottom: 0.1em;
+      line-height: 1.2;
+      margin-top: 0;
+    }
+  }
+
+  /* Talks-specific styles - compact boxes */
+  .archive__item-excerpt {
+    font-size: 0.6em !important;
+    line-height: 1.2;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+  }
+
+  /* Flush videos and images to the left in talks */
+  .archive__item iframe, 
+  .archive__item img {
+    display: block !important;
+    margin: 0 !important;
+    margin-bottom: 0.2em;
+    text-align: left;
+  }
+  
+  .archive__item div {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  /* Compact talk boxes */
+  .archive__item {
+    margin-bottom: 0.2em;
+  }
+
+  .archive__item-title {
+    margin-bottom: 0.2em;
+    margin-top: 0;
+  }
+
+  .archive__item-excerpt {
+    margin-bottom: 0.1em;
+    margin-top: 0;
+  }
+
+  .archive__item iframe,
+  .archive__item img {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .archive__item div {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+
 }
 
 

@@ -5,11 +5,16 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-top: 3em;
+  padding-left: 4.17%; /* 0.5 of 12 columns = 4.17% */
+  padding-right: 4.17%; /* 0.5 of 12 columns = 4.17% */
   animation: intro 0.3s both;
   animation-delay: 0.35s;
+
+  @include breakpoint($large) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   @include breakpoint($x-large) {
     max-width: $x-large;
@@ -18,9 +23,9 @@
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include span(9 of 12);
+    @include prefix(0 of 12); /* No left margin - content starts at left */
+    @include suffix(0.1 of 12); /* Minimal right margin */
   }
 
   .page__inner-wrap {
@@ -36,7 +41,10 @@
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  font-weight: $font-weight-bold;
+  color: $darker-gray;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -49,27 +57,95 @@
 }
 
 .page__content {
+  text-align: left;
 
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
   }
 
+  /* Publication styles */
+  .publication-item {
+    margin-bottom: 1.5em;
+    padding: 1.2em;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+  }
+
+  .publication__item-title {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #0d6efd;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .publication__venue {
+    margin-bottom: 0.8em;
+    font-size: 0.95em;
+    color: #6c757d;
+    font-style: italic;
+  }
+
+  .publication__item-excerpt {
+    margin-bottom: 1em;
+    line-height: 1.6;
+    color: #495057;
+  }
+
+  .publication__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 1em;
+  }
+
+  .publication-link-item {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    background: #e3f2fd;
+    color: #0d6efd;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid #bbdefb;
+
+    &:hover {
+      background: #0d6efd;
+      color: white;
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 4px rgba(13, 110, 253, 0.3);
+    }
+  }
+
   p, li, dl {
     font-size: 1em;
   }
 
-  /* paragraph indents */
+  /* paragraph styling */
   p {
-    margin: 0 0 $indent-var;
-
-    /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
-        text-indent: $indent-var;
-        margin-top: -($indent-var);
-      }
-    }
+    margin-bottom: 1.5em;
+    line-height: 1.7;
   }
 
   a {

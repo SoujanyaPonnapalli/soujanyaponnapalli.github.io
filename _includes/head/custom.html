@@ -35,4 +35,452 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- Custom Typography Styles -->
+<style>
+  /* Ensure consistent font rendering across all elements */
+  * {
+    font-family: inherit;
+  }
+  
+  /* Improve font loading performance */
+  .wf-loading {
+    visibility: hidden;
+  }
+  
+  .wf-active {
+    visibility: visible;
+  }
+  
+  /* Additional typography improvements */
+  .page__title {
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+  
+  .archive__item-title {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  
+  .toc__title {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  
+  /* Improve code readability */
+  code, pre {
+    font-feature-settings: "liga" 1, "calt" 1;
+  }
+  
+  /* Modern card styling */
+  .list__item {
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .list__item:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Improved button styling */
+  .btn {
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Better link styling */
+  a {
+    transition: color 0.2s ease;
+  }
+  
+  /* Improved spacing */
+  .page__content {
+    line-height: 1.7;
+  }
+  
+  /* Modern table styling */
+  table {
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  /* Boxed paragraph styling for all pages */
+  .page__content p {
+    margin-bottom: 1em;
+    line-height: 1.6;
+  }
+  
+
+  
+  /* Avoid double boxes for archive items */
+  .list__item p,
+  .archive__item p,
+  .archive__item-excerpt {
+    margin-bottom: 0.5em;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  .list__item p:hover,
+  .archive__item p:hover,
+  .archive__item-excerpt:hover {
+    box-shadow: none;
+  }
+  
+  /* Boxed styling for individual list items */
+  .page__content ul, .page__content ol {
+    margin-bottom: 1.5em;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .page__content ul li, .page__content ol li {
+    margin-bottom: 1em;
+    padding: 1.5em;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+    list-style: none;
+  }
+  
+  .page__content ul li:hover, .page__content ol li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Avoid double boxes for lists within archive items */
+  .list__item ul li,
+  .archive__item ul li,
+  .list__item ol li,
+  .archive__item ol li {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    list-style: disc;
+  }
+  
+  .list__item ul li:hover,
+  .archive__item ul li:hover,
+  .list__item ol li:hover,
+  .archive__item ol li:hover {
+    box-shadow: none;
+  }
+  
+  /* Recent News styling - one box per item */
+  .page__content h3 + ul li:not(.list__item ul li):not(.archive__item ul li),
+  .page__content h3 ~ ul li:not(.list__item ul li):not(.archive__item ul li) {
+    margin-bottom: 1em;
+    padding: 1.5em;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+    list-style: none;
+  }
+  
+  .page__content h3 + ul li:not(.list__item ul li):not(.archive__item ul li):hover,
+  .page__content h3 ~ ul li:not(.list__item ul li):not(.archive__item ul li):hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Boxed styling for blockquotes */
+  .page__content blockquote {
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .page__content blockquote:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ensure headings use Source Serif Pro font in bold */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Serif Pro", Georgia, Times, serif;
+    font-weight: 700;
+  }
+  
+  /* Organizational Roles styling */
+  .page__content h4 {
+    color: #0d6efd;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .page__content h4:first-of-type {
+    margin-top: 1em;
+  }
+  
+  /* Bold list items for organizational roles */
+  .page__content h3 + ul li strong,
+  .page__content h3 ~ ul li strong {
+    color: #212529;
+    font-weight: 700;
+  }
+  
+  /* Organizational Roles Grid Layout */
+  .roles-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin: 1.25rem 0;
+  }
+  
+  .roles-row {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 0;
+  }
+  
+  .roles-row .role-box {
+    flex: 1;
+  }
+  
+  .role-box {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .role-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: #adb5bd;
+  }
+  
+  .role-title {
+    font-family: "Source Serif Pro", Georgia, Times, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #212529;
+    margin-bottom: 0.75rem;
+  }
+  
+  .role-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    justify-content: flex-start;
+  }
+  
+  .role-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    text-align: center;
+    font-weight: 500;
+    color: #0d6efd;
+    transition: all 0.2s ease;
+  }
+  
+  .role-item:hover {
+    background: #e9ecef;
+    border-color: #adb5bd;
+    transform: scale(1.02);
+  }
+  
+  /* Contact Grid Layout */
+  .contact-grid {
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .contact-box {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .contact-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: #adb5bd;
+  }
+  
+  .contact-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-label {
+    font-weight: 600;
+    color: #495057;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .contact-value {
+    font-size: 0.85rem;
+    color: #6c757d;
+    word-break: break-word;
+  }
+  
+  .contact-value a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .contact-value a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .roles-grid {
+      gap: 1rem;
+    }
+    
+    .roles-row {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .role-box {
+      padding: 1.25rem;
+    }
+    
+    .contact-row {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  
+  /* Contact Row Layout */
+  .contact-row {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-row .contact-item {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #495057;
+    transition: all 0.2s ease;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .contact-row .contact-item:hover {
+    background: #e9ecef;
+    border-color: #adb5bd;
+    transform: scale(1.02);
+  }
+  
+  .contact-row .contact-item a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .contact-row .contact-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hide author name in sidebar while keeping other profile details */
+  .author__name {
+    display: none !important;
+  }
+  
+  /* Recent News Timeline Layout */
+  .news-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+  
+  .news-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .news-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-year {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #0d6efd;
+    min-width: 60px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .news-content {
+    flex: 1;
+    line-height: 1.6;
+  }
+  
+  .news-content a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  .news-content a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 <!-- end custom head snippets -->

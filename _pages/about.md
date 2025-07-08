@@ -1,7 +1,7 @@
 ---
 permalink: /
-title:  "" #"About me" #"academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "" #"About me"
+title: "Soujanya Ponnapalli"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,17 +10,17 @@ redirect_from:
 
 <!-- UC Berkeley -->
 Soujanya is a postdoctoral scholar at the University of California, Berkeley.
-She works with [Prof. Natacha Crooks](https://nacrooks.github.io/) and is affiliated with
-  the [Sky Computing Lab](https://sky.cs.berkeley.edu/) at Berkeley's EECS Department.
-Primarily, her work is at the intersection of distributed systems and storage systems.
+She is a systems researcher working with [Prof. Natacha Crooks](https://nacrooks.github.io/) and [Prof. Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) at
+  the [Sky Computing Lab](https://sky.cs.berkeley.edu/).
+
+Her research is at the intersection of distributed and storage systems.
 She built IO-efficient infrastructures for modern applications like blockchains,
-  has designed key-value stores and file systems for modern hardware like Persistent Memory and CXL,
-  and has proposed efficient recovery for distributed databases.
-She is currently building distributed databases for the cloud that tolerate crash faults
-  and byzantine behavior from hardware faults.
+  key-value stores and file systems for emerging hardware like Persistent Memory and CXL,
+  and efficient recovery mechanisms for distributed databases.
+Currently, she is interested in improving the fault tolerance and IO efficiency of  systems that are at the heart of large-scale AI infrastructure.
 
 <!-- UT Austin -->
-Prior to joining Berkeley, she completed her PhD at the CS Department at [UT Austin](https://www.utexas.edu/),
+She completed her PhD at [UT Austin](https://www.utexas.edu/),
   under the guidance of [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) and
   is a member of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/) and the [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/).
 Her [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
@@ -29,54 +29,134 @@ Her [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf
 
 <!-- IIIT Hyderbad -->
 She obtained her Bachelor's degree with Honors in Computer Science and Engineering
-  from the [International Institute of Information Technology, Hyderabad (IIIT-H)](https://iiit.ac.in/),
+  from the [IIIT Hyderabad](https://iiit.ac.in/),
   where she collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
 She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
   to the institute's extracurricular activities.
 
-### Recent News
+### Recent Publications
+-----
+<div class="news-timeline">
+
+  <div class="news-item">
+    <div class="news-year">HotOS'25</div>
+    <div class="news-content">
+      <a href="https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf">Real Life is Uncertain. Consensus Should Be Too!</a><br>
+      Accepted to appear in the proceedings of HotOS'25
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-year">VLDB'25</div>
+    <div class="news-content">
+      <a href="https://arxiv.org/pdf/2502.20818">SkyStore: Cost-Optimized Object Storage Across Regions and Clouds</a><br>
+      Accepted to appear in the proceedings of VLDB'25
+    </div>
+  </div>
+
+</div>
+
+
+### Selected News
 -----
 
-* Invited for a talk at ETH Zurich, 06-18-2025<br>
-[Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!]()
+<div class="news-timeline">
+  <div class="news-item">
+    <div class="news-year">2025</div>
+    <div class="news-content">
+      Invited for a talk at ETH Zurich, 06-18-2025<br>
+      <a href="#">Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!</a>
+    </div>
+  </div>
+  
+  <div class="news-item">
+    <div class="news-year">2025</div>
+    <div class="news-content">
+      <a href="https://suri.epfl.ch/#overview">Summer Research Institute 2025</a><br>
+      Awarded a fellowship to attend SuRI at EPFL
+    </div>
+  </div>
+    
+  <div class="news-item">
+    <div class="news-year">2024</div>
+    <div class="news-content">
+      Received funding from <a href="https://rdi.berkeley.edu/">Berkeley RDI Frontier Research</a><br>
+      Proposal: Building Scalable and IO-efficient Authenticated Storage Systems
+    </div>
+  </div>
+  
+  <div class="news-item">
+    <div class="news-year">2024</div>
+    <div class="news-content">
+      <a href="https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf">Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems</a><br>
+      Vijay Chidambaram, Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
+    </div>
+  </div>
+</div>
 
-* [Real Life is Uncertain. Consensus Should Be Too!](https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf)<br>
- Accepted to appear in the proceedings of HotOS'25
-
-* [SkyStore: Cost-Optimized Object Storage Across Regions and Clouds](https://arxiv.org/pdf/2502.20818) <br>
-Accepted to appear in the proceedings of VLDB'25
-
-* Received funding from [Berkeley RDI Frontier Research](https://rdi.berkeley.edu/)<br>
-Proposal: Building Scalable and IO-efficient Authenticated Storage Systems
-
-* [Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)<br>
-Advisor: [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) <br>
-Committee: Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
-
-### Reach out to me!
------
-
-I am organizing the [Sky Seminar Series](https://sky.cs.berkeley.edu/) for 2024-25!
-If you are interested in giving a research talk on core systems, databases,
-ML systems or systems for ML, feel free to reach out to me!
 
 ### Organizational Roles
 -----
-* Program Committee, ATC'25
-* External Review Committee, FAST'25
-* Program Committee, NSDI'25
-* Program Committee, Eurosys'25
-* External Review Committee, ATC'24
-* Reviewer, ACM Journal, TOCS'24
-* Hallway Discussion Lead, SOSP'21
-* External Review Committee, NSDI'19
-* Shadow Program Committee, Eurosys'20
-* Chair for GAAP at UT Austin
-  * Graduate Application Assistance Program (GAAP) mentors underprivileged students with
-  their PhD applications to UT Austin, 2020-2021
-* Graduate Representative for Computer Science (GRACS), UT Austin, 2020-2021
-* Mentor for Women in Computer Science, UT Austin, 2019-2020
 
+<div class="roles-grid">
+  <div class="role-box conference">
+    <div class="role-title">Program Committee</div>
+    <div class="role-items">
+      <span class="role-item">ATC'25</span>
+      <span class="role-item">NSDI'25</span>
+      <span class="role-item">Eurosys'25</span>
+    </div>
+  </div>
+
+  <div class="roles-row">
+    <div class="role-box conference">
+      <div class="role-title">External Program Committee</div>
+      <div class="role-items">
+        <span class="role-item">FAST'25</span>
+        <span class="role-item">ATC'24</span>
+        <span class="role-item">NSDI'19</span>
+      </div>
+    </div>
+    <div class="role-box academic">
+      <div class="role-title">Journal Reviewer</div>
+      <div class="role-items">
+        <span class="role-item">ACM TOCS'24</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="role-box academic">
+    <div class="role-title">Academic Service</div>
+    <div class="role-items">
+      <span class="role-item">SOSP'21 Hallway Lead</span>
+      <span class="role-item">Eurosys'20 Shadow PC</span>
+    </div>
+  </div>
+
+  <div class="role-box leadership">
+    <div class="role-title">University Leadership & Mentorship</div>
+    <div class="role-items">
+      <span class="role-item">GAAP Chair 2020-2021</span>
+      <span class="role-item">GRACS Representative 2020-2021</span>
+      <span class="role-item">WiCS Mentor 2019-2020</span>
+    </div>
+  </div>
+</div>
+
+### Get in Touch
+-----
+
+
+<div class="roles-grid">
+  <div class="role-box conference">
+    <div class="role-title">  I organize the <a href="https://sky.cs.berkeley.edu/">Sky Seminar Series</a> at Berkeley for 2024-25. If you are interested in presenting your recent systems research, reach out to me! </div>
+    <div class="role-items">
+      <span class="role-item"><a href="mailto:soujanya@berkeley.edu">bMail</a></span>
+      <span class="role-item"><a href="mailto:soujanyap95@gmail.com">GMail</a></span>
+      <span class="role-item"><a href="https://www.linkedin.com/in/soujanya-ponnapalli-553275107/">Linkedin</a></span>
+    </div>
+  </div>
+</div>
 
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 

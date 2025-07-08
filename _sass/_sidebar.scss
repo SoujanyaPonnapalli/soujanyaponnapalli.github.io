@@ -14,7 +14,10 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(2.1 of 12);
+    @include suffix(0 of 12); /* No right margin - float to right */
+    float: right;
+    margin-right: 0;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -79,7 +82,7 @@
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
   }
 
@@ -88,6 +91,8 @@
     border-radius: 50%;
 
     @include breakpoint($large) {
+      width: 100%;
+      max-width: 100%;
       padding: 5px;
       border: 1px solid $border-color;
     }
