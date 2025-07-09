@@ -7,9 +7,13 @@ collection: collaborators
 Advisors and Academic Collaborators
 -----
 Natacha Crooks, Prof. at UC Berkeley (Postdoc advisor)<br>
+Matei Zaharia, Prof. at UC Berkeley
+Ion Stoica, Prof. at UC Berkeley
+Scott Shenker, Prof. at UC Berkeley
 Vijay Chidambaram, Prof. at UT Austin (PhD advisor)<br>
 Dahlia Malkhi, Prof. at UC Santa Barbara<br>
 Greg Ganger, Prof. at CMU<br>
+Paris Carbone, Prof. at KTH Sweden
 Zsolt Istav, Prof. at TU Darmstadt
 
 
