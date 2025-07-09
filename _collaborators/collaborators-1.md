@@ -14,7 +14,7 @@ Vijay Chidambaram, Prof. at UT Austin (PhD advisor)<br>
 Dahlia Malkhi, Prof. at UC Santa Barbara<br>
 Greg Ganger, Prof. at CMU<br>
 Paris Carbone, Prof. at KTH Sweden<br>
-Zsolt Istav, Prof. at TU Darmstadt
+Zsolt Istvan, Prof. at TU Darmstadt
 
 
 # This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
