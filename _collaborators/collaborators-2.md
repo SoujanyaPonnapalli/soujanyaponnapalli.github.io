@@ -12,6 +12,7 @@ Kim Keeton, 2021<br>
 Sharad Singal, 2021<br>
 Saurabh Kadekodi, 2021<br>
 Anirudh Badam, 2020<br>
+Ranveer Chandra, 2020<br>
 Ant Rowstron, 2019<br>
 Dushayanth Narayanan, 2019<br>
 Ittai Abraham, 2018<br>
