@@ -60,6 +60,14 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 ### On ArXiv
 -----
 <div class="news-timeline">
+  
+  <div class="news-item">
+    <div class="news-year">2025</div>
+    <div class="news-content">
+      <a href="https://arxiv.org/abs/2509.00997">Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First</a><br>
+      arXiv preprint
+    </div>
+  </div>
 
   <div class="news-item">
     <div class="news-year">2025</div>
