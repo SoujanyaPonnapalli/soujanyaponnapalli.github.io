@@ -39,6 +39,22 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 <div class="news-timeline">
 
   <div class="news-item">
+    <div class="news-year">HotNets'25</div>
+    <div class="news-content">
+      <a href="">Lost in Translation: The Search for Meaning in Network-Attached GPU Disaggregation!</a><br>
+      Accepted to appear in the proceedings of HotNets'25
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-year">SAA'25</div>
+    <div class="news-content">
+      <a href="https://arxiv.org/pdf/2509.00997">Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First!</a><br>
+      Accepted to appear in the proceedings of SAA'25
+    </div>
+  </div>
+
+  <div class="news-item">
     <div class="news-year">HotOS'25</div>
     <div class="news-content">
       <a href="https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf">Real Life is Uncertain. Consensus Should Be Too!</a><br>
