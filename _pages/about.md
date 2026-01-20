@@ -119,7 +119,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 
   <div class="news-item">
     <div class="news-content">
-      <a href="https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf">Fair Inference</a><br>
+      <a href="https://drive.google.com/file/d/1wwAoHGiSskina7lp6IS6fFW52ctWbPth/view">Fair Inference</a><br>
       2025-Ongoing
     </div>
   </div>
@@ -187,6 +187,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
   <div class="role-box conference">
     <div class="role-title">Program Committee</div>
     <div class="role-items">
+      <span class="role-item">OSDI'26</span>
       <span class="role-item">ATC'25</span>
       <span class="role-item">NSDI'25</span>
       <span class="role-item">Eurosys'25</span>
