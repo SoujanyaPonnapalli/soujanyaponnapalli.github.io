@@ -119,22 +119,25 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 
   <div class="news-item">
     <div class="news-content">
-      <a href="https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf">Probabilistic Consensus</a><br>
-      2024-Ongoing
+      <a href="https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf">Fair Inference</a><br>
+      2025-Ongoing
     </div>
   </div>
-  <div class="news-item">
-    <div class="news-content">
-      <a href="https://www.youtube.com/watch?v=KqOtzIuAmFk&list=PLfwvyNe91s6h17_c8zlCO2wxOYGg6HBVf&ab_channel=UCBSkyComputing">IO Efficiency of Consensus</a><br>
-      2024-Ongoing
-    </div>
-  </div>
+
   <div class="news-item">
     <div class="news-content">
       <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-97.pdf">Fair Sharing in Multi-Tenant Storage Systems</a><br>
       2024-Ongoing
     </div>
   </div>
+
+  <div class="news-item">
+    <div class="news-content">
+      <a href="https://www.youtube.com/watch?v=KqOtzIuAmFk&list=PLfwvyNe91s6h17_c8zlCO2wxOYGg6HBVf&ab_channel=UCBSkyComputing">Probabilistic and IO-Efficient Consensus</a><br>
+      2024-Ongoing
+    </div>
+  </div>
+
 
 </div>
 
