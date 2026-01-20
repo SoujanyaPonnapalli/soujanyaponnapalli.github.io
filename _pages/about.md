@@ -198,7 +198,6 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
       <span class="role-item">Eurosys'25</span>
     </div>
   </div>
-
   <div class="roles-row">
     <div class="role-box conference">
       <div class="role-title">External Program Committee</div>
