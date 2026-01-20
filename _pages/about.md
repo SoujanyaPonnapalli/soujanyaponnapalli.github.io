@@ -39,6 +39,14 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 <div class="news-timeline">
 
   <div class="news-item">
+    <div class="news-year">SIGMOD'26</div>
+    <div class="news-content">
+      <a href="https://arxiv.org/pdf/2509.00997">Rollbaccine: Herd Immunity against Storage Rollback Attacks in TEEs!</a><br>
+      Accepted to appear in the proceedings of SIGMOD'26
+    </div>
+  </div>
+
+  <div class="news-item">
     <div class="news-year">CIDR'26</div>
     <div class="news-content">
       <a href="https://arxiv.org/pdf/2509.00997">Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First!</a><br>
