@@ -234,7 +234,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
   </div>
 </div>
 
-### Get in Touch
+### Get in Touch!
 -----
 
 
