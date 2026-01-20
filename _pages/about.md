@@ -119,7 +119,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 
   <div class="news-item">
     <div class="news-content">
-      <a href="https://drive.google.com/file/d/1wwAoHGiSskina7lp6IS6fFW52ctWbPth/view">Fair Inference</a><br>
+      <a href="https://drive.google.com/file/d/1wwAoHGiSskina7lp6IS6fFW52ctWbPth/view">Fair Inference with Performance Isolation</a><br>
       2025-Ongoing
     </div>
   </div>
