@@ -58,7 +58,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
   <div class="news-item">
     <div class="news-year">HotNets'25</div>
     <div class="news-content">
-      <a href="">Lost in Translation: The Search for Meaning in Network-Attached GPU Disaggregation!</a><br>
+      <a href="https://dl.acm.org/doi/pdf/10.1145/3772356.3772379">Lost in Translation: The Search for Meaning in Network-Attached GPU Disaggregation!</a><br>
       Accepted to appear in the proceedings of HotNets'25
     </div>
   </div>
