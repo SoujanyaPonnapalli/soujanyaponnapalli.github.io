@@ -185,7 +185,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 
 <div class="roles-grid">
   <div class="role-box conference">
-    <div class="role-title">NSF Proposal Reviewer: Pathways to Enable Open-Source Ecosystems (POSE) 2026</div>
+    <div class="role-title">NSF Proposal Reviewer</div>
   </div>
   <div class="role-box conference">
     <div class="role-title">Program Committee</div>
