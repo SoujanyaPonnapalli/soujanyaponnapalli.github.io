@@ -118,7 +118,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
   <div class="news-item">
     <div class="news-year">2026</div>
     <div class="news-content">
-      <a href="https://www.arxiv.org/abs/2505.04014">Delta Fair Sharing: Performance Isolation for Multi-Tenant Storage Systems</a><br>
+      <a href="">Delta Fair Sharing: Performance Isolation for Multi-Tenant Storage Systems</a><br>
       arXiv preprint
     </div>
   </div>
