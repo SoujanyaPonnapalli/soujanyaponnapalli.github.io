@@ -13,11 +13,24 @@ Soujanya is a postdoctoral scholar at the University of California, Berkeley.
 She is a systems researcher working with [Prof. Natacha Crooks](https://nacrooks.github.io/) and [Prof. Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) at
   the [Sky Computing Lab](https://sky.cs.berkeley.edu/).
 
-Her research is at the intersection of distributed and storage systems.
-She built IO-efficient infrastructures for modern applications like blockchains,
+
+
+Her research lies at the intersection of distributed and storage systems. 
+Her work improves system performance and scalability at scale; redesigns systems for emerging applications such as AI/ML workloads and blockchain;
+  leverages new hardware paradigms including persistent memory, CXL, and disaggregated architectures;
+  and strengthens fundamental system guarantees such as reliability, availability, and fault tolerance.
+Collectively, her research rethinks how storage and distributed systems *should be* designed to meet the demands of next-generation application workloads and hardware platforms.
+
+<!-- Her research is at the intersection of distributed and storage systems.
+Her work improves the performance and scalability of systems at scale; 
+  redesigns for emerging applications such as AI/ML workloads and blockchain;
+  leverages new hardware paradigms including persistent memory, CXL, and disaggregated architectures;
+  and strengthens fundamental system guarantees such as reliability, availability, and fault tolerance. 
+Collectively, her research rethinks how storage and distributed systems *should be* designed to meet the demands of next-generation application worklaods and hardware platforms. -->
+<!-- She built IO-efficient infrastructures for modern applications like blockchains,
   key-value stores and file systems for emerging hardware like Persistent Memory and CXL,
-  and efficient recovery mechanisms for distributed databases.
-Currently, she is interested in improving the fault tolerance and IO efficiency of  systems that are at the heart of large-scale AI infrastructure.
+  and efficient recovery mechanisms for distributed databases. -->
+<!-- Currently, she is interested in improving the fault tolerance and IO efficiency of  systems that are at the heart of large-scale AI infrastructure. -->
 
 <!-- UT Austin -->
 She completed her PhD at [UT Austin](https://www.utexas.edu/),
@@ -105,7 +118,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
   <div class="news-item">
     <div class="news-year">2025</div>
     <div class="news-content">
-      <a href="https://www.arxiv.org/abs/2505.04014">Rollbaccine: Herd Immunity against Storage Rollback Attacks in TEEs [Technical Report]</a><br>
+      <a href="https://www.arxiv.org/abs/2505.04014">Delta Fair Sharing: Performance Isolation for Multi-Tenant Storage Systems</a><br>
       arXiv preprint
     </div>
   </div>
@@ -186,6 +199,9 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
 <div class="roles-grid">
   <div class="role-box conference">
     <div class="role-title">NSF Proposal Reviewer</div>
+    <div class="role-items">
+      <span class="role-item">2026</span>
+    </div>
   </div>
   <div class="role-box conference">
     <div class="role-title">Program Committee</div>
