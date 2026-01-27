@@ -16,7 +16,7 @@ She is a systems researcher working with [Prof. Natacha Crooks](https://nacrooks
 
 
 Her research lies at the intersection of distributed and storage systems. 
-Her work improves system performance and scalability at scale; redesigns systems for emerging applications such as AI/ML workloads and blockchain;
+Her work improves system performance at scale; redesigns systems for emerging applications such as AI/ML workloads and blockchain;
   leverages new hardware paradigms including persistent memory, CXL, and disaggregated architectures;
   and strengthens fundamental system guarantees such as reliability, availability, and fault tolerance.
 Collectively, her research rethinks how storage and distributed systems *should be* designed to meet the demands of next-generation application workloads and hardware platforms.
