@@ -87,7 +87,7 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
   <div class="news-item">
     <div class="news-year">HotOS'25</div>
     <div class="news-content">
-      <a href="https://sigops.org/s/conferences/hotos/2025/papers/hotos25-69.pdf">Real Life is Uncertain. Consensus Should Be Too!</a><br>
+      <a href="https://arxiv.org/pdf/2602.11362">Real Life is Uncertain. Consensus Should Be Too!</a><br>
       Accepted to appear in the proceedings of HotOS'25
     </div>
   </div>
