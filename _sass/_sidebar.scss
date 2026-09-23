@@ -204,7 +204,12 @@
      edge, which pushed the box off the left of the screen. */
   left: 0;
   right: auto;
+  /* Size to the longest entry so "University of California, Berkeley" stays on
+     one line, instead of being capped by the narrow wrapper. The max-width
+     keeps it on screen on phones, where it falls back to wrapping. */
+  width: max-content;
   min-width: 200px;
+  max-width: calc(100vw - 9rem);
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
@@ -218,6 +223,9 @@
   @include breakpoint($large) {
     display: block;
     position: relative;
+    width: auto;
+    min-width: 0;
+    max-width: none;
     margin: 0;
     padding: 0;
     border: 0;
