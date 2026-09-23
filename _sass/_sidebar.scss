@@ -168,6 +168,10 @@
 .author__urls-wrapper {
   position: relative;
   display: block;
+  /* The popup is positioned against this wrapper, so let it span the full
+     text column; otherwise the flex column shrinks it to the button's width
+     and the popup collapses to a ~100px ribbon. */
+  align-self: stretch;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
@@ -196,7 +200,11 @@
 .author__urls {
   display: none;
   position: absolute;
-  right: 0;
+  /* Align the popup's left edge with the Follow button rather than its right
+     edge, which pushed the box off the left of the screen. */
+  left: 0;
+  right: auto;
+  min-width: 200px;
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
@@ -227,7 +235,7 @@
     content: "";
     position: absolute;
     top: -11px;
-    left: calc(50% - 10px);
+    left: 27px; /* under the Follow button */
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
@@ -244,7 +252,7 @@
     content: "";
     position: absolute;
     top: -10px;
-    left: calc(50% - 10px);
+    left: 27px; /* under the Follow button */
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
@@ -257,7 +265,7 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
   }
 
   a {
