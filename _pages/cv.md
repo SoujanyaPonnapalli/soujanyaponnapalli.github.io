@@ -9,14 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- [CV Download Link!](https://people.eecs.berkeley.edu/~soujanya/cv.pdf) -->
+<!-- [CV Download Link!]({{ base_path }}/cv.pdf) -->
 
-<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf" target="_blank">
-<img src="../images/cv1.png" style="width: 50vw;margin-left=100px"> </a>
-<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf" target="_blank">
-<img src="../images/cv2.png" style="width: 50vw;margin-left=100px"></a>
-<a href="https://people.eecs.berkeley.edu/~soujanya/cv.pdf" target="_blank">
-<img src="../images/cv3.png" style="width: 50vw;margin-left=100px"></a>
+<a href="{{ base_path }}/cv.pdf" target="_blank">
+<img src="../images/cv1.png" alt="CV page 1" style="width: 50vw;"> </a>
+<a href="{{ base_path }}/cv.pdf" target="_blank">
+<img src="../images/cv2.png" alt="CV page 2" style="width: 50vw;"></a>
+<a href="{{ base_path }}/cv.pdf" target="_blank">
+<img src="../images/cv3.png" alt="CV page 3" style="width: 50vw;"></a>
+<a href="{{ base_path }}/cv.pdf" target="_blank">
+<img src="../images/cv4.png" alt="CV page 4" style="width: 50vw;"></a>
 
 
 <!-- ![Alt text](https://people.eecs.berkeley.edu/~soujanya/cv.pdf#page=1)
