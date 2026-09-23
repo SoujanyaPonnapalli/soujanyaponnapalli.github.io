@@ -73,12 +73,36 @@
    Author profile and links
    ========================================================================== */
 
+/* Below $large the profile is a row: photo on the left, with the bio and the
+   Follow button stacked beside it and vertically centred against the photo.
+   At $large it reverts to the stacked sidebar column. */
+.author__profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.author__profile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0; /* let long text wrap instead of stretching the row */
+
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
 .author__avatar {
-  display: table-cell;
+  display: block;
+  flex-shrink: 0;
   vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  width: 100px;
 
   @include breakpoint($large) {
     display: block;
@@ -100,11 +124,10 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
-  line-height: 1;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: 1.4;
 
   @include breakpoint($large) {
     display: block;
@@ -144,8 +167,7 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
   font-family: $sans-serif;
   z-index: 10;
   position: relative;
