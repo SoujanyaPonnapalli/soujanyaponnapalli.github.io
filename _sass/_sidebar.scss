@@ -14,7 +14,7 @@
   margin-bottom: 1em;
 
   @include breakpoint($large) {
-    @include span(2.1 of 12);
+    @include span(3.2 of 12);
     @include suffix(0 of 12); /* No right margin - float to right */
     float: right;
     margin-right: 0;
@@ -111,6 +111,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
   }
 }
 
@@ -153,6 +154,7 @@
 
   @include breakpoint($large) {
     display: block;
+    text-align: center;
   }
 
   button {
@@ -179,13 +181,16 @@
   cursor: default;
 
   @include breakpoint($large) {
-    display: block;
+    /* inline-block so the list shrinks to its content and the centred
+       wrapper can centre it as a unit, while the links stay left-aligned */
+    display: inline-block;
     position: relative;
     margin: 0;
     padding: 0;
     border: 0;
     background: transparent;
     box-shadow: none;
+    text-align: left;
   }
 
   &:before {

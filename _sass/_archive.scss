@@ -10,7 +10,7 @@
   }
 
   @include breakpoint($large) {
-    @include span(9 of 12);
+    @include span(7.9 of 12);
     @include prefix(0 of 12); /* No left margin - content starts at left */
   }
 
