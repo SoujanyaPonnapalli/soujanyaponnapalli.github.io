@@ -13,8 +13,12 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-$serif                      : "Source Serif Pro", Georgia, Times, serif;
-$sans-serif                 : "Inter", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+/* Palatino, to match the CV. System copies first so macOS ("Palatino") and
+   Windows ("Palatino Linotype") render from disk with no download; the
+   self-hosted TeX Gyre Pagella in _fonts.scss covers everyone else. */
+$palatino                   : "Palatino Linotype", "Palatino", "Book Antiqua", "URW Palladio L", "TeX Gyre Pagella", Georgia, serif;
+$serif                      : $palatino;
+$sans-serif                 : $palatino;
 $monospace                  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */

@@ -6,32 +6,48 @@ This document outlines the professional font implementation for the Soujanya Pon
 ## Font Stack Implementation
 
 ### Primary Fonts
-1. **Inter** - Modern, highly legible sans-serif font for body text and UI elements
-   - Weights: 300, 400, 500, 600, 700
-   - Purpose: Main body text, navigation, and general content
 
-2. **Source Serif Pro** - Professional serif font for headings and titles
-   - Weights: 300, 400, 600, 700
-   - Purpose: Page titles, section headings, and academic content
+1. **Palatino** - serif used for body text, headings, and navigation
+   - Matches the CV, whose PDF embeds URW Palladio L (LaTeX `mathpazo`/`palatino`)
+   - Resolved from the visitor's own system first: `Palatino Linotype`
+     (Windows), `Palatino` (macOS), `Book Antiqua`, `URW Palladio L`
+   - Falls back to self-hosted **TeX Gyre Pagella** (GUST Font License), GUST's
+     Unicode extension of that same URW Palladio L design
+   - Final fallback: Georgia, then generic serif
 
-3. **JetBrains Mono** - Modern monospace font for code blocks
+2. **JetBrains Mono** - monospace for code blocks
    - Weights: 400, 500, 600
-   - Purpose: Code snippets, technical content, and inline code
+   - Loaded from Google Fonts
 
 ### Font Hierarchy
-- **Body Text**: Inter (400 weight)
-- **Headings**: Source Serif Pro (600 weight)
-- **Navigation**: Inter (400-700 weight)
+
+- **Body text, headings, navigation**: Palatino stack
 - **Code**: JetBrains Mono (400 weight)
+
+### Why the hybrid
+
+Most visitors already have a Palatino, so listing the system faces first means
+macOS and Windows render from disk and download nothing. Only visitors without
+one fetch the WOFF2 (~33KB per face, loaded lazily per face as needed).
+
+The webfont is deliberately **not** `<link rel="preload">`ed: preload fetches
+unconditionally, which would charge every visitor for a font most already have.
+
+macOS ships `/System/Library/Fonts/Palatino.ttc`, but that is Apple's licensed
+system font and is only ever used off the visitor's own disk - it is never
+converted or self-hosted. See `assets/fonts/README.md`.
 
 ## Implementation Details
 
 ### Files Modified
-1. `_sass/_variables.scss` - Updated font variables and added font weight variables
-2. `_sass/_base.scss` - Enhanced typography with better spacing and rendering
-3. `_sass/_masthead.scss` - Updated navigation font family
-4. `_includes/head.html` - Added Google Fonts import
-5. `_includes/head/custom.html` - Added custom typography styles
+1. `_sass/_variables.scss` - Font stacks point at the Palatino stack
+2. `_sass/_fonts.scss` - `@font-face` declarations for self-hosted TeX Gyre Pagella
+3. `assets/fonts/` - Subset WOFF2 files plus licensing and regeneration notes
+4. `assets/css/main.scss` - Imports the `fonts` partial
+5. `_sass/_base.scss` - Enhanced typography with better spacing and rendering
+6. `_sass/_masthead.scss` - Updated navigation font family
+7. `_includes/head.html` - Google Fonts import, now JetBrains Mono only
+8. `_includes/head/custom.html` - Custom typography styles
 
 ### Key Improvements
 - **Font Rendering**: Added `-webkit-font-smoothing: antialiased` and `-moz-osx-font-smoothing: grayscale`
