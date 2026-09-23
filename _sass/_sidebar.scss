@@ -191,6 +191,10 @@
     background: transparent;
     box-shadow: none;
     text-align: left;
+    /* The collapsed dropdown uses z-index:-1 to hide behind the page. Inline
+       in the sidebar that put the whole list behind .author__urls-wrapper
+       (z-index:10), so every link was unclickable - reset it here. */
+    z-index: auto;
   }
 
   &:before {
