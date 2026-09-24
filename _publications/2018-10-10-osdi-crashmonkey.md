@@ -10,7 +10,7 @@ keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/osdi18/presentation/mohan'
 slidesurl: 'https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_mohan.pdf'
 talkurl: ''
-citationurl: ''
+citationurl: '/files/bib/crashmonkey-osdi18.bib'
 excerpt: 'This paper presents the bounded black-box crash testing (B3), a new approach to test file-system crash consistency. B3 tests the file system in a black-box manner using workloads with file-system operations. Since the space of possible workloads is infinite, B3 bounds this space based on the insights from studying recent crash-consistency bugs reported in Linux file systems. We build CrashMonkey and Ace, to demonstrate the effectiveness of B3 approach. These tools find 24 out of the 26 recent crash-consistency bugs...'
 ---
 

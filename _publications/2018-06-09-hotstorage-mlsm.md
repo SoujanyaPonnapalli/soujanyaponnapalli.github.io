@@ -10,7 +10,7 @@ keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/hotstorage18/presentation/raju'
 slidesurl: 'https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf'
 talkurl: ''
-citationurl: ''
+citationurl: '/files/bib/mlsm-hotstorage18.bib'
 excerpt: 'This paper presents a novel data-authenticating structure, Merkelized LSM (mLSM). In authenticated storage each read returns a value and a proof that allows the client to verify the value returned is correct. Such authentication leads to high read and write amplification (64x in the worst case). mLSM ...'
 ---
 

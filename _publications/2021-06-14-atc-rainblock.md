@@ -10,7 +10,7 @@ keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/atc21/presentation/ponnapalli'
 slidesurl: 'https://www.usenix.org/system/files/atc21_slides_ponnapalli.pdf'
 talkurl: 'https://www.youtube.com/watch?v=oyrWI2LaDq8&ab_channel=USENIX'
-citationurl: ''
+citationurl: '/files/bib/rainblock-atc21.bib'
 excerpt: 'This paper presents RAINBLOCK, a public blockchain that achieves high transaction throughput. The number of transactions in each block is limited by I/O bottlenecks. By removing these I/O bottlenecks, RAINBLOCK allows miners to process more transactions in the same amount of time. The RAINBLOCK architecture removes I/O from the critical path, and the distributed, sharded Merkle tree, the DSM-TREE data structure...'
 ---
 
