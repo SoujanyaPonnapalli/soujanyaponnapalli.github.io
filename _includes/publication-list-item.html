@@ -24,11 +24,21 @@
       {% endif %}
     </h2>
 
-    {% if post.status and post.status != '' or post.award and post.award != '' %}
+    {% comment %}
+      Liquid has no operator precedence - it evaluates and/or right to left -
+      so a combined condition would read as "status and (... or ...)" and hide
+      the award on any paper that has no status. Resolve each flag separately.
+    {% endcomment %}
+    {% assign has_status = false %}
+    {% if post.status and post.status != '' %}{% assign has_status = true %}{% endif %}
+    {% assign has_award = false %}
+    {% if post.award and post.award != '' %}{% assign has_award = true %}{% endif %}
+
+    {% if has_status or has_award %}
       <p class="publication-status">
-        {%- if post.status and post.status != '' -%}{{ post.status }}{%- endif -%}
-        {%- if post.status and post.status != '' and post.award and post.award != '' %} &middot; {% endif -%}
-        {%- if post.award and post.award != '' -%}<span class="publication-award">{{ post.award }}</span>{%- endif -%}
+        {%- if has_status -%}{{ post.status }}{%- endif -%}
+        {%- if has_status and has_award %} &middot; {% endif -%}
+        {%- if has_award -%}<span class="publication-award">{{ post.award }}</span>{%- endif -%}
       </p>
     {% endif %}
 
