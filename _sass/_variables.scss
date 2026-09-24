@@ -74,7 +74,7 @@ $code-background-color-dark : #e9ecef;
 $text-color                 : #212529;
 $border-color               : #dee2e6;
 
-$primary-color              : #0d6efd;
+$primary-color              : #0000CC;  /* the CV blue, used site-wide */
 $success-color              : #198754;
 $warning-color              : #ffc107;
 $danger-color               : #dc3545;
@@ -104,8 +104,7 @@ $xing-color                 : #006567;
 
 
 /* links */
-/* The blue the CV uses for links: rgb(0, 0, 0.8) */
-$link-color                 : #0000CC;
+$link-color                 : $primary-color;
 $link-color-hover           : #000099;
 $link-color-visited         : #6f42c1;
 $masthead-link-color        : $darker-gray;
