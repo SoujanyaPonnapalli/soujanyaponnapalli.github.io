@@ -5,7 +5,7 @@ collection: publications
 permalink: 'hotnets25/lost-in-translation'
 date: 2025-11-01
 venue: 'HotNets 2025'
-order: 7
+order: 8
 conf: 'HotNets'
 confyear: 2025
 # Key insight: 2-3 lines, shown under the venue on the publications page.
