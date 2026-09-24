@@ -139,10 +139,18 @@
     font-size: 1em !important;
   }
 
+  /* Paper title at body-text size, sitting directly on top of the venue */
+  .publication-title {
+    font-size: 1em !important;
+    line-height: 1.5;
+    margin-bottom: 0 !important;
+  }
+
   /* Venue sits on its own line under the title, at the same size as the
      body text on the home page (the old rule shrank it to 0.5em). */
   .publication-venue {
     font-size: 1em !important;
+    margin-top: 0 !important;
     margin-bottom: 0.35em;
     line-height: 1.5;
     color: #495057;
