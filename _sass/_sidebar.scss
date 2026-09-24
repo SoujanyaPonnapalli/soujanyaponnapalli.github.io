@@ -43,7 +43,9 @@
 
   p, li {
     font-family: $sans-serif;
-    font-size: 15px; /* between the 18px body text and the 14.4px publications list */
+    /* ~15px against the 18px body text, and scales with the root the way the
+       rest of the site does (13.3px below the 768px breakpoint). */
+    font-size: 0.8333em;
     line-height: 1.5;
   }
 
