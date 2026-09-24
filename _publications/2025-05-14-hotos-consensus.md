@@ -9,7 +9,7 @@ order: 7
 conf: 'HotOS'
 confyear: 2025
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: 'Consensus protocols are correct under a specific failure model, where up to *f* machines can fail. We argue that this *f*-threshold failure model oversimplifies the real world and limits potential opportunities to optimize for cost or performance. We argue instead for a probabilistic failure model that captures the nature of faults in practice. We outline the opportunities it unlocks, such as probability-native consensus protocols that provide realistic 9s of availability and durability guarantees.'
+keyinsight: 'Consensus protocols are correct under a specific fault model, where up to *f* machines can fail. We argue that this *f*-threshold fault model oversimplifies the real world and limits potential opportunities to optimize for cost or performance. We argue instead for a probabilistic fault model that captures the nature of faults in practice. We outline the opportunities it unlocks, such as probability-native consensus protocols that provide realistic 9s of availability and durability guarantees.'
 paperurl: 'https://doi.org/10.1145/3713082.3730374'
 slidesurl: ''
 talkurl: ''
