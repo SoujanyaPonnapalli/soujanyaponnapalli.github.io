@@ -5,6 +5,9 @@ collection: publications
 permalink: 'vldb27/metronome'
 date: 2026-09-01
 venue: 'VLDB 2027'
+order: 1
+conf: 'VLDB'
+confyear: 2027
 status: 'Under revision'
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''

@@ -5,6 +5,9 @@ collection: publications
 permalink: 'saa25/agent-first-data-systems'
 date: 2025-09-15
 venue: 'SAA 2025'
+order: 8
+conf: 'SAA'
+confyear: 2025
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://arxiv.org/abs/2509.00997'

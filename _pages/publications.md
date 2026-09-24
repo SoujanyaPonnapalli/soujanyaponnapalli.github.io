@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% comment %} Ordered to match the CV, via the `order` field in each entry. {% endcomment %}
+{% assign pubs = site.publications | sort: 'order' %}
+{% for post in pubs %}
+  {% include publication-list-item.html %}
 {% endfor %} 

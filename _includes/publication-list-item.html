@@ -1,0 +1,57 @@
+{% include base_path %}
+
+{% comment %}
+  Two-column publication row: a conference/year badge on the left, and the
+  title, status, key insight and links on the right. Used only by the
+  publications page; other collections still render via archive-single.html.
+{% endcomment %}
+
+<div class="list__item">
+<div class="publication-row">
+
+  <div class="publication-badge">
+    <span class="publication-badge-conf">{{ post.conf }}</span>
+    <span class="publication-badge-year">{{ post.confyear }}</span>
+  </div>
+
+  <div class="publication-body">
+
+    <h2 class="archive__item-title publication-title" itemprop="headline">
+      {% if post.paperurl and post.paperurl != '' %}
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      {% endif %}
+    </h2>
+
+    {% if post.status and post.status != '' or post.award and post.award != '' %}
+      <p class="publication-status">
+        {%- if post.status and post.status != '' -%}{{ post.status }}{%- endif -%}
+        {%- if post.status and post.status != '' and post.award and post.award != '' %} &middot; {% endif -%}
+        {%- if post.award and post.award != '' -%}<span class="publication-award">{{ post.award }}</span>{%- endif -%}
+      </p>
+    {% endif %}
+
+    {% if post.keyinsight and post.keyinsight != '' %}
+      <p class="publication-insight" itemprop="description">{{ post.keyinsight | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endif %}
+
+    <div class="publication-links">
+      {% if post.paperurl and post.paperurl != '' %}
+        <a href="{{ post.paperurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Paper</a>
+      {% endif %}
+      {% if post.citationurl and post.citationurl != '' %}
+        {% if post.citationurl contains '://' %}{% assign cite_url = post.citationurl %}{% else %}{% assign cite_url = post.citationurl | prepend: base_path %}{% endif %}
+        <a href="{{ cite_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Cite</a>
+      {% endif %}
+      {% if post.slidesurl and post.slidesurl != '' %}
+        <a href="{{ post.slidesurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Slides</a>
+      {% endif %}
+      {% if post.talkurl and post.talkurl != '' %}
+        <a href="{{ post.talkurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Talk</a>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
+</div>

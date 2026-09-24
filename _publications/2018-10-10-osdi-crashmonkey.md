@@ -5,6 +5,9 @@ collection: publications
 permalink: 'osdi18/crashmonkey'
 date: 2018-10-10
 venue: 'USENIX OSDI 2018'
+order: 13
+conf: 'OSDI'
+confyear: 2018
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/osdi18/presentation/mohan'

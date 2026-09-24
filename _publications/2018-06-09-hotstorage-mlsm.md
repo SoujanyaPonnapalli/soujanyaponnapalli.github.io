@@ -5,6 +5,9 @@ collection: publications
 permalink: 'hotstorage18/mlsm'
 date: 2018-06-09
 venue: 'USENIX HotStorage 2018'
+order: 14
+conf: 'HotStorage'
+confyear: 2018
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/hotstorage18/presentation/raju'

@@ -5,6 +5,9 @@ collection: publications
 permalink: 'sosp21/winefs'
 date: 2021-10-26
 venue: 'SOSP 2021'
+order: 11
+conf: 'SOSP'
+confyear: 2021
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://dl.acm.org/doi/10.1145/3477132.3483567'

@@ -139,6 +139,65 @@
     font-size: 1em !important;
   }
 
+  /* Two-column publication row: conference badge | title + details.
+     Card and badge styling mirror the home page's .news-item / .news-year. */
+  .publication-row {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .publication-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 104px;
+    padding: 0.5rem 0.75rem;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .publication-badge-conf {
+    font-weight: 600;
+    color: #0d6efd;
+  }
+
+  .publication-badge-year {
+    font-size: 0.85em;
+    color: #495057;
+  }
+
+  .publication-body {
+    flex: 1;
+    min-width: 0; /* let long titles wrap instead of stretching the row */
+  }
+
+  .publication-status {
+    font-size: 1em !important;
+    margin: 0 0 0.35em;
+    color: #495057;
+  }
+
+  /* Stack the badge above the text on narrow screens */
+  @media (max-width: 34em) {
+    .publication-row {
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .publication-badge {
+      flex-direction: row;
+      gap: 0.4em;
+      min-width: 0;
+      align-self: flex-start;
+    }
+  }
+
   /* Paper title at body-text size, sitting directly on top of the venue */
   .publication-title {
     font-size: 1em !important;

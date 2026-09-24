@@ -5,6 +5,9 @@ collection: publications
 permalink: 'vldb/dinomo'
 date: 2022-09-01
 venue: 'VLDB 2022'
+order: 9
+conf: 'VLDB'
+confyear: 2022
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://doi.org/10.14778/3565838.3565854'
