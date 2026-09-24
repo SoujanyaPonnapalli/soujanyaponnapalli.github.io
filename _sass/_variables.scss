@@ -104,8 +104,9 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $primary-color;
-$link-color-hover           : #0a58ca;
+/* The blue the CV uses for links: rgb(0, 0, 0.8) */
+$link-color                 : #0000CC;
+$link-color-hover           : #000099;
 $link-color-visited         : #6f42c1;
 $masthead-link-color        : $darker-gray;
 $masthead-link-color-hover  : $primary-color;

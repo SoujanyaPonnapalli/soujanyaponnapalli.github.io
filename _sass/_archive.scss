@@ -50,7 +50,7 @@
     transition: color 0.2s ease;
 
     &:hover {
-      color: $primary-color;
+      color: $link-color-hover;
     }
   }
 
@@ -120,7 +120,7 @@
     margin-bottom: 0.3em;
     font-size: 1.25em !important;
     font-weight: 600;
-    color: #0d6efd;
+    color: $link-color;
 
     a {
       color: inherit;
