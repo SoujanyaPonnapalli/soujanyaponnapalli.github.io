@@ -159,7 +159,7 @@
   .publication-row {
     display: flex;
     gap: 1rem;
-    align-items: flex-start;
+    align-items: center; /* badge sits vertically centred against the card */
   }
 
   .publication-badge {
@@ -168,7 +168,9 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    min-width: 104px;
+    /* Fixed width so every title starts on the same line, whatever the
+       conference name ("HotStorage" is the widest at ~122px). */
+    width: 128px;
     padding: 0.5rem 0.75rem;
     background: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -218,7 +220,7 @@
     .publication-badge {
       flex-direction: row;
       gap: 0.4em;
-      min-width: 0;
+      width: auto;
       align-self: flex-start;
     }
   }
