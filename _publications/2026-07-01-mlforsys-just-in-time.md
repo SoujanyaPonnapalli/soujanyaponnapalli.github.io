@@ -10,7 +10,7 @@ conf: 'MLForSys'
 confyear: 2026
 status: 'Under submission'
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: 'There has always been a trade-off between general-purpose and specialized systems: in the past, the engineering effort to build a specialized system outweighed its benefits. We argue that recent advances in AI and LLMs put us at an inflection point, and that we can now synthesize a single-node key-value store just in time, for a specific workload and cost budget.'
+keyinsight: 'There has always been a trade-off between general-purpose and specialized systems: in the past, the engineering effort to build a specialized system outweighed its benefits. We argue that LLMs and coding agents bring us to an inflection point, and that we can now synthesize a single-node key-value store just in time, for a specific workload and cost budget.'
 paperurl: 'https://arxiv.org/abs/2605.24096'
 slidesurl: ''
 talkurl: ''
