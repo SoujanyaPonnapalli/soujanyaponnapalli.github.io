@@ -10,7 +10,7 @@ conf: 'VLDB'
 confyear: 2027
 status: 'Under revision'
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: 'In state machine replicated systems, every replica writes to a persistent write-ahead log before committing, so that it can recover from a crash. This is both inefficient and unnecessary: tolerating *f* crash-stop failures requires only a majority (*f* + 1) of replicas to log persistently. Our approach of logging only at a majority of replicas improves commit throughput and I/O efficiency.'
+keyinsight: 'In state machine replicated systems, every replica writes to a persistent write-ahead log before committing, so that it can recover from a crash. Logging at every replica is both inefficient and unnecessary: tolerating *f* crash-stop failures requires only a majority (*f* + 1) of replicas to log persistently. With Metronome, we log only at a majority of replicas, improving both commit throughput and I/O efficiency.'
 paperurl: 'https://github.com/SoujanyaPonnapalli/Metronome/blob/main/Tech_Report.pdf'
 slidesurl: ''
 talkurl: ''
