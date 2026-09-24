@@ -141,6 +141,21 @@
 
   /* Two-column publication row: conference badge | title + details.
      Card and badge styling mirror the home page's .news-item / .news-year. */
+  /* For publication rows the card wraps only the right-hand column, so the
+     conference badge sits outside it. Strip the wrapper's own card styling. */
+  &.publication-item {
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: none;
+      transform: none;
+    }
+  }
+
   .publication-row {
     display: flex;
     gap: 1rem;
@@ -175,6 +190,16 @@
   .publication-body {
     flex: 1;
     min-width: 0; /* let long titles wrap instead of stretching the row */
+    padding: 0.7em;
+    background: $body-color;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
   }
 
   .publication-status {
