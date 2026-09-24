@@ -9,7 +9,7 @@ order: 4
 conf: 'SIGMOD'
 confyear: 2026
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: 'In TEE-based systems, rollback attacks revert persisted state, causing execution over stale data. Existing rollback-resistant solutions are narrowly tailored, often requiring changes to the application or the system. We recast rollback attacks as a crash-consistency problem: with Rollbaccine, we enforce disk consistency, giving any application rollback resistance across multiple Linux file systems.'
+keyinsight: 'In TEE-based systems, rollback attacks revert persisted state, causing execution over stale data. Existing rollback-resistant solutions are narrowly tailored, often requiring changes to the application or the system. We redefine rollback attacks as a crash-consistency problem: with Rollbaccine, we transparently enforce disk consistency, giving any application rollback resistance across multiple Linux file systems.'
 paperurl: 'https://doi.org/10.1145/3786693'
 slidesurl: ''
 talkurl: ''
