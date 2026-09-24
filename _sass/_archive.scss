@@ -265,6 +265,9 @@
   /* Key insight - matches the body text size */
   .publication-insight {
     font-size: $publication-font-size !important;
+    /* the theme gives p a top margin; drop it so the insight sits directly
+       under the title or status line rather than after a blank line */
+    margin-top: 0;
     margin-bottom: 0.5em;
     line-height: 1.6;
     color: #000;
