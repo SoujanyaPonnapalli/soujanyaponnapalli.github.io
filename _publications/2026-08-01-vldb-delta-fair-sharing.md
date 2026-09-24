@@ -10,7 +10,7 @@ conf: 'VLDB'
 confyear: 2027
 status: 'Under submission'
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: ''
+keyinsight: 'Traditional fair sharing does not work for storage systems, because storage resources have high preemption delays: a tenant''s tail latency keeps degrading until resources are preempted and the outstanding I/O flushes and fetches complete. With Delta Fair Sharing, we introduce a family of algorithms that guarantee δ-fairness, a new isolation property that bounds the tail-latency spike of well-behaved clients to δ time units.'
 paperurl: 'https://arxiv.org/abs/2601.20030'
 slidesurl: ''
 talkurl: ''
