@@ -8,6 +8,8 @@ venue: 'CIDR 2026'
 order: 5
 conf: 'CIDR'
 confyear: 2026
+conf2: 'SAA'
+confyear2: 2025
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://arxiv.org/abs/2509.00997'

@@ -9,9 +9,17 @@
 <div class="list__item publication-item">
 <div class="publication-row">
 
-  <div class="publication-badge">
-    <span class="publication-badge-conf">{{ post.conf }}</span>
-    <span class="publication-badge-year">{{ post.confyear }}</span>
+  <div class="publication-badges">
+    <div class="publication-badge">
+      <span class="publication-badge-conf">{{ post.conf }}</span>
+      <span class="publication-badge-year">{{ post.confyear }}</span>
+    </div>
+    {% if post.conf2 and post.conf2 != '' %}
+      <div class="publication-badge">
+        <span class="publication-badge-conf">{{ post.conf2 }}</span>
+        <span class="publication-badge-year">{{ post.confyear2 }}</span>
+      </div>
+    {% endif %}
   </div>
 
   <div class="publication-body">
