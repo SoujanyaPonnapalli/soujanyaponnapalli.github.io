@@ -550,7 +550,10 @@
 
 .people-label {
   flex-shrink: 0;
-  width: 168px;
+  /* Same width and text size as the publication badges, so all three pages
+     share one badge. The names and projects stay at body size. */
+  width: 128px;
+  font-size: $publication-font-size;
   padding: 0.5rem 0.75rem;
   background: #f8fafc;
   border: 1px solid #e2e8f0;
@@ -596,5 +599,63 @@
   .people-label {
     width: auto;
     align-self: flex-start;
+  }
+}
+
+/* Mentoring page: badge stacks "<group>" over "students", matching the
+   conference-over-year stack on the publications badges. */
+/* Blue, but no underline - these columns are dense lists of links and the
+   underlines made them look striped. Override :visited too, or the theme
+   turns followed links purple. */
+.people-names {
+  a,
+  a:visited {
+    color: $link-color;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: $link-color-hover;
+    text-decoration: none;
+  }
+}
+
+.people-label-group,
+.people-label-kind {
+  display: block;
+}
+
+.people-label-kind {
+  font-weight: $font-weight-normal;
+}
+
+.mentee {
+  margin-bottom: 0.9em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.mentee-name {
+  margin-bottom: 0.1em;
+}
+
+/* Reset the themed list styling and keep the projects tight under the name.
+   No bullets, but indented so the projects read as belonging to the student. */
+.mentee-projects {
+  margin: 0 0 0 1.25em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    font-size: 1em;
+    line-height: 1.5;
   }
 }

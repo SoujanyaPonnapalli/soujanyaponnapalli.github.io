@@ -1,0 +1,96 @@
+# Each project may carry a `permalink` matching an entry in _publications, in
+# which case the page links to that paper's PDF. Ongoing projects with no paper
+# yet, and externally hosted theses (`url`), are handled too.
+- group: Doctoral
+  students:
+    - name: Reginald Frank
+      where: UC Berkeley
+      projects:
+        - title: Metronome
+          permalink: vldb27/metronome
+        - title: Real Life Is Uncertain
+          permalink: powder
+        - title: Powder
+    - name: Shu Liu
+      where: UC Berkeley
+      projects:
+        - title: Time is Here for Just-in-Time Systems
+          permalink: mlforsys26/just-in-time-systems
+        - title: Supporting Our AI Overlords
+          permalink: saa25/agent-first-data-systems
+        - title: SkyStore
+          permalink: skystore
+        - title: Lost in Translation
+          permalink: hotnets25/lost-in-translation
+    - name: Tyler Griggs
+      where: UC Berkeley
+      projects:
+        - title: Delta Fair Sharing
+          permalink: vldb27/delta-fair-sharing
+    - name: Dev Bali
+      where: UC Berkeley
+      projects:
+        - title: Delta Fair Sharing
+          permalink: vldb27/delta-fair-sharing
+        - title: Token Latency Fairness
+          permalink: arxiv26/token-latency-fairness
+    - name: Diogo Antunes
+      where: UC Berkeley
+      projects:
+        - title: Fugue
+    - name: David C. Y. Chu
+      where: UC Berkeley
+      projects:
+        - title: Rollbaccine
+          permalink: sigmod26/rollbaccine
+    - name: Jaewan Hong
+      where: UC Berkeley
+      projects:
+        - title: Lost in Translation
+          permalink: hotnets25/lost-in-translation
+        - title: Delta Fair Sharing
+          permalink: vldb27/delta-fair-sharing
+    - name: Harald Ng
+      where: KTH Sweden
+      projects:
+        - title: Metronome
+          permalink: vldb27/metronome
+
+- group: Masters
+  students:
+    - name: James DeLoye
+      where: UC Berkeley
+      projects:
+        - title: Delta Fair Sharing
+          permalink: vldb27/delta-fair-sharing
+        - title: "Extending Delayed Fair Sharing"
+          url: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-97.pdf
+
+- group: Undergraduate
+  students:
+    - name: Charisse Ivana Yeung
+      where: UC Berkeley
+      projects:
+        - title: Page Cache Fairness
+    - name: Souvik Banerjee
+      where: UT Austin
+      projects:
+        - title: RainBlock
+          permalink: atc21/rainblock
+        - title: "Implementing Stateless Clients in Ethereum"
+          url: https://apps.cs.utexas.edu/apps/sites/default/files/tech_reports/thesis-93d3253.pdf
+    - name: Gilad Oved
+      where: UT Austin
+      projects:
+        - title: mLSM
+          permalink: hotstorage18/mlsm
+    - name: Evan Kaminsky
+      where: UT Austin
+      projects:
+        - title: mLSM
+          permalink: hotstorage18/mlsm
+    - name: Zachary Keener
+      where: UT Austin
+      projects:
+        - title: mLSM
+          permalink: hotstorage18/mlsm
