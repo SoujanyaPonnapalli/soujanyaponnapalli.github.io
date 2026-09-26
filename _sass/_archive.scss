@@ -550,10 +550,10 @@
 
 .people-label {
   flex-shrink: 0;
-  /* Same width and text size as the publication badges, so all three pages
-     share one badge. The names and projects stay at body size. */
-  width: 128px;
-  font-size: $publication-font-size;
+  /* Body-sized and bold, so the section titles read as titles. Wider than the
+     publication badges because "Undergraduate" needs 124px at this size. */
+  width: 152px;
+  font-size: 1em;
   padding: 0.5rem 0.75rem;
   background: #f8fafc;
   border: 1px solid #e2e8f0;
@@ -602,8 +602,6 @@
   }
 }
 
-/* Mentoring page: badge stacks "<group>" over "students", matching the
-   conference-over-year stack on the publications badges. */
 /* Blue, but no underline - these columns are dense lists of links and the
    underlines made them look striped. Override :visited too, or the theme
    turns followed links purple. */
@@ -621,13 +619,11 @@
   }
 }
 
+/* Mentoring page: badge stacks "<group>" over "students", matching the
+   conference-over-year stack on the publications badges. */
 .people-label-group,
 .people-label-kind {
   display: block;
-}
-
-.people-label-kind {
-  font-weight: $font-weight-normal;
 }
 
 .mentee {
