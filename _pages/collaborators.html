@@ -1,13 +1,14 @@
 ---
 layout: archive
-title:  "" #"Collaborators"
+title: "Advisors, Collaborators, and Mentees"
 permalink: /collaborators/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.collaborators %}
-  {% include archive-single.html %}
+{% comment %} Ordered via the `order` field in each _collaborators entry. {% endcomment %}
+{% assign people = site.collaborators | sort: 'order' %}
+{% for post in people %}
+  {% include people-section.html %}
 {% endfor %}
-

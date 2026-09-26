@@ -1,21 +1,18 @@
 ---
-title: "" # "Portfolio item number 1"
-excerpt: #"Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Student Mentees"
+order: 5
 collection: collaborators
 ---
 
-Student Collaborators
------
-Reginald Frank, PhD student at UC Berkeley<br>
-Tyler Griggs, PhD student at UC Berkeley<br>
-David Chu, PhD student at UC Berkeley<br>
-Harald Ng, PhD student at KTH Sweden<br>
-Shu Liu, PhD student at UC Berkeley<br>
-Neil Giridharan, PhD student at UC Berkeley<br>
-Audrey Cheng, PhD student at UC Berkeley<br>
-Souvik Banerjee, Undergrad at UT Austin (now at Apple)<br>
-Gilad Oved, Undergrad at UT Austin<br>
-Evan Kaminsky, Undergrad at UT Austin<br>
-Zachary Keener, Undergrad at UT Austin
+**PhD students**<br>
+Reginald Frank, Shu Liu, Tyler Griggs, Dev Bali, and Diogo Antunes, UC Berkeley<br>
+David C. Y. Chu and Jaewan Hong, UC Berkeley<br>
+Harald Ng, KTH Sweden
 
-# This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+**Masters students**<br>
+James DeLoye, *Extending Delayed Fair Sharing*, UC Berkeley
+
+**Undergraduate students**<br>
+Charisse Ivana Yeung, UC Berkeley<br>
+Souvik Banerjee, *Implementing Stateless Clients in Ethereum*, UT Austin<br>
+Gilad Oved, Evan Kaminsky, and Zachary Keener, UT Austin

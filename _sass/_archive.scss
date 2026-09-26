@@ -533,3 +533,54 @@
     }
   }
 }
+
+/* ==========================================================================
+   Collaborators page: label column on the left, names on the right
+   ========================================================================== */
+
+.people-section {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid $border-color;
+  font-size: 1em; /* same as the body text on the home page */
+  line-height: 1.6;
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+.people-label {
+  flex-shrink: 0;
+  width: 200px;
+  font-weight: $font-weight-bold;
+  color: $text-color;
+}
+
+.people-names {
+  flex: 1;
+  min-width: 0;
+
+  p {
+    margin: 0 0 0.6em;
+    font-size: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* Stack the label above the names on narrow screens */
+@media (max-width: 34em) {
+  .people-section {
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .people-label {
+    width: auto;
+  }
+}

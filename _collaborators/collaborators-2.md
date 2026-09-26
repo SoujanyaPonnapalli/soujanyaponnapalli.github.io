@@ -1,20 +1,16 @@
 ---
-title: "" # "Portfolio item number 1"
-excerpt: #"Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Industry Collaborators and Mentors"
+order: 3
 collection: collaborators
 ---
 
-Mentors and Industry Collaborators
------
-Marcos K. Aguilera, 2021--Ongoing<br>
-Jonathan Goldstein, 2022<br>
-Kim Keeton, 2021<br>
-Sharad Singal, 2021<br>
+Marcos K. Aguilera, NVIDIA, 2021&ndash;ongoing<br>
+Jonathan Goldstein, Microsoft Research, 2022<br>
+Kimberly Keeton, 2021<br>
+Sharad Singhal, 2021<br>
 Saurabh Kadekodi, 2021<br>
-Anirudh Badam, 2020<br>
-Ranveer Chandra, 2020<br>
-Ant Rowstron, 2019<br>
-Dushayanth Narayanan, 2019<br>
-Ittai Abraham, 2018<br>
-Michael Wei, 2018<br>
-Amy Tai, 2018
+Anirudh Badam, Microsoft Research, 2020<br>
+Ranveer Chandra, Microsoft Research, 2020<br>
+Antony Rowstron, Microsoft Research, 2019<br>
+Dushyanth Narayanan, Microsoft Research, 2019<br>
+Michael Wei, VMware Research, 2018
