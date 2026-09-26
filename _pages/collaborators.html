@@ -7,6 +7,15 @@ author_profile: true
 
 {% include base_path %}
 
+<p class="people-intro">
+  I sincerely thank everyone who has inspired me to choose this path, supported
+  me along the way, and made my academic pursuit enjoyable. I am forever indebted
+  to my advisors for their mentorship, to my mentors for every opportunity to
+  learn from them, and to my collaborators for letting me lean on their expertise.
+  Each of these collaborations has been a remarkable learning experience, and I
+  hope to pay their kindness forward.
+</p>
+
 {% comment %} Ordered via the `order` field in each _collaborators entry. {% endcomment %}
 {% assign people = site.collaborators | sort: 'order' %}
 {% for post in people %}
