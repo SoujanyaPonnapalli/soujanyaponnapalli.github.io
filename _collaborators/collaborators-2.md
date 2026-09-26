@@ -1,5 +1,5 @@
 ---
-title: "Industry Collaborators and Mentors"
+title: "Industry Collaborators"
 order: 3
 collection: collaborators
 ---
