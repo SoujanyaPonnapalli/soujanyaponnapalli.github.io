@@ -59,6 +59,7 @@
     <div class="publication-links">
       {% if post.pdfurl and post.pdfurl != '' or post.paperurl and post.paperurl != '' %}
         {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
+        {% if post.downloadurl and post.downloadurl != '' %}{% assign paper_url = post.downloadurl %}{% endif %}
         <a href="{{ paper_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer"><i class="fas fa-download" aria-hidden="true"></i> Paper</a>
       {% endif %}
       {% if post.citationurl and post.citationurl != '' %}
