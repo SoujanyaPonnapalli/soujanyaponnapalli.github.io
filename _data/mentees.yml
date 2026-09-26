@@ -64,6 +64,7 @@
         - title: Delta Fair Sharing
           permalink: vldb27/delta-fair-sharing
         - title: "Extending Delayed Fair Sharing"
+          label: Thesis
           url: https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-97.pdf
 
 - group: Undergraduate
@@ -78,6 +79,7 @@
         - title: RainBlock
           permalink: atc21/rainblock
         - title: "Implementing Stateless Clients in Ethereum"
+          label: Thesis
           url: https://apps.cs.utexas.edu/apps/sites/default/files/tech_reports/thesis-93d3253.pdf
     - name: Gilad Oved
       where: UT Austin

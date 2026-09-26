@@ -31,6 +31,7 @@ author_profile: true
                 {%- endif -%}
               {%- endif -%}
               <li>
+                {%- if pr.label -%}{{ pr.label }}: {% endif -%}
                 {%- if href != '' -%}
                   <a href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ pr.title }}</a>
                 {%- else -%}
