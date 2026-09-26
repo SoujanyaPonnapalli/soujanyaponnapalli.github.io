@@ -535,33 +535,45 @@
 }
 
 /* ==========================================================================
-   Collaborators page: label column on the left, names on the right
+   Collaborators page: label badge on the left, names in a card on the right,
+   matching the badge + card treatment on the publications page.
    ========================================================================== */
 
 .people-section {
   display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
-  padding: 0.9rem 0;
-  border-bottom: 1px solid $border-color;
-  font-size: 1em; /* same as the body text on the home page */
+  gap: 1rem;
+  align-items: center;   /* badge centred against the card, as on publications */
+  margin-bottom: 1rem;
+  font-size: 1em;        /* same as the body text on the home page */
   line-height: 1.6;
-
-  &:last-of-type {
-    border-bottom: 0;
-  }
 }
 
 .people-label {
   flex-shrink: 0;
-  width: 200px;
+  width: 168px;
+  padding: 0.5rem 0.75rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  text-align: center;
   font-weight: $font-weight-bold;
-  color: $text-color;
+  color: #000;
+  line-height: 1.25;
 }
 
 .people-names {
   flex: 1;
   min-width: 0;
+  padding: 0.7em;
+  background: $body-color;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
 
   p {
     margin: 0 0 0.6em;
@@ -573,14 +585,16 @@
   }
 }
 
-/* Stack the label above the names on narrow screens */
+/* Stack the badge above the card on narrow screens */
 @media (max-width: 34em) {
   .people-section {
     flex-direction: column;
-    gap: 0.35rem;
+    align-items: stretch;
+    gap: 0.4rem;
   }
 
   .people-label {
     width: auto;
+    align-self: flex-start;
   }
 }
