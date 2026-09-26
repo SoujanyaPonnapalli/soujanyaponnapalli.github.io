@@ -13,12 +13,15 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* system typefaces */
-/* Palatino, to match the CV. System copies first so macOS ("Palatino") and
-   Windows ("Palatino Linotype") render from disk with no download; the
-   self-hosted TeX Gyre Pagella in _fonts.scss covers everyone else. */
-$palatino                   : "Palatino Linotype", "Palatino", "Book Antiqua", "URW Palladio L", "TeX Gyre Pagella", Georgia, serif;
-$serif                      : $palatino;
-$sans-serif                 : $palatino;
+/* Libre Franklin, the face Matei Zaharia's homepage uses, loaded from Google
+   Fonts in _includes/head.html. The system sans stack behind it is what the
+   page renders in while the webfont swaps in.
+
+   The previous Palatino stack, kept so switching back is a one-line change:
+   $palatino : "Palatino Linotype", "Palatino", "Book Antiqua", "URW Palladio L", "TeX Gyre Pagella", Georgia, serif; */
+$libre-franklin             : "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$serif                      : $libre-franklin;
+$sans-serif                 : $libre-franklin;
 $monospace                  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
 
 /* Publications page: one size for title, venue badge, status and links */
@@ -61,20 +64,22 @@ $font-weight-bold           : 700;
    Colors
    ========================================================================== */
 
-$gray                       : #6c757d;
-$dark-gray                  : #495057;
-$darker-gray                : #212529;
-$light-gray                 : #e9ecef;
-$lighter-gray               : #f8f9fa;
+/* Matei Zaharia's palette, read off the custom properties in his
+   modern-style.css: --muted, --heading, --rule, --panel, --text, --link. */
+$gray                       : #5f6368;  /* --muted */
+$dark-gray                  : #5f6368;  /* --muted */
+$darker-gray                : #151b26;  /* --heading */
+$light-gray                 : #deded8;  /* --rule */
+$lighter-gray               : #f8f8f6;  /* --panel */
 
-$body-color                 : #ffffff;
-$background-color           : #ffffff;
-$code-background-color      : #f8f9fa;
-$code-background-color-dark : #e9ecef;
-$text-color                 : #212529;
-$border-color               : #dee2e6;
+$body-color                 : #ffffff;  /* --bg */
+$background-color           : #ffffff;  /* --bg */
+$code-background-color      : #f8f8f6;  /* --panel */
+$code-background-color-dark : #edf3f8;  /* --accent-soft */
+$text-color                 : #202124;  /* --text */
+$border-color               : #deded8;  /* --rule */
 
-$primary-color              : #0000CC;  /* the CV blue, used site-wide */
+$primary-color              : #1455a3;  /* --link */
 $success-color              : #198754;
 $warning-color              : #ffc107;
 $danger-color               : #dc3545;
@@ -105,9 +110,9 @@ $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $primary-color;
-$link-color-hover           : #000099;
-$link-color-visited         : #6f42c1;
-$masthead-link-color        : $darker-gray;
+$link-color-hover           : #0b3f7a;  /* --link-hover */
+$link-color-visited         : $primary-color;  /* his links do not change on visit */
+$masthead-link-color        : $text-color;
 $masthead-link-color-hover  : $primary-color;
 
 

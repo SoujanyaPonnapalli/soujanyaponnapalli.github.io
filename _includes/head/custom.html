@@ -53,13 +53,13 @@
   
   /* Additional typography improvements */
   .page__title {
-    font-weight: 700;
-    letter-spacing: -0.03em;
+    font-weight: 600;
+    letter-spacing: 0;
   }
   
   .archive__item-title {
     font-weight: 600;
-    letter-spacing: -0.02em;
+    letter-spacing: 0;
   }
   
   .toc__title {
@@ -112,7 +112,7 @@
   }
   
   th {
-    background-color: #f8f9fa;
+    background-color: #f8f8f6;
     font-weight: 600;
   }
   
@@ -155,7 +155,7 @@
     margin-bottom: 1em;
     padding: 1.5em;
     background: #ffffff;
-    border: 1px solid #dee2e6;
+    border: 1px solid #deded8;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.2s ease;
@@ -193,7 +193,7 @@
     margin-bottom: 1em;
     padding: 1.5em;
     background: #ffffff;
-    border: 1px solid #dee2e6;
+    border: 1px solid #deded8;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.2s ease;
@@ -210,7 +210,7 @@
     margin-bottom: 1.5em;
     padding: 1.5em;
     background: #ffffff;
-    border: 1px solid #dee2e6;
+    border: 1px solid #deded8;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.2s ease;
@@ -220,16 +220,16 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Ensure headings use the Palatino stack in bold */
+  /* Headings: Libre Franklin at 600, the weight Matei's h1 uses */
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Palatino Linotype", "Palatino", "Book Antiqua", "URW Palladio L", "TeX Gyre Pagella", Georgia, serif;
-    font-weight: 700;
+    font-family: "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
   }
   
   /* Organizational Roles styling */
   .page__content h4 {
-    color: #0000CC;
-    border-bottom: 2px solid #dee2e6;
+    color: #1455a3;
+    border-bottom: 2px solid #deded8;
     padding-bottom: 0.5em;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -242,7 +242,7 @@
   /* Bold list items for organizational roles */
   .page__content h3 + ul li strong,
   .page__content h3 ~ ul li strong {
-    color: #212529;
+    color: #202124;
     font-weight: 700;
   }
   
@@ -266,7 +266,7 @@
   
   .role-box {
     background: white;
-    border: 1px solid #dee2e6;
+    border: 1px solid #deded8;
     border-radius: 6px;
     padding: 0.75rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -278,14 +278,14 @@
   .role-box:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    border-color: #adb5bd;
+    border-color: #c6c6bd;
   }
   
   .role-title {
-    font-family: "Palatino Linotype", "Palatino", "Book Antiqua", "URW Palladio L", "TeX Gyre Pagella", Georgia, serif;
+    font-family: "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    color: #212529;
+    color: #202124;
     margin-bottom: 0.75rem;
   }
   
@@ -298,20 +298,20 @@
   }
   
   .role-item {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
+    background: #f8f8f6;
+    border: 1px solid #deded8;
     border-radius: 4px;
     padding: 0.4rem 0.6rem;
     font-size: 0.85rem;
     text-align: center;
     font-weight: 500;
-    color: #0000CC;
+    color: #1455a3;
     transition: all 0.2s ease;
   }
   
   .role-item:hover {
-    background: #e9ecef;
-    border-color: #adb5bd;
+    background: #edf3f8;
+    border-color: #c6c6bd;
     transform: scale(1.02);
   }
   
@@ -325,7 +325,7 @@
   
   .contact-box {
     background: white;
-    border: 1px solid #dee2e6;
+    border: 1px solid #deded8;
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
@@ -338,7 +338,7 @@
   .contact-box:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    border-color: #adb5bd;
+    border-color: #c6c6bd;
   }
   
   .contact-icon {
@@ -348,19 +348,19 @@
   
   .contact-label {
     font-weight: 600;
-    color: #495057;
+    color: #5f6368;
     font-size: 0.9rem;
     margin-bottom: 0.25rem;
   }
   
   .contact-value {
     font-size: 0.85rem;
-    color: #6c757d;
+    color: #5f6368;
     word-break: break-word;
   }
   
   .contact-value a {
-    color: #0000CC;
+    color: #1455a3;
     text-decoration: none;
   }
   
@@ -399,26 +399,26 @@
   }
   
   .contact-row .contact-item {
-    background: #f8f9fa;
-    border: 1px solid #dee2e6;
+    background: #f8f8f6;
+    border: 1px solid #deded8;
     border-radius: 6px;
     padding: 0.5rem 0.75rem;
     font-size: 0.9rem;
     font-weight: 500;
-    color: #495057;
+    color: #5f6368;
     transition: all 0.2s ease;
     margin-bottom: 0;
     text-align: center;
   }
   
   .contact-row .contact-item:hover {
-    background: #e9ecef;
-    border-color: #adb5bd;
+    background: #edf3f8;
+    border-color: #c6c6bd;
     transform: scale(1.02);
   }
   
   .contact-row .contact-item a {
-    color: #0000CC;
+    color: #1455a3;
     text-decoration: none;
   }
   
@@ -445,7 +445,7 @@
     align-items: flex-start;
     padding: 1rem;
     background: #ffffff;
-    border: 1px solid #dee2e6;
+    border: 1px solid #deded8;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.2s ease;
@@ -456,13 +456,13 @@
   }
   
   .news-year {
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
+    background: #f8f8f6;
+    border: 1px solid #deded8;
     border-radius: 6px;
     padding: 0.5rem 0.75rem;
     font-size: 0.9rem;
     font-weight: 500;
-    color: #0000CC;
+    color: #1455a3;
     min-width: 60px;
     text-align: center;
     flex-shrink: 0;
@@ -474,7 +474,7 @@
   }
   
   .news-content a {
-    color: #0000CC;
+    color: #1455a3;
     text-decoration: none;
   }
   

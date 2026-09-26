@@ -135,7 +135,7 @@
   .archive__item-excerpt {
     margin-bottom: 0.2em;
     line-height: 0.5;
-    color: #495057;
+    color: #5f6368;
     font-size: 1em !important;
   }
 
@@ -180,8 +180,8 @@
     justify-content: center;
     width: 100%;
     padding: 0.5rem 0.75rem;
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
+    background: #f8f8f6;
+    border: 1px solid #deded8;
     border-radius: 6px;
     line-height: 1.25;
     text-align: center;
@@ -216,7 +216,7 @@
   .publication-status {
     font-size: $publication-font-size !important;
     margin: 0 0 0.35em;
-    color: #495057;
+    color: #5f6368;
   }
 
   /* Stack the badge above the text on narrow screens */
@@ -254,7 +254,7 @@
     margin-top: 0 !important;
     margin-bottom: 0.35em;
     line-height: 1.5;
-    color: #495057;
+    color: #5f6368;
   }
 
   .publication-award {
@@ -277,7 +277,7 @@
   .archive__item-title + p:not(.publication-venue) {
     font-size: 0.8em;
     margin-bottom: 0.2em;
-    color: #495057;
+    color: #5f6368;
   }
 
   /* Publication links styling */
@@ -291,18 +291,18 @@
   .publication-link-item {
     display: inline-block;
     padding: 0.2em 0.6em;
-    background: #f1f3f5;
-    color: #495057;
+    background: #f8f8f6;
+    color: #5f6368;
     text-decoration: none;
     border-radius: 3px;
     font-size: $publication-font-size;
     font-weight: 400;
     transition: all 0.2s ease;
-    border: 1px solid #dee2e6;
+    border: 1px solid #deded8;
 
     &:hover {
-      background: #dee2e6;
-      color: #495057;
+      background: #deded8;
+      color: #5f6368;
       text-decoration: none;
       transform: translateY(-1px);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -539,6 +539,18 @@
    matching the badge + card treatment on the publications page.
    ========================================================================== */
 
+/* Lead-in paragraph above the badge rows on the collaborators and mentoring
+   pages. Indented to the names column so it lines up with the cards below. */
+.people-intro {
+  margin: 0 0 1.5rem;
+  padding-left: calc(152px + 1rem);
+  line-height: 1.7;
+
+  @include breakpoint(max-width $large) {
+    padding-left: 0;
+  }
+}
+
 .people-section {
   display: flex;
   gap: 1rem;
@@ -555,8 +567,8 @@
   width: 152px;
   font-size: 1em;
   padding: 0.5rem 0.75rem;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
+  background: #f8f8f6;
+  border: 1px solid #deded8;
   border-radius: 6px;
   text-align: center;
   font-weight: $font-weight-bold;

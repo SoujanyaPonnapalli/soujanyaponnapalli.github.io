@@ -7,13 +7,13 @@ This document outlines the professional font implementation for the Soujanya Pon
 
 ### Primary Fonts
 
-1. **Palatino** - serif used for body text, headings, and navigation
-   - Matches the CV, whose PDF embeds URW Palladio L (LaTeX `mathpazo`/`palatino`)
-   - Resolved from the visitor's own system first: `Palatino Linotype`
-     (Windows), `Palatino` (macOS), `Book Antiqua`, `URW Palladio L`
-   - Falls back to self-hosted **TeX Gyre Pagella** (GUST Font License), GUST's
-     Unicode extension of that same URW Palladio L design
-   - Final fallback: Georgia, then generic serif
+1. **Libre Franklin** - sans-serif used for body text, headings, and navigation
+   - Matches [Matei Zaharia's homepage](https://people.eecs.berkeley.edu/~matei/),
+     which loads the same face and the same four weights
+   - Weights: 400, 500, 600, 700
+   - Loaded from Google Fonts with `display=swap`
+   - Fallback stack: `-apple-system`, `BlinkMacSystemFont`, `Segoe UI`, Roboto,
+     Helvetica, Arial, generic sans-serif
 
 2. **JetBrains Mono** - monospace for code blocks
    - Weights: 400, 500, 600
@@ -21,45 +21,54 @@ This document outlines the professional font implementation for the Soujanya Pon
 
 ### Font Hierarchy
 
-- **Body text, headings, navigation**: Palatino stack
+- **Body text, headings, navigation**: Libre Franklin stack
+- **Headings**: weight 600, no negative tracking (matching his `h1`)
 - **Code**: JetBrains Mono (400 weight)
 
-### Why the hybrid
+### Colour palette
 
-Most visitors already have a Palatino, so listing the system faces first means
-macOS and Windows render from disk and download nothing. Only visitors without
-one fetch the WOFF2 (~33KB per face, loaded lazily per face as needed).
+Also taken from that homepage, read off the custom properties in its
+`modern-style.css`:
 
-The webfont is deliberately **not** `<link rel="preload">`ed: preload fetches
-unconditionally, which would charge every visitor for a font most already have.
+| Role | Value | His variable |
+| --- | --- | --- |
+| Body text | `#202124` | `--text` |
+| Headings | `#151b26` | `--heading` |
+| Muted text | `#5f6368` | `--muted` |
+| Links | `#1455a3` | `--link` |
+| Link hover | `#0b3f7a` | `--link-hover` |
+| Rules and borders | `#deded8` | `--rule` |
+| Stronger rules | `#c6c6bd` | `--rule-strong` |
+| Panels and badges | `#f8f8f6` | `--panel` |
+| Accent fill | `#edf3f8` | `--accent-soft` |
 
-macOS ships `/System/Library/Fonts/Palatino.ttc`, but that is Apple's licensed
-system font and is only ever used off the visitor's own disk - it is never
-converted or self-hosted. See `assets/fonts/README.md`.
+This replaced the previous scheme, which took Palatino and `#0000CC` from the
+CV. The Palatino stack and the self-hosted TeX Gyre Pagella faces are still in
+the repo (commented in `_variables.scss`, declared but unused in `_fonts.scss`)
+so that switching back is a one-line change.
 
 ## Implementation Details
 
 ### Files Modified
-1. `_sass/_variables.scss` - Font stacks point at the Palatino stack
-2. `_sass/_fonts.scss` - `@font-face` declarations for self-hosted TeX Gyre Pagella
+1. `_sass/_variables.scss` - Font stacks and the colour palette
+2. `_sass/_fonts.scss` - `@font-face` declarations for TeX Gyre Pagella (unused)
 3. `assets/fonts/` - Subset WOFF2 files plus licensing and regeneration notes
 4. `assets/css/main.scss` - Imports the `fonts` partial
 5. `_sass/_base.scss` - Enhanced typography with better spacing and rendering
 6. `_sass/_masthead.scss` - Updated navigation font family
-7. `_includes/head.html` - Google Fonts import, now JetBrains Mono only
+7. `_includes/head.html` - Google Fonts import for Libre Franklin and JetBrains Mono
 8. `_includes/head/custom.html` - Custom typography styles
 
 ### Key Improvements
 - **Font Rendering**: Added `-webkit-font-smoothing: antialiased` and `-moz-osx-font-smoothing: grayscale`
 - **Text Rendering**: Optimized with `text-rendering: optimizeLegibility`
-- **Letter Spacing**: Improved readability with negative letter spacing for headings
 - **Line Height**: Increased to 1.6 for better readability
 - **Font Loading**: Preconnect to Google Fonts for faster loading
 
 ### Typography Scale
 - Maintained existing type scale but enhanced with better font weights
 - Added consistent font weight variables for maintainability
-- Improved heading hierarchy with serif fonts for academic content
+- Improved heading hierarchy with a consistent sans-serif face
 
 ## Benefits
 1. **Professional Appearance**: Modern, clean typography suitable for academic content
