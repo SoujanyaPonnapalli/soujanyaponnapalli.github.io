@@ -11,6 +11,7 @@ confyear: 2019
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://dl.acm.org/doi/10.1145/3320275'
+pdfurl: 'https://dl.acm.org/doi/pdf/10.1145/3320275'
 slidesurl: ''
 talkurl: 'https://www.youtube.com/watch?v=BmhKbGoCyqo&ab_channel=Heisenbug'
 citationurl: '/files/bib/crashmonkey-tos19.bib'

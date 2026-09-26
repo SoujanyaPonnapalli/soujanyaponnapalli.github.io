@@ -25,7 +25,9 @@
   <div class="publication-body">
 
     <h2 class="archive__item-title publication-title" itemprop="headline">
-      {% if post.paperurl and post.paperurl != '' %}
+      {% if post.pdfurl and post.pdfurl != '' %}
+        <a href="{{ post.pdfurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+      {% elsif post.paperurl and post.paperurl != '' %}
         <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
@@ -55,8 +57,9 @@
     {% endif %}
 
     <div class="publication-links">
-      {% if post.paperurl and post.paperurl != '' %}
-        <a href="{{ post.paperurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Paper</a>
+      {% if post.pdfurl and post.pdfurl != '' or post.paperurl and post.paperurl != '' %}
+        {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
+        <a href="{{ paper_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer"><i class="fas fa-download" aria-hidden="true"></i> Paper</a>
       {% endif %}
       {% if post.citationurl and post.citationurl != '' %}
         {% if post.citationurl contains '://' %}{% assign cite_url = post.citationurl %}{% else %}{% assign cite_url = post.citationurl | prepend: base_path %}{% endif %}

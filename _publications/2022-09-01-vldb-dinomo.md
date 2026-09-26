@@ -11,6 +11,7 @@ confyear: 2022
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://doi.org/10.14778/3565838.3565854'
+pdfurl: 'https://www.vldb.org/pvldb/vol15/p4023-lee.pdf'
 slidesurl: 'https://wuklab.github.io/words/words22-lee-slides.pdf'
 talkurl: 'https://www.youtube.com/watch?v=Q1-nqbrmu0o&ab_channel=WukLab'
 citationurl: '/files/bib/dinomo-vldb22.bib'

@@ -11,6 +11,7 @@ confyear: 2021
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://dl.acm.org/doi/10.1145/3477132.3483567'
+pdfurl: 'https://dl.acm.org/doi/pdf/10.1145/3477132.3483567'
 slidesurl: 'https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21-slides.pdf'
 talkurl: 'https://www.youtube.com/watch?v=16Ami3IsYI8&ab_channel=ACMSIGOPS'
 citationurl: '/files/bib/winefs-sosp21.bib'

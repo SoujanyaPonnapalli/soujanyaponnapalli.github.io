@@ -11,6 +11,7 @@ confyear: 2021
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/atc21/presentation/ponnapalli'
+pdfurl: 'https://www.usenix.org/system/files/atc21-ponnapalli.pdf'
 slidesurl: 'https://www.usenix.org/system/files/atc21_slides_ponnapalli.pdf'
 talkurl: 'https://www.youtube.com/watch?v=oyrWI2LaDq8&ab_channel=USENIX'
 citationurl: '/files/bib/rainblock-atc21.bib'

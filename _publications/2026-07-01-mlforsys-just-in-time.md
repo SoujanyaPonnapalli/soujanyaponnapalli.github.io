@@ -12,6 +12,7 @@ status: 'Under submission'
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: 'There has always been a trade-off between general-purpose and specialized systems: in the past, the engineering effort to build a specialized system outweighed its benefits. We argue that LLMs and coding agents bring us to an inflection point, and that we can now synthesize a single-node key-value store just in time, for a specific workload and cost budget.'
 paperurl: 'https://arxiv.org/abs/2605.24096'
+pdfurl: 'https://arxiv.org/pdf/2605.24096'
 slidesurl: ''
 talkurl: ''
 citationurl: '/files/bib/just-in-time-mlforsys26.bib'

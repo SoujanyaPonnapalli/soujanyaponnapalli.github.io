@@ -11,6 +11,7 @@ confyear: 2025
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://doi.org/10.1145/3772356.3772379'
+pdfurl: 'https://dl.acm.org/doi/pdf/10.1145/3772356.3772379'
 slidesurl: ''
 talkurl: ''
 citationurl: '/files/bib/lost-in-translation-hotnets25.bib'

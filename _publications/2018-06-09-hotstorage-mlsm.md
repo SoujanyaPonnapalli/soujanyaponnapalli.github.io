@@ -11,6 +11,7 @@ confyear: 2018
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/hotstorage18/presentation/raju'
+pdfurl: 'https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf'
 slidesurl: 'https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf'
 talkurl: ''
 citationurl: '/files/bib/mlsm-hotstorage18.bib'

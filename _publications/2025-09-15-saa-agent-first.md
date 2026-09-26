@@ -13,6 +13,7 @@ confyear2: 2025
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: 'With LLMs and coding agents, data systems will be unable to handle the volume of agentic speculation: the automated, high-speed exploration of candidate solutions across many tasks. We argue that data systems should be designed to be agent-first, to natively support these speculative workloads. We outline new research opportunities, from agentic memory stores to full agent-first data store architectures.'
 paperurl: 'https://arxiv.org/abs/2509.00997'
+pdfurl: 'https://arxiv.org/pdf/2509.00997'
 slidesurl: ''
 talkurl: ''
 citationurl: '/files/bib/agent-first-saa25.bib'

@@ -11,6 +11,7 @@ confyear: 2025
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://dl.acm.org/doi/10.1145/3708993'
+pdfurl: 'https://dl.acm.org/doi/pdf/10.1145/3708993'
 slidesurl: ''
 talkurl: ''
 citationurl: '/files/bib/holographic-storage-tos25.bib'

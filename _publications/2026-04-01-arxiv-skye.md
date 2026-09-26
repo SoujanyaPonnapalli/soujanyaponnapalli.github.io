@@ -11,6 +11,7 @@ confyear: 2026
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://arxiv.org/abs/2609.20972'
+pdfurl: 'https://arxiv.org/pdf/2609.20972'
 slidesurl: ''
 talkurl: ''
 citationurl: '/files/bib/skye-arxiv26.bib'

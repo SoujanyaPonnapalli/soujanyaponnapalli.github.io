@@ -11,6 +11,7 @@ confyear: 2018
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: ''
 paperurl: 'https://www.usenix.org/conference/osdi18/presentation/mohan'
+pdfurl: 'https://www.usenix.org/system/files/osdi18-mohan.pdf'
 slidesurl: 'https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_mohan.pdf'
 talkurl: ''
 citationurl: '/files/bib/crashmonkey-osdi18.bib'
