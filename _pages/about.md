@@ -243,7 +243,7 @@ working on!
     <a href="{{ base_path }}/mentoring/">See who I have worked with</a> and what we built together.</li>
   <li>I have mentored women in CS (WiCS) at UT Austin, and was a mentor for young
     researchers at SOSP and OSDI.</li>
-  <li>I ran and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
+  <li>I founded and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
 </ul>
 
 ### Get in Touch!
