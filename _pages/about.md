@@ -106,7 +106,7 @@ at the moment.
 <div class="theme-grid">
 
   <div class="theme-card">
-    <div class="theme-name">Performance isolation</div>
+    <div class="theme-name">Performance and multi-tenancy</div>
     <div class="theme-blurb">
       How do you give one tenant a guarantee when it shares storage, page
       cache and inference capacity with every other tenant? I design isolation
@@ -117,7 +117,7 @@ at the moment.
   </div>
 
   <div class="theme-card">
-    <div class="theme-name">Guarantees</div>
+    <div class="theme-name">Fault tolerance and replication</div>
     <div class="theme-blurb">
       What should a system promise, and what should it charge for that
       promise? I work on cheaper logging, finer-grained fault tolerance and
@@ -128,18 +128,18 @@ at the moment.
   </div>
 
   <div class="theme-card">
-    <div class="theme-name">Emerging storage</div>
+    <div class="theme-name">Emerging technologies</div>
     <div class="theme-blurb">
       Persistent memory, CXL, disaggregation, holographic media and
       multi-cloud object stores each break an assumption baked into the storage
-      stack. What does that stack look like when it is designed around what the
-      hardware actually offers?
+      stack. What does that stack look like when it is designed around what these
+      technologies actually offer?
     </div>
     {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye|DINOMO::vldb/dinomo|WineFS::sosp21/winefs|Holographic Storage::tos25/holographic-storage|Lost in Translation::hotnets25/lost-in-translation" %}
   </div>
 
   <div class="theme-card">
-    <div class="theme-name">Data systems for AI</div>
+    <div class="theme-name">Systems for AI</div>
     <div class="theme-blurb">
       Agents query, branch and discard data very differently from people.
       What do data systems look like when agents, not humans, are the primary
