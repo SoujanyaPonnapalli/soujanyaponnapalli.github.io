@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+<div class="page-lead" markdown="1">
+
 I am a systems researcher. I love building systems that are not just fast and
 scalable, but also reliable, providing strong guarantees in practice, such as
 performance isolation and fault tolerance. **I am on the job market this year!**
@@ -31,6 +33,8 @@ My research sits at the intersection of distributed and storage systems. I
 rethink how systems *should be* designed to meet the demands of new-age
 applications, both the guarantees those applications need and the performance
 they expect.
+
+</div>
 
 ### Selected Publications
 -----

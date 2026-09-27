@@ -554,6 +554,15 @@
   line-height: 1.7;
 }
 
+/* The opening paragraphs on the home page. Without this they sit at body
+   size while every block beneath them is $publication-font-size, so the page
+   started large and then dropped. Needs .page__content in the selector to
+   outrank the theme's `.page__content p { font-size: 1em }`. */
+.page__content .page-lead p {
+  font-size: $publication-font-size;
+  line-height: 1.7;
+}
+
 /* Selected News on the home page. These cards are divs, so nothing set their
    size and they inherited body text, making the page step between 18px and
    14.4px from one section to the next. */
