@@ -240,14 +240,19 @@ performance that applications need and expect. Take a look at the broad
     <a href="{{ base_path }}/posters/cascades.jpg" target="_blank" rel="noopener noreferrer">Poster</a>: Recovery Can Be Simple, Sky Retreat 2024</span></li>
 </ul>
 
-### Awards
+### Selected Awards
 -----
+
+{% comment %}
+  The gold medal stays in the opening paragraph rather than being repeated
+  here, so this section carries only what is not already on the page.
+{% endcomment %}
 
 <ul class="service-rows">
   <li><span class="service-role">Fellowships</span><span><a href="https://suri.epfl.ch/#overview" target="_blank" rel="noopener noreferrer">Summer Research Institute</a>, EPFL, 2025<br>
     James C. Browne Graduate Fellowship, UT Austin, 2017&ndash;18</span></li>
-  <li><span class="service-role">Academic</span><span>Best all-rounder gold medal, IIIT Hyderabad, 2017<br>
-    Dean's Award for ranking in the top 5% of students, IIIT Hyderabad, 2014&ndash;17</span></li>
+  <li><span class="service-role">Nomination</span><span>Best of VLDB&rsquo;25, for
+    <a href="https://www.vldb.org/pvldb/vol18/p2084-liu.pdf" target="_blank" rel="noopener noreferrer">SkyStore</a></span></li>
 </ul>
 
 ### Service
