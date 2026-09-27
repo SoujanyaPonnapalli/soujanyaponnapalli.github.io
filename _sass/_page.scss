@@ -117,26 +117,9 @@
     margin-top: 1em;
   }
 
-  .publication-link-item {
-    display: inline-block;
-    padding: 0.3em 0.8em;
-    background: #f1f3f5;
-    color: #495057;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: $publication-font-size;
-    font-weight: 400;
-    transition: all 0.2s ease;
-    border: 1px solid #dee2e6;
-
-    &:hover {
-      background: #dee2e6;
-      color: #495057;
-      text-decoration: none;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    }
-  }
+  /* .publication-link-item is defined once, in _archive.scss. A second copy
+     lived here with the pre-Matei palette (#f1f3f5 / #495057 / #dee2e6) and
+     would have won on any page using the `single` layout. */
 
   p, li, dl {
     font-size: 1em;

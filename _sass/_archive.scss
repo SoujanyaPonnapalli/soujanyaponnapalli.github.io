@@ -347,7 +347,7 @@
 
     &:hover,
     &:focus {
-      color: $link-color;
+      color: #fff;
     }
   }
 
@@ -369,10 +369,12 @@
     font-weight: 400;
     transition: background-color 0.2s ease, color 0.2s ease;
 
+    /* Same hover as the Follow button: the palette's darker blue with white
+       text, so every pressable thing on the site reacts the same way. */
     &:hover,
     &:focus {
-      background: $accent-soft;
-      color: $link-color;
+      background: $link-color-hover;
+      color: #fff;
       text-decoration: none;
     }
   }

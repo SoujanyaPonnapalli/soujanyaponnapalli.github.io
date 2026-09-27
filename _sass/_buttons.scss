@@ -25,7 +25,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   &:hover {
-    background-color: #0a58ca;
+    background-color: $link-color-hover;   /* was a hard-coded #0a58ca, lighter than the site's link blue */
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
