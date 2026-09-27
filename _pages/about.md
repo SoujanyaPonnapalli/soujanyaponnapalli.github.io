@@ -11,8 +11,9 @@ redirect_from:
 <div class="page-lead" markdown="1">
 
 I am a systems researcher. I love building systems that are not just fast and
-scalable, but also reliable, providing strong guarantees in practice, such as
-performance isolation and fault tolerance. **I am on the job market this year!**
+scalable, but also reliable, providing strong guarantees, such as performance
+isolation and fault tolerance, in practice.<br>
+**I am on the job market this year!**
 
 I am a postdoctoral scholar at the [University of California, Berkeley](https://www.berkeley.edu/),
   working with [Natacha Crooks](https://nacrooks.github.io/) and
@@ -28,7 +29,7 @@ Prior to that, I earned my Bachelor's with Honors in Computer Science and
   Engineering from [IIIT Hyderabad](https://iiit.ac.in/), where I worked with
   [Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
 I have always been equally passionate about academic and non-academic pursuits,
-  and the best all-rounder gold medal is the closest thing I have to proof.
+  and in recognition, I received the best all-rounder gold medal.
 
 My research sits at the intersection of distributed and storage systems. I
 rethink how systems *should be* designed to meet the demands of new-age

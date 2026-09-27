@@ -24,8 +24,10 @@ $serif                      : $libre-franklin;
 $sans-serif                 : $libre-franklin;
 $monospace                  : "JetBrains Mono", Monaco, Consolas, "Lucida Console", monospace;
 
-/* Publications page: one size for title, venue badge, status and links */
-$publication-font-size      : 0.8em;
+/* The site's small-text size: publication titles and badges, the card blocks
+   on the home page, the page intros. Matches the sidebar's own 0.8333em so the
+   two columns read at one size rather than 14.4px against 15px. */
+$publication-font-size      : 0.8333em;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
