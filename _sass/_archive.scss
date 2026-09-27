@@ -295,9 +295,10 @@
     margin-top: 0.5em;
   }
 
-  /* Pushes everything after Paper over to the right edge of the card. */
-  .publication-link-paper {
-    margin-right: auto;
+  /* Cite alone sits at the right edge; paper, talk and slides stay grouped
+     at the left. */
+  .publication-link-cite {
+    margin-left: auto;
   }
 
   .publication-link-item {
