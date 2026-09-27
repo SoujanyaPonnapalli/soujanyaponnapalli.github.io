@@ -142,9 +142,10 @@ performance that applications need and expect. Take a look at the broad
   <div class="theme-card">
     <div class="theme-name">Systems for AI</div>
     <div class="theme-blurb">
-      Agents query, branch and discard data very differently from people.
-      What do data systems look like when agents, not humans, are the primary
-      client?
+      When should a system be specialized, and for whom? I work on using
+      agents to synthesize specialized systems just in time, for a given
+      workload and setting. I also work on agent-first design: how these
+      systems should change when agents, not humans, are the primary client.
     </div>
     {% include theme-papers.html items="Supporting Our AI Overlords::saa25/agent-first-data-systems|Just-in-Time Systems::mlforsys26/just-in-time-systems" %}
   </div>
