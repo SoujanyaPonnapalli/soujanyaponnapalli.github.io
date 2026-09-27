@@ -25,6 +25,16 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css" data-turbo-track="reload">
+
+<!-- Turbo Drive: navigations fetch the next page and swap the <body> instead
+     of tearing down and rebuilding the whole document, so the masthead, the
+     stylesheet and the fonts are never re-parsed. It also prefetches a link
+     on hover, so most clicks land on an already-fetched page. Loaded in the
+     <head> because Turbo merges heads across visits but replaces the body:
+     a script down in the body would be re-executed on every navigation.
+     data-turbo-track="reload" above forces a real reload when main.css
+     changes, so a deploy can never leave a page on a stale stylesheet. -->
+<script src="{{ base_path }}/assets/js/turbo.min.js" defer></script>
 
 <meta http-equiv="cleartype" content="on">
