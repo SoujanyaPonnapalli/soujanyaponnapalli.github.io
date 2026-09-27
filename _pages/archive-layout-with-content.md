@@ -2,6 +2,9 @@
 title: "Archive Layout with Content"
 layout: archive
 permalink: /archive-layout-with-content/
+published: false
+# Not published: this is academicpages template scaffolding, kept in the
+# repo but kept off the site. Delete this line to bring it back.
 ---
 
 A variety of common markup showing how the theme styles them.

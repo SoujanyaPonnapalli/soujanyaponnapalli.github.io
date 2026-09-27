@@ -1,3 +1,9 @@
+---
+published: false
+# Not published: this is academicpages template scaffolding, kept in the
+# repo but kept off the site. Delete this line to bring it back.
+---
+
 Organizational Roles
 -----
 * Program Committee, Eurosys'25

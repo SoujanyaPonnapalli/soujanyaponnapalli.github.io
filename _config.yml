@@ -136,7 +136,19 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
+  # Repo documentation and asset notes: these were being published as pages
+  # (/FONT_UPGRADE/, /images/README-cv-images/ and so on).
+  - DESIGN_UPGRADE.md
+  - FONT_UPGRADE.md
+  - images/README-cv-images.md
+  - assets/fonts/README.md
+  - markdown_generator
+  - wordpress
+  - talkmap.ipynb
+  - talkmap
+  - talkmap.py
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
@@ -177,16 +189,18 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   collaborators:
-    output: true
+    # Data for the collaborators page, not pages in their own right: with
+    # output on, each entry also published at /collaborators/collaborators-1/.
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 

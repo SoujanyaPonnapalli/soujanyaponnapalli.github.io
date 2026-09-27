@@ -5,6 +5,9 @@ author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
+published: false
+# Not published: this is academicpages template scaffolding, kept in the
+# repo but kept off the site. Delete this line to bring it back.
 ---
 
 ## Locations of key files/directories

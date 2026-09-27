@@ -3,6 +3,9 @@ layout: archive
 title: #"Sitemap"
 permalink: /sitemap/
 author_profile: true
+published: false
+# Not published: template scaffolding. jekyll-sitemap still generates
+# sitemap.xml for search engines, which is the one that matters.
 ---
 
 {% include base_path %}
