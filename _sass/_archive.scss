@@ -543,10 +543,23 @@
    and mentoring pages. Runs the full width of the rows below it - badge
    column, gap and card column - so it starts level with the badges and ends
    flush with the right edge of the cards. */
-.page-intro {
+/* The second selector is for pages on the `single` layout, such as the home
+   page: there the theme sets `.page__content p { font-size: 1em }`, which
+   outranks a bare class and left this paragraph at body size while the blocks
+   around it were smaller. Archive-layout pages need the bare selector. */
+.page-intro,
+.page__content .page-intro {
   margin: 0 0 1.5rem;
   font-size: $publication-font-size;
   line-height: 1.7;
+}
+
+/* Selected News on the home page. These cards are divs, so nothing set their
+   size and they inherited body text, making the page step between 18px and
+   14.4px from one section to the next. */
+.news-content,
+.news-year {
+  font-size: $publication-font-size;
 }
 
 .people-section {
