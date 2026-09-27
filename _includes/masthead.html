@@ -1,6 +1,11 @@
 {% include base_path %}
 
-<div class="masthead">
+{% comment %}
+  data-turbo-permanent keeps this exact DOM node across Turbo visits, so
+  the nav is never torn down and rebuilt. Needs the id: that is how Turbo
+  matches it against the incoming page.
+{% endcomment %}
+<div class="masthead" id="site-masthead" data-turbo-permanent>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">

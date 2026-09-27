@@ -4,7 +4,7 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<div class="author__profile" itemscope itemtype="http://schema.org/Person">
+<div class="author__profile" id="author-profile" data-turbo-permanent itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
