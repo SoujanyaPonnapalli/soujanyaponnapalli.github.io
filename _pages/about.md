@@ -131,10 +131,10 @@ performance that applications need and expect. Take a look at the broad
   <div class="theme-card">
     <div class="theme-name">Emerging technologies</div>
     <div class="theme-blurb">
-      Persistent memory, CXL, disaggregation, holographic media and
+      Persistent memory, CXL, disaggregation, holographic media, and
       multi-cloud object stores each break an assumption baked into the storage
-      stack. What does that stack look like when it is designed around what these
-      technologies actually offer?
+      stack. What does that stack look like when it is designed for these
+      technologies?
     </div>
     {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye|DINOMO::vldb/dinomo|WineFS::sosp21/winefs|Holographic Storage::tos25/holographic-storage|GPU disaggregation::hotnets25/lost-in-translation" %}
   </div>
