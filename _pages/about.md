@@ -33,8 +33,9 @@ I have always been equally passionate about academic and non-academic pursuits,
 
 My research sits at the intersection of distributed and storage systems. I
 rethink how systems *should be* designed to meet the demands of new-age
-applications, both the guarantees those applications need and the performance
-they expect.
+applications, both the guarantees and performance that applications need and
+expect. Take a look at the [research themes](#research-themes) I am working on
+at the moment.
 
 </div>
 
@@ -99,6 +100,7 @@ they expect.
 </p>
 
 ### Research Themes
+{: #research-themes}
 -----
 
 <div class="theme-grid">
@@ -106,9 +108,10 @@ they expect.
   <div class="theme-card">
     <div class="theme-name">Performance isolation</div>
     <div class="theme-blurb">
-      Multi-tenant systems share storage, page cache and inference capacity, and
-      a noisy tenant degrades everyone else. I design isolation mechanisms that
-      bound that interference instead of hoping for the best.
+      How do you give one tenant a guarantee when it shares storage, page
+      cache and inference capacity with every other tenant? I design isolation
+      mechanisms that put a bound on the interference a tenant can suffer,
+      rather than hoping the average case holds.
     </div>
     {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::" %}
   </div>
@@ -116,9 +119,10 @@ they expect.
   <div class="theme-card">
     <div class="theme-name">Guarantees</div>
     <div class="theme-blurb">
-      Systems promise correctness under one fault model and pay for it
-      everywhere. I work on cheaper logging, finer-grained fault tolerance,
-      recovery, and guarantees that match the faults systems actually see.
+      What should a system promise, and what should it charge for that
+      promise? I work on cheaper logging, finer-grained fault tolerance and
+      recovery, so that the guarantees a system provides match the faults it
+      actually sees.
     </div>
     {% include theme-papers.html items="Metronome::vldb27/metronome|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
   </div>
@@ -126,9 +130,10 @@ they expect.
   <div class="theme-card">
     <div class="theme-name">Emerging storage</div>
     <div class="theme-blurb">
-      Persistent memory, CXL, disaggregation, holographic media and multi-cloud
-      object stores each break assumptions baked into the storage stack. I
-      redesign that stack around what the hardware actually offers.
+      Persistent memory, CXL, disaggregation, holographic media and
+      multi-cloud object stores each break an assumption baked into the storage
+      stack. What does that stack look like when it is designed around what the
+      hardware actually offers?
     </div>
     {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye|DINOMO::vldb/dinomo|WineFS::sosp21/winefs|Holographic Storage::tos25/holographic-storage|Lost in Translation::hotnets25/lost-in-translation" %}
   </div>
@@ -136,9 +141,9 @@ they expect.
   <div class="theme-card">
     <div class="theme-name">Data systems for AI</div>
     <div class="theme-blurb">
-      Agents query, branch and discard data very differently from humans. I ask
-      what data systems look like when agents, not people, are the primary
-      client.
+      Agents query, branch and discard data very differently from people.
+      What do data systems look like when agents, not humans, are the primary
+      client?
     </div>
     {% include theme-papers.html items="Supporting Our AI Overlords::saa25/agent-first-data-systems|Just-in-Time Systems::mlforsys26/just-in-time-systems" %}
   </div>
@@ -223,25 +228,23 @@ they expect.
 <ul class="service-rows">
   <li><span class="service-role">Program Committee</span><span>OSDI'26, NSDI'26, ATC'25, NSDI'25, EuroSys'25</span></li>
   <li><span class="service-role">External Review Committee</span><span>FAST'25, ATC'24, NSDI'19</span></li>
-  <li><span class="service-role">Reviewer</span><span>NSF proposals 2026, ACM TOCS 2024</span></li>
-  <li><span class="service-role">Other service</span><span>Hallway discussion lead SOSP'21, Shadow PC EuroSys'20, Chair of GAAP@UT 2020-21</span></li>
+  <li><span class="service-role">Journal Reviewer</span><span>ACM TOCS 2024</span></li>
+  <li><span class="service-role">NSF Reviewer</span><span>Proposal review panel, 2026</span></li>
+  <li><span class="service-role">Other</span><span>Chair, Graduate Application Assistance Program (GAAP@UT), 2020-21<br>
+    Hallway discussion lead, SOSP'21<br>
+    Shadow PC, EuroSys'20</span></li>
 </ul>
 
-### Leadership
+### Mentoring and Leadership
 -----
 
-<ul class="role-list">
-  <li><span>Organizer, Sky Systems Seminar, Sky Computing Lab, UC Berkeley</span><span class="role-years">2024-25</span></li>
-  <li><span>Co-organizer, Databases Seminar, Sky Computing Lab, UC Berkeley</span><span class="role-years">2024-25</span></li>
-  <li><span>Representative, Graduate Association of Computer Sciences (GRACS@UT)</span><span class="role-years">2020-21</span></li>
-  <li><span>Mentor, Women in Computer Science (WiCS), UT Austin</span><span class="role-years">2019-20</span></li>
-  <li><span>Co-organizer, Systems Seminar, Lab for Advanced Systems Research, UT Austin</span><span class="role-years">2018</span></li>
+<ul class="service-plain">
+  <li>I have mentored PhD, Masters, and undergraduate students.
+    <a href="{{ base_path }}/mentoring/">See who I have worked with</a> and what we built together.</li>
+  <li>I have mentored women in CS (WiCS) at UT Austin, and was a mentor for young
+    researchers at SOSP and OSDI.</li>
+  <li>I ran and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
 </ul>
-
-<p class="page-intro">
-  I have also mentored students at UC Berkeley, UT Austin and KTH Sweden.
-  <a href="{{ base_path }}/mentoring/">See who I have worked with</a> and what we built together.
-</p>
 
 ### Get in Touch!
 -----

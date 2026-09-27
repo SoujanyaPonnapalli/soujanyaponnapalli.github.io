@@ -686,9 +686,14 @@
    grid reflows instead of overflowing at narrow widths. */
 .theme-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  /* Two per row: four themes read as a 2x2 block rather than an uneven flow. */
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.75rem;
   margin: 1.25rem 0 1.5rem;
+
+  @include breakpoint(max-width $medium) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .theme-card {
@@ -793,6 +798,9 @@
 .page__content {
   .publication-title {
     font-weight: $font-weight-normal !important;
+    /* The theme puts 0.5em above and below every .archive__item-title, which
+       showed as dead space inside these single-line cards. */
+    margin-top: 0 !important;
     margin-bottom: 0 !important;
   }
 
@@ -806,5 +814,25 @@
 
   .publication-status {
     margin-bottom: 0 !important;
+  }
+}
+
+
+/* The Mentoring and Leadership lines: plain sentences, no bullets or boxes. */
+.page__content .service-plain {
+  margin: 1.25rem 0 1.5rem;
+  padding: 0;
+
+  li {
+    display: block !important;
+    margin: 0 0 0.4em !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    list-style: none;
+    font-size: $publication-font-size;
+    line-height: 1.6;
   }
 }
