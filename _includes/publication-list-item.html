@@ -57,7 +57,7 @@
     {% endif %}
 
     {% comment %}
-      Paper, talk and slides group at the left; only cite is pushed to the
+      Paper, talk, slides and poster group at the left; only cite is pushed to the
       right. Done with margin-left:auto on the Cite link rather than two
       wrappers, so an entry without a citation still lines up.
     {% endcomment %}
@@ -72,6 +72,10 @@
       {% endif %}
       {% if post.slidesurl and post.slidesurl != '' %}
         <a href="{{ post.slidesurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">{% include link-icon.html name="slides" %}Slides</a>
+      {% endif %}
+      {% if post.posterurl and post.posterurl != '' %}
+        {% if post.posterurl contains '://' %}{% assign poster_url = post.posterurl %}{% else %}{% assign poster_url = post.posterurl | prepend: base_path %}{% endif %}
+        <a href="{{ poster_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">{% include link-icon.html name="poster" %}Poster</a>
       {% endif %}
       {% if post.citationurl and post.citationurl != '' %}
         {% if post.citationurl contains '://' %}{% assign cite_url = post.citationurl %}{% else %}{% assign cite_url = post.citationurl | prepend: base_path %}{% endif %}

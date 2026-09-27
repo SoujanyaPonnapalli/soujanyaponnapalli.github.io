@@ -12,6 +12,7 @@ confyear: 2018
 keyinsight: 'Ethereum stores its authenticated state as a Merkle tree on top of a key-value store, storing each Merkle node as a value and its hash as the key. As a result, a single update rewrites a path of nodes and incurs significant write amplification. With mLSM, we argue for a data structure that merges the two layers, keeping the authentication a Merkle tree provides while writing like a log-structured merge tree.'
 paperurl: 'https://www.usenix.org/conference/hotstorage18/presentation/raju'
 pdfurl: 'https://www.usenix.org/system/files/conference/hotstorage18/hotstorage18-paper-raju.pdf'
+posterurl: '/posters/mlsm.jpg'
 slidesurl: 'https://www.usenix.org/sites/default/files/conference/protected-files/hotstorage18_slides_ponnapalli.pdf'
 talkurl: ''
 citationurl: '/files/bib/mlsm-hotstorage18.bib'
