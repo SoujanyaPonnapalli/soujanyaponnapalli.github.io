@@ -540,14 +540,17 @@
    ========================================================================== */
 
 /* Lead-in paragraph above the badge rows on the collaborators and mentoring
-   pages. Indented to the names column so it lines up with the cards below. */
+   pages. Starts at the section badges rather than indenting to the names
+   column, but only runs as wide as that column. The archive layout renders
+   these pages outside .page__content, so a bare class is enough here. */
 .people-intro {
   margin: 0 0 1.5rem;
-  padding-left: calc(152px + 1rem);
+  max-width: calc(100% - 152px - 1rem);
+  font-size: $publication-font-size;
   line-height: 1.7;
 
   @include breakpoint(max-width $large) {
-    padding-left: 0;
+    max-width: none;
   }
 }
 
