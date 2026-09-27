@@ -230,8 +230,8 @@ working on!
   <li><span class="service-role">External Review Committee</span><span>FAST'25, ATC'24, NSDI'19</span></li>
   <li><span class="service-role">Journal Reviewer</span><span>ACM TOCS 2024</span></li>
   <li><span class="service-role">NSF Reviewer</span><span>Proposal review panel, 2026</span></li>
-  <li><span class="service-role">Other</span><span>Chair, Graduate Application Assistance Program (GAAP@UT), 2020-21<br>
-    Hallway discussion lead, SOSP'21<br>
+  {% comment %} GAAP lives under Mentoring and Leadership, not here. {% endcomment %}
+  <li><span class="service-role">Other</span><span>Hallway discussion lead, SOSP'21<br>
     Shadow PC, EuroSys'20</span></li>
 </ul>
 
