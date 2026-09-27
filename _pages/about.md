@@ -28,8 +28,9 @@ My dissertation aimed at
 Prior to that, I earned my Bachelor's with Honors in Computer Science and
   Engineering from [IIIT Hyderabad](https://iiit.ac.in/), where I worked with
   [Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
-I have always been equally passionate about academic and non-academic pursuits,
-  and in recognition, I received the best all-rounder gold medal.
+I have always been equally passionate about [academic]({{ base_path }}/publications/)
+  and [non-academic]({{ base_path }}/parallel-life/) pursuits, and in recognition,
+  I received the best all-rounder gold medal.
 
 My research sits at the intersection of distributed and storage systems. I
 rethink how systems *should be* designed to meet the demands of new-age
