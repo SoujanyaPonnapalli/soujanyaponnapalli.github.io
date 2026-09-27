@@ -33,7 +33,7 @@ I have always been equally passionate about [academic]({{ base_path }}/publicati
   I received the best all-rounder gold medal.
 
 My research sits at the intersection of distributed and storage systems. I
-rethink how systems *should be* designed to meet both the guarantees and
+enjoy rethinking how systems should be designed to meet both the guarantees and
 performance that applications need and expect. Take a look at the broad
 [research themes](#research-themes) I have been working on!
 
