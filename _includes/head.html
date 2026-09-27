@@ -25,7 +25,13 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css" data-turbo-track="reload">
+{% comment %}
+  The ?v= stamp changes with every build. Without it a visitor can be
+  served fresh HTML while still holding the previous stylesheet from
+  cache, since GitHub Pages sends max-age=600 on both; markup that
+  depends on new CSS then renders broken for up to ten minutes.
+{% endcomment %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ site.time | date: '%s' }}" data-turbo-track="reload">
 
 <!-- Turbo Drive: navigations fetch the next page and swap the <body> instead
      of tearing down and rebuilding the whole document, so the masthead, the
