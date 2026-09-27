@@ -665,3 +665,112 @@
     line-height: 1.5;
   }
 }
+
+
+/* ==========================================================================
+   HOME PAGE: research themes, service and leadership
+   ========================================================================== */
+
+/* Themes of work. Auto-fitting columns rather than a fixed count, so the
+   grid reflows instead of overflowing at narrow widths. */
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.theme-card {
+  padding: 0.85rem 1rem;
+  background: $body-color;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.theme-name {
+  margin-bottom: 0.3em;
+  font-size: $publication-font-size;
+  font-weight: $font-weight-semibold;
+  color: $darker-gray;
+  line-height: 1.35;
+}
+
+.theme-blurb {
+  font-size: $publication-font-size;
+  line-height: 1.6;
+  color: $text-color;
+}
+
+.theme-venues {
+  margin-top: 0.5em;
+  font-size: $publication-font-size;
+  color: $gray;
+}
+
+/* Service: a few short labelled lists side by side, the layout Chris
+   Rossbach's page uses. Columns collapse to one at narrow widths. */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.75rem 2rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.service-heading {
+  margin-bottom: 0.35em;
+  font-size: $publication-font-size;
+  font-weight: $font-weight-semibold;
+  color: $darker-gray;
+}
+
+/* Scoped under .page__content: the theme boxes every list item there
+   (padding, border, shadow, no bullet) and that rule outranks a bare class. */
+.page__content .service-list {
+  margin: 0;
+  padding-left: 1.1em;
+
+  li {
+    margin: 0 0 0.2em;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    list-style: disc;
+    font-size: $publication-font-size;
+    line-height: 1.5;
+  }
+}
+
+/* Leadership roles: role on the left, years right-aligned, the way a CV
+   sets them. */
+.page__content .role-list {
+  margin: 1.25rem 0 1.5rem;
+  padding: 0;
+
+  /* !important because this list is a direct sibling of its <h3>, which makes
+     the theme's "Recent News" rule apply. That selector carries two :not()
+     arguments, and :not() takes the specificity of its argument, so it scores
+     far above anything reasonable a class can write. */
+  li {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin: 0 0 0.35em !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    list-style: none;
+    font-size: $publication-font-size;
+    line-height: 1.5;
+  }
+}
+
+.role-years {
+  flex-shrink: 0;
+  color: $gray;
+}

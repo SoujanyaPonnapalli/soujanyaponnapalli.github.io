@@ -8,152 +8,129 @@ redirect_from:
   - /about.html
 ---
 
-<!-- UC Berkeley -->
-Soujanya is a postdoctoral scholar at the University of California, Berkeley.
-She is a systems researcher working with [Prof. Natacha Crooks](https://nacrooks.github.io/) and [Prof. Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) at
-  the [Sky Computing Lab](https://sky.cs.berkeley.edu/).
+I am a systems researcher. I love building systems that are not just fast and
+scale well, but that also provide strong guarantees in practice, such as
+performance isolation and fault tolerance. **I am on the job market this year!**
 
+I am a postdoctoral scholar at the [University of California, Berkeley](https://www.berkeley.edu/),
+  working with [Natacha Crooks](https://nacrooks.github.io/) and
+  [Matei Zaharia](https://people.eecs.berkeley.edu/~matei/) at the
+  [Sky Computing Lab](https://sky.cs.berkeley.edu/).
+Before that, I completed my PhD at [UT Austin](https://www.utexas.edu/) with
+  [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/), in the
+  [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/) and the
+  [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/), where my
+  [dissertation](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)
+  was on minimizing I/O bottlenecks to achieve scalable, high-throughput systems.
+Before that, I earned my Bachelor's with Honors in Computer Science and
+  Engineering from [IIIT Hyderabad](https://iiit.ac.in/), where I worked with
+  [Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/) and received
+  the best all-rounder gold medal.
 
+My research sits at the intersection of distributed and storage systems. I
+rethink how systems *should be* designed to meet the demands of new-age
+applications, both the guarantees those applications need and the performance
+they expect.
 
-Her research lies at the intersection of distributed and storage systems. 
-Her work improves system performance at scale; redesigns systems for emerging applications such as AI/ML workloads and blockchain;
-  leverages new hardware paradigms including persistent memory, CXL, and disaggregated architectures;
-  and strengthens fundamental system guarantees such as reliability, availability, and fault tolerance.
-Collectively, her research rethinks how storage and distributed systems *should be* designed to meet the demands of next-generation application workloads and hardware platforms.
-
-<!-- Her research is at the intersection of distributed and storage systems.
-Her work improves the performance and scalability of systems at scale; 
-  redesigns for emerging applications such as AI/ML workloads and blockchain;
-  leverages new hardware paradigms including persistent memory, CXL, and disaggregated architectures;
-  and strengthens fundamental system guarantees such as reliability, availability, and fault tolerance. 
-Collectively, her research rethinks how storage and distributed systems *should be* designed to meet the demands of next-generation application worklaods and hardware platforms. -->
-<!-- She built IO-efficient infrastructures for modern applications like blockchains,
-  key-value stores and file systems for emerging hardware like Persistent Memory and CXL,
-  and efficient recovery mechanisms for distributed databases. -->
-<!-- Currently, she is interested in improving the fault tolerance and IO efficiency of  systems that are at the heart of large-scale AI infrastructure. -->
-
-<!-- UT Austin -->
-She completed her PhD at [UT Austin](https://www.utexas.edu/),
-  under the guidance of [Prof. Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/) and
-  is a member of the [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/) and the [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/).
-Her [doctoral dissertation](https://www.cs.utexas.edu/~soujanya/dissertation.pdf)
-  focused on minimizing I/O bottlenecks in modern systems' infrastructure
-  for achieving high throughput and scalability.
-
-<!-- IIIT Hyderbad -->
-She obtained her Bachelor's degree with Honors in Computer Science and Engineering
-  from the [IIIT Hyderabad](https://iiit.ac.in/),
-  where she collaborated with [Prof. Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
-She was also awarded the best all-rounder gold medal for excelling in academics and for her contributions
-  to the institute's extracurricular activities.
-
-### Recent Publications
+### Selected Publications
 -----
+
+{% assign top_venues = "SIGMOD,VLDB,SOSP,OSDI,ATC,HotOS" | split: "," %}
+{% assign pubs = site.publications | sort: 'order' %}
+
 <div class="news-timeline">
-
+{% for post in pubs %}
+  {% comment %}
+    Liquid evaluates and/or right to left, so each condition gets its own flag.
+    Only accepted work is listed here; the full list carries the rest.
+  {% endcomment %}
+  {% assign is_top = false %}
+  {% if top_venues contains post.conf %}{% assign is_top = true %}{% endif %}
+  {% assign is_accepted = true %}
+  {% if post.status and post.status != '' %}{% assign is_accepted = false %}{% endif %}
+  {% if is_top and is_accepted %}
+  {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
   <div class="news-item">
-    <div class="news-year">SIGMOD'26</div>
+    <div class="news-year">{{ post.conf }}'{{ post.confyear | append: '' | slice: -2, 2 }}</div>
     <div class="news-content">
-      <a href="https://www.arxiv.org/abs/2505.04014">Rollbaccine: Herd Immunity against Storage Rollback Attacks in TEEs!</a><br>
-      Accepted to appear in the proceedings of SIGMOD'26
+      <a href="{{ paper_url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+      {% if post.award and post.award != '' %}<br><span class="publication-award">{{ post.award }}</span>{% endif %}
     </div>
   </div>
-
-  <div class="news-item">
-    <div class="news-year">CIDR'26</div>
-    <div class="news-content">
-      <a href="https://arxiv.org/pdf/2509.00997">Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First!</a><br>
-      Accepted to appear in the proceedings of CIDR'26
-    </div>
-  </div>
-
-
-  <div class="news-item">
-    <div class="news-year">HotNets'25</div>
-    <div class="news-content">
-      <a href="https://dl.acm.org/doi/pdf/10.1145/3772356.3772379">Lost in Translation: The Search for Meaning in Network-Attached GPU Disaggregation!</a><br>
-      Accepted to appear in the proceedings of HotNets'25
-    </div>
-  </div>
-
-  <div class="news-item">
-    <div class="news-year">SAA'25</div>
-    <div class="news-content">
-      <a href="https://arxiv.org/pdf/2509.00997">Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First!</a><br>
-      Accepted to appear in the proceedings of SAA'25
-    </div>
-  </div>
-
-  <div class="news-item">
-    <div class="news-year">HotOS'25</div>
-    <div class="news-content">
-      <a href="https://arxiv.org/pdf/2602.11362">Real Life is Uncertain. Consensus Should Be Too!</a><br>
-      Accepted to appear in the proceedings of HotOS'25
-    </div>
-  </div>
-
-  <div class="news-item">
-    <div class="news-year">VLDB'25</div>
-    <div class="news-content">
-      <a href="https://arxiv.org/pdf/2502.20818">SkyStore: Cost-Optimized Object Storage Across Regions and Clouds</a><br>
-      Accepted to appear in the proceedings of VLDB'25
-    </div>
-  </div>
-
+  {% endif %}
+{% endfor %}
 </div>
 
+<p class="page-intro">
+  This is a selection. The <a href="{{ base_path }}/publications/">full list of publications</a>
+  has everything, including work under submission, with the key insight behind each paper.
+</p>
 
-### On ArXiv
------
-<div class="news-timeline">
-  
-  <!-- <div class="news-item">
-    <div class="news-year">2025</div>
-    <div class="news-content">
-      <a href="https://arxiv.org/abs/2509.00997">Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First</a><br>
-      arXiv preprint
-    </div>
-  </div> -->
-
-  <div class="news-item">
-    <div class="news-year">2026</div>
-    <div class="news-content">
-      <a href="https://arxiv.org/pdf/2601.20030">Delta Fair Sharing: Performance Isolation for Multi-Tenant Storage Systems</a><br>
-      arXiv preprint
-    </div>
-  </div>
-
-</div>
-
-### Ongoing Research Projects
+### Research Themes
 -----
 
-<div class="news-timeline news-timeline-horizontal">
+<div class="theme-grid">
 
-  <div class="news-item">
-    <div class="news-content">
-      <a href="https://drive.google.com/file/d/1wwAoHGiSskina7lp6IS6fFW52ctWbPth/view">Fair Inference with Performance Isolation</a><br>
-      2025-Ongoing
+  <div class="theme-card">
+    <div class="theme-name">Performance isolation</div>
+    <div class="theme-blurb">
+      Multi-tenant systems share storage, page cache and inference capacity, and
+      a noisy tenant degrades everyone else. I design isolation mechanisms that
+      bound that interference instead of hoping for the best.
     </div>
+    <div class="theme-venues">Delta Fair Sharing &middot; Token Latency Fairness &middot; Page Cache Fairness</div>
   </div>
 
-  <div class="news-item">
-    <div class="news-content">
-      <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-97.pdf">Fair Sharing in Multi-Tenant Storage Systems</a><br>
-      2024-Ongoing
+  <div class="theme-card">
+    <div class="theme-name">Fault tolerance and consensus</div>
+    <div class="theme-blurb">
+      Replication protocols assume one fault model and pay for it everywhere. I
+      work on cheaper logging, finer-grained fault tolerance, and guarantees that
+      match the faults systems actually see.
     </div>
+    <div class="theme-venues">Metronome &middot; Real Life Is Uncertain (HotOS'25) &middot; Powder &middot; Fugue</div>
   </div>
 
-  <div class="news-item">
-    <div class="news-content">
-      <a href="https://www.youtube.com/watch?v=KqOtzIuAmFk&list=PLfwvyNe91s6h17_c8zlCO2wxOYGg6HBVf&ab_channel=UCBSkyComputing">Probabilistic and IO-Efficient Consensus</a><br>
-      2024-Ongoing
+  <div class="theme-card">
+    <div class="theme-name">Data systems for AI</div>
+    <div class="theme-blurb">
+      Agents query, branch and discard data very differently from humans. I ask
+      what data systems look like when agents, not people, are the primary
+      client.
     </div>
+    <div class="theme-venues">Supporting Our AI Overlords (CIDR'26) &middot; Just-in-Time Systems</div>
   </div>
 
+  <div class="theme-card">
+    <div class="theme-name">Storage across clouds</div>
+    <div class="theme-blurb">
+      Object stores are built for one region and one provider, leaving placement
+      and transfer costs to users. I build storage that spans regions and clouds
+      and decides those things itself.
+    </div>
+    <div class="theme-venues">SkyStore (VLDB'25) &middot; SKYE</div>
+  </div>
+
+  <div class="theme-card">
+    <div class="theme-name">Storage for new hardware</div>
+    <div class="theme-blurb">
+      Persistent memory, CXL, disaggregation and even holographic media each
+      break assumptions baked into the storage stack. I redesign that stack
+      around what the hardware actually offers.
+    </div>
+    <div class="theme-venues">WineFS (SOSP'21) &middot; DINOMO (VLDB'22) &middot; Lost in Translation (HotNets'25) &middot; Holographic Storage</div>
+  </div>
+
+  <div class="theme-card">
+    <div class="theme-name">Trustworthy storage</div>
+    <div class="theme-blurb">
+      Blockchains and confidential computing need storage that can be verified,
+      not merely trusted, and that stays fast while doing it.
+    </div>
+    <div class="theme-venues">Rollbaccine (SIGMOD'26) &middot; RainBlock (ATC'21) &middot; mLSM</div>
+  </div>
 
 </div>
-
 
 ### Selected News
 -----
@@ -163,104 +140,100 @@ She was also awarded the best all-rounder gold medal for excelling in academics 
     <div class="news-year">2025</div>
     <div class="news-content">
       Invited for a talk at ETH Zurich, 06-18-2025<br>
-      <a href="#">Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!</a>
+      Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!
     </div>
   </div>
-  
+
   <div class="news-item">
     <div class="news-year">2025</div>
     <div class="news-content">
-      <a href="https://suri.epfl.ch/#overview">Summer Research Institute 2025</a><br>
+      <a href="https://suri.epfl.ch/#overview" target="_blank" rel="noopener noreferrer">Summer Research Institute 2025</a><br>
       Awarded a fellowship to attend SuRI at EPFL
     </div>
   </div>
-    
+
   <div class="news-item">
     <div class="news-year">2024</div>
     <div class="news-content">
-      Received funding from <a href="https://rdi.berkeley.edu/">Berkeley RDI Frontier Research</a><br>
+      Received funding from <a href="https://rdi.berkeley.edu/" target="_blank" rel="noopener noreferrer">Berkeley RDI Frontier Research</a><br>
       Proposal: Building Scalable and IO-efficient Authenticated Storage Systems
     </div>
   </div>
-  
+
   <div class="news-item">
     <div class="news-year">2024</div>
     <div class="news-content">
-      <a href="https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf">Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems</a><br>
+      <a href="https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf" target="_blank" rel="noopener noreferrer">Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems</a><br>
       Vijay Chidambaram, Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
     </div>
   </div>
 </div>
 
-
-### Organizational Roles
+### Service
 -----
 
-<div class="roles-grid">
-  <div class="role-box conference">
-    <div class="role-title">NSF Proposal Reviewer</div>
-    <div class="role-items">
-      <span class="role-item">2026</span>
-    </div>
-  </div>
-  <div class="role-box conference">
-    <div class="role-title">Program Committee</div>
-    <div class="role-items">
-      <span class="role-item">OSDI'26</span>
-      <span class="role-item">ATC'25</span>
-      <span class="role-item">NSDI'25</span>
-      <span class="role-item">Eurosys'25</span>
-    </div>
-  </div>
-  <div class="roles-row">
-    <div class="role-box conference">
-      <div class="role-title">External Program Committee</div>
-      <div class="role-items">
-        <span class="role-item">FAST'25</span>
-        <span class="role-item">ATC'24</span>
-        <span class="role-item">NSDI'19</span>
-      </div>
-    </div>
-    <div class="role-box academic">
-      <div class="role-title">Journal Reviewer</div>
-      <div class="role-items">
-        <span class="role-item">ACM TOCS'24</span>
-      </div>
-    </div>
+<div class="service-grid">
+
+  <div>
+    <div class="service-heading">Program Committee</div>
+    <ul class="service-list">
+      <li>OSDI 2026</li>
+      <li>NSDI 2026</li>
+      <li>ATC 2025</li>
+      <li>NSDI 2025</li>
+      <li>EuroSys 2025</li>
+    </ul>
   </div>
 
-  <div class="role-box academic">
-    <div class="role-title">Academic Service</div>
-    <div class="role-items">
-      <span class="role-item">SOSP'21 Hallway Lead</span>
-      <span class="role-item">Eurosys'20 Shadow PC</span>
-    </div>
+  <div>
+    <div class="service-heading">External Review Committee</div>
+    <ul class="service-list">
+      <li>FAST 2025</li>
+      <li>ATC 2024</li>
+      <li>NSDI 2019</li>
+    </ul>
   </div>
 
-  <div class="role-box leadership">
-    <div class="role-title">University Leadership & Mentorship</div>
-    <div class="role-items">
-      <span class="role-item">GAAP Chair 2020-2021</span>
-      <span class="role-item">GRACS Representative 2020-2021</span>
-      <span class="role-item">WiCS Mentor 2019-2020</span>
-    </div>
+  <div>
+    <div class="service-heading">Reviewing and Other Service</div>
+    <ul class="service-list">
+      <li>NSF proposal reviewer, 2026</li>
+      <li>Journal reviewer, ACM TOCS, 2024</li>
+      <li>Hallway discussion lead, SOSP 2021</li>
+      <li>Shadow PC, EuroSys 2020</li>
+      <li>Chair, Graduate Application Assistance Program (GAAP@UT), 2020-21</li>
+    </ul>
   </div>
+
 </div>
+
+### Leadership
+-----
+
+<ul class="role-list">
+  <li><span>Organizer, Sky Systems Seminar, Sky Computing Lab, UC Berkeley</span><span class="role-years">2024-25</span></li>
+  <li><span>Co-organizer, Databases Seminar, Sky Computing Lab, UC Berkeley</span><span class="role-years">2024-25</span></li>
+  <li><span>Representative, Graduate Association of Computer Sciences (GRACS@UT)</span><span class="role-years">2020-21</span></li>
+  <li><span>Mentor, Women in Computer Science (WiCS), UT Austin</span><span class="role-years">2019-20</span></li>
+  <li><span>Co-organizer, Systems Seminar, Lab for Advanced Systems Research, UT Austin</span><span class="role-years">2018</span></li>
+</ul>
+
+<p class="page-intro">
+  I have also mentored students at UC Berkeley, UT Austin and KTH Sweden.
+  <a href="{{ base_path }}/mentoring/">See who I have worked with</a> and what we built together.
+</p>
 
 ### Get in Touch!
 -----
 
-
-<div class="roles-grid">
-  <div class="role-box conference">
-    <div class="role-title">  Soujanya organizes the <a href="https://sky.cs.berkeley.edu/">Sky Seminar Series</a> at Berkeley for 2024-25. If you are interested in presenting your recent systems research, feel free to reach out to her! </div>
-    <div class="role-items">
-      <span class="role-item"><a href="mailto:soujanya@berkeley.edu">bMail</a></span>
-      <span class="role-item"><a href="mailto:soujanyap95@gmail.com">GMail</a></span>
-      <span class="role-item"><a href="https://www.linkedin.com/in/soujanya-ponnapalli-553275107/">Linkedin</a></span>
-    </div>
-  </div>
-</div>
+<p class="page-intro">
+  I organize the <a href="https://sky.cs.berkeley.edu/" target="_blank" rel="noopener noreferrer">Sky Systems Seminar</a>
+  at Berkeley. If you would like to present your recent systems research, or just want to talk
+  about any of the above, please reach out:
+  <a href="mailto:soujanya@berkeley.edu">soujanya@berkeley.edu</a> &middot;
+  <a href="mailto:soujanyap95@gmail.com">soujanyap95@gmail.com</a> &middot;
+  <a href="https://www.linkedin.com/in/soujanya-ponnapalli-553275107/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</p>
 
 <!-- "I am a postdoctoral scholar at the University of California, Berkeley, working in collaboration with Prof. Natacha Crooks and affiliated with the Sky Computing Lab within the EECS Department. Presently, my focus lies on untrusted storage systems and crash- and byzantine-fault tolerant distributed systems.
 
