@@ -86,8 +86,7 @@ they expect.
 {% endfor %}
 
 <p class="page-intro">
-  This is a selection. The <a href="{{ base_path }}/publications/">full list of publications</a>
-  has everything, including work under submission, with the key insight behind each paper.
+  <a href="{{ base_path }}/publications/">The full publication list</a> with key insights behind each work!
 </p>
 
 ### Research Themes
