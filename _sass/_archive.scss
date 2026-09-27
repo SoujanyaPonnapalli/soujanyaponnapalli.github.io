@@ -753,33 +753,81 @@
   }
 }
 
+/* Mentoring page. Name and school in a fixed column, one project pill per row
+   beside it, so every project list starts at the same x instead of hanging at
+   a different height under each name. */
 .mentee {
-  margin-bottom: 0.9em;
+  display: grid;
+  grid-template-columns: 252px 1fr;
+  gap: 0.35rem 0.9rem;
+  align-items: start;
+  padding: 0.45em 0;
+  border-top: 1px solid $border-color;
+
+  &:first-child {
+    padding-top: 0;
+    border-top: 0;
+  }
 
   &:last-child {
-    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  /* 252px is set by the longest entry, "Charisse Ivana Yeung, UC Berkeley".
+     Anything narrower wraps the longest names onto a second line, which is
+     what the fixed column exists to avoid. */
+  /* $medium is 768px, which is sooner than this layout needs to give up:
+     a 768px viewport still leaves ~430px for the pills. */
+  @media (max-width: 34em) {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
   }
 }
 
-.mentee-name {
-  margin-bottom: 0.1em;
+.mentee-who {
+  min-width: 0;
 }
 
-/* Reset the themed list styling and keep the projects tight under the name.
-   No bullets, but indented so the projects read as belonging to the student. */
+/* A column of pills rather than a wrapped row: one project per line. */
 .mentee-projects {
-  margin: 0 0 0 1.25em;
-  padding: 0;
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.22em;
+  min-width: 0;
+}
 
-  li {
-    margin: 0;
-    padding: 0;
+.mentee-project {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  padding: 0.1em 0.7em;
+  border-radius: 999px;
+  background: $lighter-gray;
+  color: $link-color;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  /* Same hover as the paper links and the Follow button. */
+  &:hover,
+  &:focus {
+    background: $link-color-hover;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+/* Projects with no paper to point at. Dashed and unfilled, so it is visible
+   at a glance which pills are worth clicking. */
+.mentee-project--unlinked {
+  background: transparent;
+  border: 1px dashed $border-color;
+  color: $lightest-text;
+
+  &:hover,
+  &:focus {
     background: transparent;
-    border: 0;
-    box-shadow: none;
-    font-size: 1em;
-    line-height: 1.5;
+    color: $lightest-text;
   }
 }
 
@@ -797,7 +845,9 @@
   gap: 0.75rem;
   margin: 1.25rem 0 1.5rem;
 
-  @include breakpoint(max-width $medium) {
+  /* $medium is 768px, which is wider than this layout needs to give up at:
+     a 768px viewport still leaves ~430px for the pills. Collapse at 34em. */
+  @media (max-width: 34em) {
     grid-template-columns: 1fr;
   }
 }

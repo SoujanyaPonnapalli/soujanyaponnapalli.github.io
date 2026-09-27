@@ -21,9 +21,15 @@ author_profile: true
     </div>
     <div class="people-names">
       {% for s in block.students %}
+        {% comment %}
+          Name and school in a fixed column, one project pill per row beside it,
+          so every project list starts at the same x. The pill is a link when
+          the project has a paper and a dashed outline when it does not, so a
+          reader can see which ones lead somewhere.
+        {% endcomment %}
         <div class="mentee">
-          <div class="mentee-name"><strong>{{ s.name }}</strong>, {{ s.where }}</div>
-          <ul class="mentee-projects">
+          <div class="mentee-who"><strong>{{ s.name }}</strong>, {{ s.where }}</div>
+          <div class="mentee-projects">
             {% for pr in s.projects %}
               {%- assign href = '' -%}
               {%- if pr.url -%}
@@ -36,16 +42,13 @@ author_profile: true
                   {%- endif -%}
                 {%- endif -%}
               {%- endif -%}
-              <li>
-                {%- if pr.label -%}{{ pr.label }}: {% endif -%}
-                {%- if href != '' -%}
-                  <a href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ pr.title }}</a>
-                {%- else -%}
-                  {{ pr.title }}
-                {%- endif -%}
-              </li>
+              {%- if href != '' -%}
+                <a class="mentee-project" href="{{ href }}" target="_blank" rel="noopener noreferrer">{% if pr.label %}{{ pr.label }}: {% endif %}{{ pr.title }}</a>
+              {%- else -%}
+                <span class="mentee-project mentee-project--unlinked">{% if pr.label %}{{ pr.label }}: {% endif %}{{ pr.title }}</span>
+              {%- endif -%}
             {% endfor %}
-          </ul>
+          </div>
         </div>
       {% endfor %}
     </div>
