@@ -47,13 +47,19 @@
     document.documentElement.classList.add("turbo-visited");
   }, { once: true });
 
-  /* Reassemble the sidebar's mailto: from its two halves. Same block-comment
-     rule as above: the HTML compressor puts this script on one line. */
-  addEventListener("DOMContentLoaded", function () {
+  /* Reassemble every js-email link's mailto: from its two halves, so the
+     address is never in the served markup. Runs on turbo:load as well as the
+     first load: a Turbo navigation swaps the body without firing
+     DOMContentLoaded, so a link inside the page content would otherwise stay
+     unwired. Same block-comment rule as above: the HTML compressor puts this
+     script on one line. */
+  function wireEmailLinks() {
     document.querySelectorAll("a.js-email").forEach(function (a) {
       a.href = "mailto:" + a.dataset.user + "@" + a.dataset.domain;
     });
-  });
+  }
+  addEventListener("DOMContentLoaded", wireEmailLinks);
+  addEventListener("turbo:load", wireEmailLinks);
 </script>
 
 <meta http-equiv="cleartype" content="on">

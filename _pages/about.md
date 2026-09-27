@@ -242,7 +242,7 @@ working on!
     <a href="{{ base_path }}/mentoring/">See who I have worked with</a> and what we built together.</li>
   <li>I have mentored women in CS (WiCS) at UT Austin, and was a mentor for young
     researchers at SOSP and OSDI.</li>
-  <li>I founded and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
+  <li>I co-founded and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
 </ul>
 
 ### Get in Touch!
@@ -253,10 +253,11 @@ working on!
   at Berkeley. If you would like to present your recent systems research, or just want to talk
   about any of the above, please reach out:
   {% comment %}
-    Spelled out rather than linked, so a scraper cannot lift it. A mailto:
-    would put the address back in the markup and undo the point.
+    Written out, and clickable through the same js-email reassembly the sidebar
+    uses. A literal mailto: here would put the address straight back into the
+    markup, which is the first place a scraper looks.
   {% endcomment %}
-  soujanya at berkeley dot edu &middot;
+  <a href="#" class="js-email" data-user="soujanya" data-domain="berkeley.edu">soujanya at berkeley dot edu</a> &middot;
   <a href="https://www.linkedin.com/in/soujanya-ponnapalli-553275107/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 </p>
 
