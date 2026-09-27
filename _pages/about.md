@@ -242,7 +242,7 @@ performance that applications need and expect. Take a look at the broad
 <ul class="service-plain">
   <li>I have mentored PhD, Masters, and undergraduate students.
     <a href="{{ base_path }}/mentoring/">See who I have worked with</a> and what we built together.</li>
-  <li>I have mentored women in CS (WiCS) at UT Austin, and young researchers at
+  <li>I have mentored women in CS (WiCS) at UT Austin, and researchers at
     conferences.</li>
   <li>I co-founded and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
 </ul>
