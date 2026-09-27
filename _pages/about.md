@@ -134,7 +134,7 @@ working on!
       stack. What does that stack look like when it is designed around what these
       technologies actually offer?
     </div>
-    {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye|DINOMO::vldb/dinomo|WineFS::sosp21/winefs|Holographic Storage::tos25/holographic-storage|Lost in Translation::hotnets25/lost-in-translation" %}
+    {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye|DINOMO::vldb/dinomo|WineFS::sosp21/winefs|Holographic Storage::tos25/holographic-storage|GPU disaggregation::hotnets25/lost-in-translation" %}
   </div>
 
   <div class="theme-card">
