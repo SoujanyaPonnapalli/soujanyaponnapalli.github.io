@@ -148,9 +148,14 @@
     margin-bottom: 10px;
   }
 }
+/* The name sits under the photo, where the masthead used to carry it.
+   Left-aligned, lining up with the bio and the links below it. */
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
+  font-weight: $font-weight-semibold;
+  text-align: left;
+  color: $darker-gray;
 }
 
 .author__bio {
