@@ -121,7 +121,7 @@ blockquote {
 /* links */
 
 a {
-  &:focus {
+  &:focus-visible {
     @extend %tab-focus;
   }
 

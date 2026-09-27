@@ -2,12 +2,16 @@
    MIXINS
    ========================================================================== */
 
+/* Keyboard focus ring. Applied through :focus-visible, not :focus, so it does
+   not appear after a mouse click: Turbo keeps focus on the link you clicked, so
+   a :focus ring stayed drawn around the nav item on the page you landed on.
+   Coloured with the link blue; the amber it used to be predates the palette. */
 %tab-focus {
   /* Default*/
-  outline: thin dotted $warning-color;
+  outline: thin dotted $primary-color;
   /* Webkit*/
-  outline: 5px auto $warning-color;
-  outline-offset: -2px;
+  outline: 2px solid $primary-color;
+  outline-offset: 2px;
 }
 
 /*
