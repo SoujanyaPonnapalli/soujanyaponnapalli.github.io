@@ -249,7 +249,7 @@ performance that applications need and expect. Take a look at the broad
 -----
 
 <p class="page-intro">
-  I organize the <a href="https://sky.cs.berkeley.edu/" target="_blank" rel="noopener noreferrer">Sky Systems Seminar</a>
+  I co-organize the <a href="https://sky.cs.berkeley.edu/" target="_blank" rel="noopener noreferrer">Sky Systems Seminar</a>
   at Berkeley. If you would like to present your recent systems research, or just want to talk
   about any of the above, please reach out:
   {% comment %}
