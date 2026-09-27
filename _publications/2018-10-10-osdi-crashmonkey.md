@@ -9,7 +9,7 @@ order: 13
 conf: 'OSDI'
 confyear: 2018
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: ''
+keyinsight: 'A file system must recover correctly from a crash at any point, and the space of possible crash states is far too large to test exhaustively. We bound the search instead: most crash-consistency bugs surface in short sequences of file-system operations, and only at the points where an application has explicitly persisted with fsync. Testing every sequence up to a few operations, and crashing after each persistence point, finds those bugs without exploring the whole space.'
 paperurl: 'https://www.usenix.org/conference/osdi18/presentation/mohan'
 pdfurl: 'https://www.usenix.org/system/files/osdi18-mohan.pdf'
 slidesurl: 'https://www.usenix.org/sites/default/files/conference/protected-files/osdi18_slides_mohan.pdf'

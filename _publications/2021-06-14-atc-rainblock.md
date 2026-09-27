@@ -9,7 +9,7 @@ order: 10
 conf: 'ATC'
 confyear: 2021
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: ''
+keyinsight: 'Miners in Ethereum spend most of their time performing disk I/O: validating a transaction requires reading and updating the authenticated state on disk. With RainBlock, we decouple transaction execution from storage and move disk I/O out of the critical path. We use dedicated storage nodes that store the system state and send transactions along with their proofs, and we cache recently accessed state at the miners.'
 paperurl: 'https://www.usenix.org/conference/atc21/presentation/ponnapalli'
 pdfurl: 'https://www.usenix.org/system/files/atc21-ponnapalli.pdf'
 slidesurl: 'https://www.usenix.org/system/files/atc21_slides_ponnapalli.pdf'

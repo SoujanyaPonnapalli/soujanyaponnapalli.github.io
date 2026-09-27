@@ -9,7 +9,7 @@ order: 16
 conf: 'TOS'
 confyear: 2019
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: ''
+keyinsight: 'This extends bounded black-box crash testing into a toolkit: ACE generates workloads exhaustively within a bound, and CrashMonkey replays them against a real file system and checks what survives a crash. Applied to widely used Linux file systems, it reproduces known crash-consistency bugs and uncovers new ones.'
 paperurl: 'https://dl.acm.org/doi/10.1145/3320275'
 pdfurl: 'https://dl.acm.org/doi/pdf/10.1145/3320275'
 slidesurl: ''

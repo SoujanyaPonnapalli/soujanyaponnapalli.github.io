@@ -9,7 +9,7 @@ order: 11
 conf: 'SOSP'
 confyear: 2021
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: ''
+keyinsight: 'Persistent memory file systems enable low-latency access from hugepages. However, as the file system ages, free space fragments and performance drops. WineFS keeps hugepages intact by segregating the allocations that fragment from those that do not, so that throughput does not visibly degrade over time.'
 paperurl: 'https://dl.acm.org/doi/10.1145/3477132.3483567'
 pdfurl: 'https://dl.acm.org/doi/pdf/10.1145/3477132.3483567'
 slidesurl: 'https://www.cs.utexas.edu/~vijay/papers/winefs-sosp21-slides.pdf'

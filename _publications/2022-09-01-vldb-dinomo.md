@@ -9,7 +9,7 @@ order: 9
 conf: 'VLDB'
 confyear: 2022
 # Key insight: 2-3 lines, shown under the venue on the publications page.
-keyinsight: ''
+keyinsight: 'Disaggregated persistent memory lets compute and memory scale independently. However, caching at the compute nodes, to hide network latency, brings back the coherence overheads from sharing data. DINOMO partitions the ownership of keys across compute nodes and leaves the data itself shared in the memory pool: each node caches only what it owns, so there is no coherence traffic.'
 paperurl: 'https://doi.org/10.14778/3565838.3565854'
 pdfurl: 'https://www.vldb.org/pvldb/vol15/p4023-lee.pdf'
 slidesurl: 'https://wuklab.github.io/words/words22-lee-slides.pdf'
