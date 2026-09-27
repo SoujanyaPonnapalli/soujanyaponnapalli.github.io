@@ -15,10 +15,10 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -91,7 +91,7 @@
   }
 
   .archive__item-title {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -127,7 +127,7 @@
       text-decoration: none;
 
       &:hover {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
   }
@@ -612,23 +612,6 @@
   }
 }
 
-/* Blue, but no underline - these columns are dense lists of links and the
-   underlines made them look striped. Override :visited too, or the theme
-   turns followed links purple. */
-.people-names {
-  a,
-  a:visited {
-    color: $link-color;
-    text-decoration: none;
-  }
-
-  a:hover,
-  a:focus {
-    color: $link-color-hover;
-    text-decoration: none;
-  }
-}
-
 /* Mentoring page: badge stacks "<group>" over "students", matching the
    conference-over-year stack on the publications badges. */
 .people-label-group,
@@ -708,39 +691,38 @@
   color: $gray;
 }
 
-/* Service: a few short labelled lists side by side, the layout Chris
-   Rossbach's page uses. Columns collapse to one at narrow widths. */
-.service-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 0.75rem 2rem;
+/* Service: one row per kind of service, label on the left and the venues
+   collapsed onto a single line. The three-column bulleted version was one
+   venue per line, which ran to thirteen lines and was slow to scan. */
+.service-rows {
   margin: 1.25rem 0 1.5rem;
-}
+  padding: 0;
 
-.service-heading {
-  margin-bottom: 0.35em;
-  font-size: $publication-font-size;
-  font-weight: $font-weight-semibold;
-  color: $darker-gray;
-}
-
-/* Scoped under .page__content: the theme boxes every list item there
-   (padding, border, shadow, no bullet) and that rule outranks a bare class. */
-.page__content .service-list {
-  margin: 0;
-  padding-left: 1.1em;
-
+  /* !important for the same reason as .role-list below: this list is a direct
+     sibling of its <h3>, so the theme's boxed "Recent News" rule applies. */
   li {
-    margin: 0 0 0.2em;
-    padding: 0;
-    background: transparent;
-    border: 0;
-    border-radius: 0;
-    box-shadow: none;
-    list-style: disc;
+    display: grid !important;
+    grid-template-columns: 210px 1fr;
+    gap: 0.25rem 1rem;
+    margin: 0 0 0.4em !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    list-style: none;
     font-size: $publication-font-size;
     line-height: 1.5;
+
+    @include breakpoint(max-width $medium) {
+      grid-template-columns: 1fr;
+    }
   }
+}
+
+.service-role {
+  font-weight: $font-weight-semibold;
+  color: $darker-gray;
 }
 
 /* Leadership roles: role on the left, years right-aligned, the way a CV
@@ -773,4 +755,95 @@
 .role-years {
   flex-shrink: 0;
   color: $gray;
+}
+
+
+/* ==========================================================================
+   CV PAGE
+   ========================================================================== */
+
+/*
+   The CV used to be four PNG renders of the PDF, which meant its text was an
+   image: unselectable, unsearchable, and set in the PDF's own face at its own
+   size. It is plain HTML now, laid out with the same badge-and-card rows as
+   the collaborators and mentoring pages so the whole site shares one type
+   scale. Everything here stays at body size; venues, authors and years are
+   distinguished by colour rather than by shrinking them.
+
+   These pages use `layout: archive`, which renders outside .page__content, so
+   the theme's boxed-list rule does not reach them and bare classes are enough.
+*/
+
+.cv-entry {
+  margin-bottom: 0.9em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cv-entry-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.cv-years {
+  flex-shrink: 0;
+  color: $gray;
+}
+
+.cv-venue,
+.cv-authors,
+.cv-note {
+  color: $gray;
+}
+
+.cv-venue {
+  white-space: nowrap;
+}
+
+.cv-list {
+  margin: 0;
+  padding-left: 1.4em;
+
+  li {
+    margin: 0 0 0.7em;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    list-style: decimal;
+    font-size: 1em;
+    line-height: 1.5;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.cv-rows {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin: 0 0 0.35em;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.5;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }

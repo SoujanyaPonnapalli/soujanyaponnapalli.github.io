@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a systems researcher. I love building systems that are not just fast and
-scale well, but that also provide strong guarantees in practice, such as
+scalable, but also reliable, providing strong guarantees in practice, such as
 performance isolation and fault tolerance. **I am on the job market this year!**
 
 I am a postdoctoral scholar at the [University of California, Berkeley](https://www.berkeley.edu/),
@@ -172,40 +172,12 @@ they expect.
 ### Service
 -----
 
-<div class="service-grid">
-
-  <div>
-    <div class="service-heading">Program Committee</div>
-    <ul class="service-list">
-      <li>OSDI 2026</li>
-      <li>NSDI 2026</li>
-      <li>ATC 2025</li>
-      <li>NSDI 2025</li>
-      <li>EuroSys 2025</li>
-    </ul>
-  </div>
-
-  <div>
-    <div class="service-heading">External Review Committee</div>
-    <ul class="service-list">
-      <li>FAST 2025</li>
-      <li>ATC 2024</li>
-      <li>NSDI 2019</li>
-    </ul>
-  </div>
-
-  <div>
-    <div class="service-heading">Reviewing and Other Service</div>
-    <ul class="service-list">
-      <li>NSF proposal reviewer, 2026</li>
-      <li>Journal reviewer, ACM TOCS, 2024</li>
-      <li>Hallway discussion lead, SOSP 2021</li>
-      <li>Shadow PC, EuroSys 2020</li>
-      <li>Chair, Graduate Application Assistance Program (GAAP@UT), 2020-21</li>
-    </ul>
-  </div>
-
-</div>
+<ul class="service-rows">
+  <li><span class="service-role">Program Committee</span><span>OSDI'26, NSDI'26, ATC'25, NSDI'25, EuroSys'25</span></li>
+  <li><span class="service-role">External Review Committee</span><span>FAST'25, ATC'24, NSDI'19</span></li>
+  <li><span class="service-role">Reviewer</span><span>NSF proposals 2026, ACM TOCS 2024</span></li>
+  <li><span class="service-role">Other service</span><span>Hallway discussion lead SOSP'21, Shadow PC EuroSys'20, Chair of GAAP@UT 2020-21</span></li>
+</ul>
 
 ### Leadership
 -----
