@@ -131,8 +131,8 @@ performance that applications need and expect. Take a look at the broad
   <div class="theme-card">
     <div class="theme-name">Emerging technologies</div>
     <div class="theme-blurb">
-      Persistent memory, CXL, disaggregation, holographic media, and
-      multi-cloud object stores each break an assumption baked into the storage
+      Persistent memory, CXL, accelerator disaggregation, holographic storage,
+      and multi-cloud object stores each break an assumption baked into the storage
       stack. What does that stack look like when it is designed for these
       technologies?
     </div>
