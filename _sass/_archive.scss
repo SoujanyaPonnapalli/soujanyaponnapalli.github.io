@@ -784,3 +784,27 @@
   flex-shrink: 0;
   color: $gray;
 }
+
+
+/* Home page publication and news cards. The publications page keeps its bolder
+   titles and roomier cards, where a title sits above status text and an
+   insight; here each card is a single line, so it reads better light and
+   tight. Scoped by .page__content, which only the `single` layout renders. */
+.page__content {
+  .publication-title {
+    font-weight: $font-weight-normal !important;
+    margin-bottom: 0 !important;
+  }
+
+  .publication-body {
+    padding: 0.5em 0.75em;
+  }
+
+  .publication-badge {
+    padding: 0.35rem 0.75rem;
+  }
+
+  .publication-status {
+    margin-bottom: 0 !important;
+  }
+}

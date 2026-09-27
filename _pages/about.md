@@ -114,13 +114,23 @@ they expect.
   </div>
 
   <div class="theme-card">
-    <div class="theme-name">Fault tolerance and consensus</div>
+    <div class="theme-name">Guarantees</div>
     <div class="theme-blurb">
-      Replication protocols assume one fault model and pay for it everywhere. I
-      work on cheaper logging, finer-grained fault tolerance, and guarantees that
-      match the faults systems actually see.
+      Systems promise correctness under one fault model and pay for it
+      everywhere. I work on cheaper logging, finer-grained fault tolerance,
+      recovery, and guarantees that match the faults systems actually see.
     </div>
-    {% include theme-papers.html items="Metronome::vldb27/metronome|Real Life Is Uncertain::powder|Powder::|Fugue::" %}
+    {% include theme-papers.html items="Metronome::vldb27/metronome|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
+  </div>
+
+  <div class="theme-card">
+    <div class="theme-name">Emerging storage</div>
+    <div class="theme-blurb">
+      Persistent memory, CXL, disaggregation, holographic media and multi-cloud
+      object stores each break assumptions baked into the storage stack. I
+      redesign that stack around what the hardware actually offers.
+    </div>
+    {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye|DINOMO::vldb/dinomo|WineFS::sosp21/winefs|Holographic Storage::tos25/holographic-storage|Lost in Translation::hotnets25/lost-in-translation" %}
   </div>
 
   <div class="theme-card">
@@ -131,35 +141,6 @@ they expect.
       client.
     </div>
     {% include theme-papers.html items="Supporting Our AI Overlords::saa25/agent-first-data-systems|Just-in-Time Systems::mlforsys26/just-in-time-systems" %}
-  </div>
-
-  <div class="theme-card">
-    <div class="theme-name">Storage across clouds</div>
-    <div class="theme-blurb">
-      Object stores are built for one region and one provider, leaving placement
-      and transfer costs to users. I build storage that spans regions and clouds
-      and decides those things itself.
-    </div>
-    {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye" %}
-  </div>
-
-  <div class="theme-card">
-    <div class="theme-name">Storage for new hardware</div>
-    <div class="theme-blurb">
-      Persistent memory, CXL, disaggregation and even holographic media each
-      break assumptions baked into the storage stack. I redesign that stack
-      around what the hardware actually offers.
-    </div>
-    {% include theme-papers.html items="WineFS::sosp21/winefs|DINOMO::vldb/dinomo|Lost in Translation::hotnets25/lost-in-translation|Holographic Storage::tos25/holographic-storage" %}
-  </div>
-
-  <div class="theme-card">
-    <div class="theme-name">Trustworthy storage</div>
-    <div class="theme-blurb">
-      Blockchains and confidential computing need storage that can be verified,
-      not merely trusted, and that stays fast while doing it.
-    </div>
-    {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|RainBlock::atc21/rainblock|mLSM::hotstorage18/mlsm" %}
   </div>
 
 </div>
@@ -269,8 +250,11 @@ they expect.
   I organize the <a href="https://sky.cs.berkeley.edu/" target="_blank" rel="noopener noreferrer">Sky Systems Seminar</a>
   at Berkeley. If you would like to present your recent systems research, or just want to talk
   about any of the above, please reach out:
-  <a href="mailto:soujanya@berkeley.edu">soujanya@berkeley.edu</a> &middot;
-  <a href="mailto:soujanyap95@gmail.com">soujanyap95@gmail.com</a> &middot;
+  {% comment %}
+    Spelled out rather than linked, so a scraper cannot lift it. A mailto:
+    would put the address back in the markup and undo the point.
+  {% endcomment %}
+  soujanya at berkeley dot edu &middot;
   <a href="https://www.linkedin.com/in/soujanya-ponnapalli-553275107/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 </p>
 
