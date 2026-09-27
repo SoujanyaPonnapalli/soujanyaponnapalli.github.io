@@ -108,12 +108,12 @@ performance that applications need and expect. Take a look at the broad
   <div class="theme-card">
     <div class="theme-name">Performance and multi-tenancy</div>
     <div class="theme-blurb">
-      How do you give one tenant a guarantee when it shares storage, page
-      cache and inference capacity with every other tenant? I design isolation
-      mechanisms that put a bound on the interference a tenant can suffer,
-      and cut the cost of the shared path itself.
+      How should multiple tenants share resources? I design resource sharing
+      mechanisms that bound the performance interference a tenant suffers, and
+      cut the cost of the shared path in databases, the OS page cache, and LLM
+      inference engines. I also work on making systems fast and I/O-efficient.
     </div>
-    {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::|Metronome::vldb27/metronome" %}
+    {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::|Metronome::vldb27/metronome|RainBlock::atc21/rainblock|mLSM::hotstorage18/mlsm" %}
   </div>
 
   <div class="theme-card">
