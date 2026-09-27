@@ -341,35 +341,53 @@
      colour and is declared later in this file. */
   a.publication-link-cite {
     margin-left: auto;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.55em;
+    padding-right: 0.55em;
     color: $lightest-text;
 
     &:hover,
     &:focus {
-      color: $gray;
+      color: $link-color;
     }
   }
 
+  /* Filled pills rather than outlined boxes: the card and the venue column
+     already draw two borders, and a third level around each link made four
+     links look like four more containers. Colour carries the affordance, and
+     the fill deepens on hover. */
   .publication-link-item {
-    display: inline-block;
-    padding: 0.2em 0.6em;
-    background: #f8f8f6;
-    color: #5f6368;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.18em 0.7em;
+    background: $lighter-gray;
+    color: $gray;
     text-decoration: none;
-    border-radius: 3px;
+    border: 0;
+    border-radius: 999px;
     font-size: $publication-font-size;
     font-weight: 400;
-    transition: all 0.2s ease;
-    border: 1px solid #deded8;
+    transition: background-color 0.2s ease, color 0.2s ease;
 
-    &:hover {
-      background: #deded8;
-      color: #5f6368;
+    &:hover,
+    &:focus {
+      background: $accent-soft;
+      color: $link-color;
       text-decoration: none;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     }
+  }
+
+  /* One stroke weight and optical size across the set. The play and quote
+     marks set their own fill, so they override these. */
+  .publication-link-icon {
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
   @include breakpoint($medium) {

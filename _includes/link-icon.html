@@ -1,0 +1,16 @@
+{% comment %}
+  One matched icon set for the paper links, drawn inline so they share a
+  stroke weight and optical size. Font Awesome gave us a heavy filled download
+  glyph next to three labels with no icon at all, which made the row look like
+  four unrelated things.
+{% endcomment %}
+{%- case include.name -%}
+{%- when 'paper' -%}
+<svg class="publication-link-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1v8m0 0L5 6m3 3 3-3M2 12v2h12v-2"/></svg>
+{%- when 'talk' -%}
+<svg class="publication-link-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 2l11 6-11 6z" fill="currentColor" stroke="none"/></svg>
+{%- when 'slides' -%}
+<svg class="publication-link-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3h12v8H2zM6 14h4"/></svg>
+{%- when 'cite' -%}
+<svg class="publication-link-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4H3v4h3c0 2-1 3-2 3v1c2 0 4-2 4-5V4zm7 0h-3v4h3c0 2-1 3-2 3v1c2 0 4-2 4-5V4z" fill="currentColor" stroke="none"/></svg>
+{%- endcase -%}

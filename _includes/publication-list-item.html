@@ -65,13 +65,13 @@
       {% if post.pdfurl and post.pdfurl != '' or post.paperurl and post.paperurl != '' %}
         {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
         {% if post.downloadurl and post.downloadurl != '' %}{% assign paper_url = post.downloadurl %}{% endif %}
-        <a href="{{ paper_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer"><i class="fas fa-download" aria-hidden="true"></i> Paper</a>
+        <a href="{{ paper_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">{% include link-icon.html name="paper" %}Paper</a>
       {% endif %}
       {% if post.talkurl and post.talkurl != '' %}
-        <a href="{{ post.talkurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Talk</a>
+        <a href="{{ post.talkurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">{% include link-icon.html name="talk" %}Talk</a>
       {% endif %}
       {% if post.slidesurl and post.slidesurl != '' %}
-        <a href="{{ post.slidesurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Slides</a>
+        <a href="{{ post.slidesurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">{% include link-icon.html name="slides" %}Slides</a>
       {% endif %}
       {% if post.citationurl and post.citationurl != '' %}
         {% if post.citationurl contains '://' %}{% assign cite_url = post.citationurl %}{% else %}{% assign cite_url = post.citationurl | prepend: base_path %}{% endif %}
@@ -80,7 +80,7 @@
           stays reachable without competing with the paper and talk links.
           The label is kept for screen readers and as a tooltip.
         {% endcomment %}
-        <a href="{{ cite_url }}" class="publication-link-item publication-link-cite" target="_blank" rel="noopener noreferrer" title="Cite" aria-label="Cite"><i class="fas fa-quote-right" aria-hidden="true"></i></a>
+        <a href="{{ cite_url }}" class="publication-link-item publication-link-cite" target="_blank" rel="noopener noreferrer" title="Cite" aria-label="Cite">{% include link-icon.html name="cite" %}</a>
       {% endif %}
     </div>
 
