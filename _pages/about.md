@@ -123,7 +123,7 @@ working on!
       promise? I work on finer-grained fault tolerance and recovery, so that
       the guarantees a system provides match the faults it actually sees.
     </div>
-    {% include theme-papers.html items="Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
+    {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
   </div>
 
   <div class="theme-card">
