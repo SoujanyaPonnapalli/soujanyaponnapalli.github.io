@@ -125,7 +125,7 @@ performance that applications need and expect. Take a look at the broad
       storage. I also worked on finding where guarantees, such as crash
       consistency, are violated.
     </div>
-    {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
+    {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::https://patents.google.com/patent/US20240152429A1/en" %}
   </div>
 
   <div class="theme-card">
@@ -223,6 +223,33 @@ performance that applications need and expect. Take a look at the broad
 </div>
 </div>
 
+### Industry Research
+-----
+
+{% comment %}
+  Same label-and-value rows as Service below. Mentors are named because at
+  these labs the mentor is the credential a reader recognises.
+{% endcomment %}
+
+<ul class="service-rows">
+  <li><span class="service-role">Microsoft Research</span><span>Redmond, 2022 &middot; Jonathan Goldstein<br>
+    Redmond, 2020 &middot; Anirudh Badam<br>
+    Cambridge, 2019 &middot; Dushyanth Narayanan and Antony Rowstron</span></li>
+  <li><span class="service-role">VMware Research</span><span>California, 2018 &middot; Michael Wei and Dahlia Malkhi</span></li>
+  <li><span class="service-role">Patent</span><span><a href="https://patents.google.com/patent/US20240152429A1/en" target="_blank" rel="noopener noreferrer">Recoverable Processes</a>, US application 17/981,296<br>
+    Jonathan Goldstein, Philip Bernstein, Soujanya Ponnapalli, Jose Faleiro, and Peter Shrosbree</span></li>
+</ul>
+
+### Awards
+-----
+
+<ul class="service-rows">
+  <li><span class="service-role">Fellowships</span><span><a href="https://suri.epfl.ch/#overview" target="_blank" rel="noopener noreferrer">Summer Research Institute</a>, EPFL, 2025<br>
+    James C. Browne Graduate Fellowship, UT Austin, 2017&ndash;18</span></li>
+  <li><span class="service-role">Academic</span><span>Best all-rounder gold medal, IIIT Hyderabad, 2017<br>
+    Dean's Award for ranking in the top 5% of students, IIIT Hyderabad, 2014&ndash;17</span></li>
+</ul>
+
 ### Service
 -----
 
@@ -245,6 +272,9 @@ performance that applications need and expect. Take a look at the broad
   <li>I have mentored women in CS (WiCS) at UT Austin, and researchers at
     conferences.</li>
   <li>I co-founded and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
+  <li>I have organized research seminars at both my institutions: the Sky Systems
+    Seminar and the Databases Seminar at Berkeley, and the Systems Seminar at
+    UT Austin's Lab for Advanced Systems Research.</li>
 </ul>
 
 ### Get in Touch!

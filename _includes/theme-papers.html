@@ -13,6 +13,11 @@
   {%- assign slug = bits[1] -%}
   {%- assign href = '' -%}
   {%- if slug and slug != '' -%}
+    {%- comment %} A slug starting with http is a link in its own right: work
+      with somewhere to point that is not a paper in _publications, such as a
+      patent application. {% endcomment -%}
+    {%- assign scheme = slug | slice: 0, 4 -%}
+    {%- if scheme == 'http' -%}{%- assign href = slug -%}{%- endif -%}
     {%- assign pub = site.publications | where: 'permalink', slug | first -%}
     {%- if pub -%}
       {%- if pub.pdfurl and pub.pdfurl != '' -%}{%- assign href = pub.pdfurl -%}
