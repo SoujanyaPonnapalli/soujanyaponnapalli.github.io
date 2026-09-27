@@ -1,0 +1,26 @@
+{% comment %}
+  Renders a theme card's paper list: short names separated by middots, each
+  linked to its PDF. Takes `items` as "Name::permalink|Name::permalink"; an
+  entry with no permalink renders as plain text, for work with nothing
+  published yet. Resolved from _publications rather than hard-coded, so the
+  links follow whatever the publication entries say.
+{% endcomment %}
+<div class="theme-venues">
+{%- assign pairs = include.items | split: '|' -%}
+{%- for pair in pairs -%}
+  {%- assign bits = pair | split: '::' -%}
+  {%- assign name = bits[0] -%}
+  {%- assign slug = bits[1] -%}
+  {%- assign href = '' -%}
+  {%- if slug and slug != '' -%}
+    {%- assign pub = site.publications | where: 'permalink', slug | first -%}
+    {%- if pub -%}
+      {%- if pub.pdfurl and pub.pdfurl != '' -%}{%- assign href = pub.pdfurl -%}
+      {%- elsif pub.paperurl and pub.paperurl != '' -%}{%- assign href = pub.paperurl -%}{%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- if href != '' -%}<a href="{{ href }}" target="_blank" rel="noopener noreferrer">{{ name }}</a>
+  {%- else -%}{{ name }}{%- endif -%}
+  {%- unless forloop.last %} &middot; {% endunless -%}
+{%- endfor -%}
+</div>

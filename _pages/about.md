@@ -67,14 +67,17 @@ they expect.
 <div class="list__item publication-item">
 <div class="publication-row">
   <div class="publication-badges">
+    {% comment %}
+      Venue and year on one line here, unlike the publications page: these
+      cards are a single line of title, so a stacked badge would set the row
+      height rather than the content.
+    {% endcomment %}
     <div class="publication-badge">
-      <span class="publication-badge-conf">{{ post.conf }}</span>
-      <span class="publication-badge-year">{{ post.confyear }}</span>
+      <span class="publication-badge-conf">{{ post.conf }}'{{ post.confyear | append: '' | slice: -2, 2 }}</span>
     </div>
     {% if post.conf2 and post.conf2 != '' %}
     <div class="publication-badge">
-      <span class="publication-badge-conf">{{ post.conf2 }}</span>
-      <span class="publication-badge-year">{{ post.confyear2 }}</span>
+      <span class="publication-badge-conf">{{ post.conf2 }}'{{ post.confyear2 | append: '' | slice: -2, 2 }}</span>
     </div>
     {% endif %}
   </div>
@@ -107,7 +110,7 @@ they expect.
       a noisy tenant degrades everyone else. I design isolation mechanisms that
       bound that interference instead of hoping for the best.
     </div>
-    <div class="theme-venues">Delta Fair Sharing &middot; Token Latency Fairness &middot; Page Cache Fairness</div>
+    {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::" %}
   </div>
 
   <div class="theme-card">
@@ -117,7 +120,7 @@ they expect.
       work on cheaper logging, finer-grained fault tolerance, and guarantees that
       match the faults systems actually see.
     </div>
-    <div class="theme-venues">Metronome &middot; Real Life Is Uncertain (HotOS'25) &middot; Powder &middot; Fugue</div>
+    {% include theme-papers.html items="Metronome::vldb27/metronome|Real Life Is Uncertain::powder|Powder::|Fugue::" %}
   </div>
 
   <div class="theme-card">
@@ -127,7 +130,7 @@ they expect.
       what data systems look like when agents, not people, are the primary
       client.
     </div>
-    <div class="theme-venues">Supporting Our AI Overlords (CIDR'26) &middot; Just-in-Time Systems</div>
+    {% include theme-papers.html items="Supporting Our AI Overlords::saa25/agent-first-data-systems|Just-in-Time Systems::mlforsys26/just-in-time-systems" %}
   </div>
 
   <div class="theme-card">
@@ -137,7 +140,7 @@ they expect.
       and transfer costs to users. I build storage that spans regions and clouds
       and decides those things itself.
     </div>
-    <div class="theme-venues">SkyStore (VLDB'25) &middot; SKYE</div>
+    {% include theme-papers.html items="SkyStore::skystore|SKYE::arxiv26/skye" %}
   </div>
 
   <div class="theme-card">
@@ -147,7 +150,7 @@ they expect.
       break assumptions baked into the storage stack. I redesign that stack
       around what the hardware actually offers.
     </div>
-    <div class="theme-venues">WineFS (SOSP'21) &middot; DINOMO (VLDB'22) &middot; Lost in Translation (HotNets'25) &middot; Holographic Storage</div>
+    {% include theme-papers.html items="WineFS::sosp21/winefs|DINOMO::vldb/dinomo|Lost in Translation::hotnets25/lost-in-translation|Holographic Storage::tos25/holographic-storage" %}
   </div>
 
   <div class="theme-card">
@@ -156,7 +159,7 @@ they expect.
       Blockchains and confidential computing need storage that can be verified,
       not merely trusted, and that stays fast while doing it.
     </div>
-    <div class="theme-venues">Rollbaccine (SIGMOD'26) &middot; RainBlock (ATC'21) &middot; mLSM</div>
+    {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|RainBlock::atc21/rainblock|mLSM::hotstorage18/mlsm" %}
   </div>
 
 </div>
