@@ -798,14 +798,16 @@
 .page__content {
   .publication-title {
     font-weight: $font-weight-normal !important;
-    /* The theme puts 0.5em above and below every .archive__item-title, which
+    /* The theme puts 0.5em of margin above and below every
+       .archive__item-title, and a further 0.5em of bottom padding. All three
        showed as dead space inside these single-line cards. */
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
 
   .publication-body {
-    padding: 0.5em 0.75em;
+    padding: 0.4em 0.75em;
   }
 
   .publication-badge {
