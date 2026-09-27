@@ -46,6 +46,14 @@
   addEventListener("turbo:before-render", function () {
     document.documentElement.classList.add("turbo-visited");
   }, { once: true });
+
+  /* Reassemble the sidebar's mailto: from its two halves. Same block-comment
+     rule as above: the HTML compressor puts this script on one line. */
+  addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("a.js-email").forEach(function (a) {
+      a.href = "mailto:" + a.dataset.user + "@" + a.dataset.domain;
+    });
+  });
 </script>
 
 <meta http-equiv="cleartype" content="on">
