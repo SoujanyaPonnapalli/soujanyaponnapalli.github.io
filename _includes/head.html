@@ -60,6 +60,45 @@
   }
   addEventListener("DOMContentLoaded", wireEmailLinks);
   addEventListener("turbo:load", wireEmailLinks);
+
+  /* Keep the responsive nav's hamburger in step with its hidden links.
+
+     The masthead is data-turbo-permanent, so the nav survives a navigation
+     with links already parked in .hidden-links. The theme's fitting code then
+     runs again a few milliseconds after turbo:load, sees that .visible-links
+     already fits, and marks the hamburger hidden without moving those links
+     back, so four nav items became unreachable on a phone on every page
+     except the first one loaded.
+
+     Enforced as an invariant rather than a re-fit on a timer: the offending
+     write lands ~8ms after turbo:load, so any fixed delay is a race. The
+     observer only ever clears the class, and only while links are parked, so
+     it cannot loop. */
+  function enforceNavToggle() {
+    var hidden = document.querySelector(".greedy-nav .hidden-links");
+    var toggle = document.querySelector(".greedy-nav button");
+    if (!hidden || !toggle) return;
+    if (hidden.children.length > 0 && toggle.classList.contains("hidden")) {
+      toggle.classList.remove("hidden");
+    }
+  }
+
+  function watchNavToggle() {
+    var toggle = document.querySelector(".greedy-nav button");
+    if (!toggle || toggle.dataset.navWatched) return;
+    toggle.dataset.navWatched = "1";
+    new MutationObserver(enforceNavToggle).observe(toggle, {
+      attributes: true,
+      attributeFilter: ["class"]
+    });
+  }
+
+  addEventListener("DOMContentLoaded", watchNavToggle);
+  addEventListener("turbo:load", function () {
+    watchNavToggle();
+    enforceNavToggle();
+  });
+
 </script>
 
 <meta http-equiv="cleartype" content="on">

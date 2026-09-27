@@ -1,4 +1,20 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+{% comment %}
+  data-turbo-eval="false" so Turbo does not re-execute this on every visit.
+
+  The masthead and the author profile are data-turbo-permanent, so the DOM this
+  script sets up survives a navigation along with its handlers. Re-running it
+  re-initialised the responsive nav against markup whose links had already been
+  moved into .hidden-links: it concluded nothing needed hiding, marked the
+  hamburger hidden, and left the links there, making four nav items unreachable
+  on a phone. Resize handling still works, because that listener is bound to
+  window on the first load.
+
+  The cost is that anything this script binds to page content, smooth scrolling
+  on in-page anchors, is not rebound after a Turbo visit. The one such anchor,
+  #research-themes on the home page, still jumps natively, just without the
+  animation.
+{% endcomment %}
+<script src="{{ base_path }}/assets/js/main.min.js" data-turbo-eval="false"></script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
