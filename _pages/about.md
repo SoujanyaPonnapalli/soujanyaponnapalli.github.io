@@ -11,7 +11,7 @@ redirect_from:
 <div class="page-lead" markdown="1">
 
 I am a systems researcher. I love building systems that are not just fast and
-scalable, but also reliable, providing strong guarantees, such as performance
+scalable, but also **reliable**, providing strong guarantees, such as performance
 isolation and fault tolerance, in practice.<br>
 <strong class="job-market">I am on the job market this year!</strong>
 
