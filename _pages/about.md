@@ -248,11 +248,16 @@ performance that applications need and expect. Take a look at the broad
   here, so this section carries only what is not already on the page.
 {% endcomment %}
 
-<ul class="service-rows">
-  <li><span class="service-role">Fellowships</span><span><a href="https://suri.epfl.ch/#overview" target="_blank" rel="noopener noreferrer">Summer Research Institute</a>, EPFL, 2025<br>
-    James C. Browne Graduate Fellowship, UT Austin, 2017&ndash;18</span></li>
-  <li><span class="service-role">Nomination</span><span>Best of VLDB&rsquo;25, for
-    <a href="https://www.vldb.org/pvldb/vol18/p2084-liu.pdf" target="_blank" rel="noopener noreferrer">SkyStore</a></span></li>
+{% comment %}
+  One line each, with no label column: with three entries the labels carried
+  no information the lines do not already give. Each line names the kind of
+  award itself, so it still reads on its own.
+{% endcomment %}
+
+<ul class="service-plain">
+  <li><a href="https://suri.epfl.ch/#overview" target="_blank" rel="noopener noreferrer">Summer Research Institute (SuRI) Fellowship</a>, EPFL, 2025</li>
+  <li>James C. Browne Graduate Fellowship, UT Austin, 2017&ndash;18</li>
+  <li>Best of VLDB&rsquo;25 nomination, for <a href="https://www.vldb.org/pvldb/vol18/p2084-liu.pdf" target="_blank" rel="noopener noreferrer">SkyStore</a></li>
 </ul>
 
 ### Service
