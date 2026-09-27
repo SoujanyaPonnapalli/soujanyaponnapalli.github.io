@@ -182,7 +182,10 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 0.5rem 0.75rem;
+    /* Top padding matches the card's 0.7em so both first lines start at the
+       same y; the venue's line-height matches the title's below, so the two
+       sit on one baseline rather than three pixels apart. */
+    padding: 0.7rem 0.75rem 0.5rem;
     background: #f8f8f6;
     border: 1px solid #deded8;
     border-radius: 6px;
@@ -191,6 +194,7 @@
   }
 
   .publication-badge-conf {
+    line-height: 1.5;   /* same line box as .publication-title */
     font-size: $publication-font-size;
     font-weight: 600;
     color: #000;
@@ -816,7 +820,8 @@
   }
 
   .publication-badge {
-    padding: 0.35rem 0.75rem;
+    /* Matches this page's tighter .publication-body padding of 0.4em. */
+    padding: 0.4rem 0.75rem 0.35rem;
   }
 
   .publication-status {
