@@ -21,13 +21,14 @@ I am a postdoctoral scholar at the [University of California, Berkeley](https://
 Before that, I completed my PhD at [UT Austin](https://www.utexas.edu/) with
   [Vijay Chidambaram](https://www.cs.utexas.edu/~vijay/), in the
   [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/) and the
-  [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/), where my
-  [dissertation](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf)
-  was on minimizing I/O bottlenecks to achieve scalable, high-throughput systems.
-Before that, I earned my Bachelor's with Honors in Computer Science and
+  [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/).
+My dissertation aimed at
+  [minimizing I/O bottlenecks to achieve scalable, high-throughput systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf).
+Prior to that, I earned my Bachelor's with Honors in Computer Science and
   Engineering from [IIIT Hyderabad](https://iiit.ac.in/), where I worked with
-  [Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/) and received
-  the best all-rounder gold medal.
+  [Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
+I have always been equally passionate about academic and non-academic pursuits,
+  and the best all-rounder gold medal is the closest thing I have to proof.
 
 My research sits at the intersection of distributed and storage systems. I
 rethink how systems *should be* designed to meet the demands of new-age
