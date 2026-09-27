@@ -296,9 +296,20 @@
   }
 
   /* Cite alone sits at the right edge; paper, talk and slides stay grouped
-     at the left. */
+     at the left. Rendered as a bare icon rather than a badge, so the least
+     important link carries the least weight. */
   .publication-link-cite {
     margin-left: auto;
+    align-self: center;
+    padding: 0.2em 0.3em;
+    color: $gray;
+    font-size: $publication-font-size;
+    line-height: 1;
+
+    &:hover,
+    &:focus {
+      color: $link-color;
+    }
   }
 
   .publication-link-item {
