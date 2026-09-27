@@ -629,19 +629,23 @@
 
 .people-label {
   flex-shrink: 0;
-  /* Body-sized and bold, so the section titles read as titles. Wider than the
-     publication badges because "Undergraduate" needs 124px at this size.
-     Padding in rem, matching .people-names, so both first lines start level
-     despite the two columns running at different font sizes. */
-  width: 152px;
-  font-size: 1em;
+  /* Matched to the names beside it: same size, same semibold weight, and the
+     heading colour rather than pure black. At 18px/700/#000 it read as a
+     heavier, darker tier than the content it labels, which inverted the
+     hierarchy - the shaded column already says "this is a label".
+
+     128px, the same as the publication venue column, so every page on the
+     site shares one label width. Padding in rem so both columns' first lines
+     start level despite running at different font sizes. */
+  width: 128px;
+  font-size: $publication-font-size;
   padding: 0.7rem 0.75rem;
   background: #f8f8f6;
   border-right: 1px solid $border-color;
   text-align: center;
-  font-weight: $font-weight-bold;
-  color: #000;
-  line-height: 1.25;
+  font-weight: $font-weight-semibold;
+  color: $darker-gray;
+  line-height: 1.5;
 }
 
 .people-names {
