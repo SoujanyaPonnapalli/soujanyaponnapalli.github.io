@@ -82,6 +82,8 @@ $text-color                 : #202124;  /* --text */
 $border-color               : #deded8;  /* --rule */
 
 $primary-color              : #1455a3;  /* --link */
+/* Used for award tags and the job-market line, so the two cannot drift apart */
+$award-color                : #b3261e;
 $success-color              : #198754;
 $warning-color              : #ffc107;
 $danger-color               : #dc3545;

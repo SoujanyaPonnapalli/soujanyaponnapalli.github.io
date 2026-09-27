@@ -13,7 +13,7 @@ redirect_from:
 I am a systems researcher. I love building systems that are not just fast and
 scalable, but also reliable, providing strong guarantees, such as performance
 isolation and fault tolerance, in practice.<br>
-**I am on the job market this year!**
+<strong class="job-market">I am on the job market this year!</strong>
 
 I am a postdoctoral scholar at the [University of California, Berkeley](https://www.berkeley.edu/),
   working with [Natacha Crooks](https://nacrooks.github.io/) and

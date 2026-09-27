@@ -262,7 +262,7 @@
 
   .publication-award {
     font-weight: $font-weight-bold;
-    color: #b3261e;
+    color: $award-color;
   }
 
   /* Key insight - matches the body text size */
@@ -837,4 +837,11 @@
     font-size: $publication-font-size;
     line-height: 1.6;
   }
+}
+
+
+/* The job-market line, in the same red the award tags use. */
+.job-market {
+  font-weight: $font-weight-bold;
+  color: $award-color;
 }
