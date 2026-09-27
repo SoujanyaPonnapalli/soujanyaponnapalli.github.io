@@ -158,38 +158,73 @@ they expect.
 ### Selected News
 -----
 
-<div class="news-timeline">
-  <div class="news-item">
-    <div class="news-year">2025</div>
+{% comment %}
+  Same badge-and-card structure as the selected publications above, so the year
+  badges line up with the venue badges and the cards share one left edge.
+{% endcomment %}
+
+<div class="list__item publication-item">
+<div class="publication-row">
+  <div class="publication-badges">
+    <div class="publication-badge">
+      <span class="publication-badge-conf">2025</span>
+    </div>
+  </div>
+  <div class="publication-body">
     <div class="news-content">
       Invited for a talk at ETH Zurich, 06-18-2025<br>
       Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!
     </div>
   </div>
+</div>
+</div>
 
-  <div class="news-item">
-    <div class="news-year">2025</div>
+<div class="list__item publication-item">
+<div class="publication-row">
+  <div class="publication-badges">
+    <div class="publication-badge">
+      <span class="publication-badge-conf">2025</span>
+    </div>
+  </div>
+  <div class="publication-body">
     <div class="news-content">
       <a href="https://suri.epfl.ch/#overview" target="_blank" rel="noopener noreferrer">Summer Research Institute 2025</a><br>
       Awarded a fellowship to attend SuRI at EPFL
     </div>
   </div>
+</div>
+</div>
 
-  <div class="news-item">
-    <div class="news-year">2024</div>
+<div class="list__item publication-item">
+<div class="publication-row">
+  <div class="publication-badges">
+    <div class="publication-badge">
+      <span class="publication-badge-conf">2024</span>
+    </div>
+  </div>
+  <div class="publication-body">
     <div class="news-content">
       Received funding from <a href="https://rdi.berkeley.edu/" target="_blank" rel="noopener noreferrer">Berkeley RDI Frontier Research</a><br>
       Proposal: Building Scalable and IO-efficient Authenticated Storage Systems
     </div>
   </div>
+</div>
+</div>
 
-  <div class="news-item">
-    <div class="news-year">2024</div>
+<div class="list__item publication-item">
+<div class="publication-row">
+  <div class="publication-badges">
+    <div class="publication-badge">
+      <span class="publication-badge-conf">2024</span>
+    </div>
+  </div>
+  <div class="publication-body">
     <div class="news-content">
       <a href="https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf" target="_blank" rel="noopener noreferrer">Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems</a><br>
       Vijay Chidambaram, Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
     </div>
   </div>
+</div>
 </div>
 
 ### Service
