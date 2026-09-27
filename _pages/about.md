@@ -34,8 +34,8 @@ I have always been equally passionate about academic and non-academic pursuits,
 My research sits at the intersection of distributed and storage systems. I
 rethink how systems *should be* designed to meet the demands of new-age
 applications, both the guarantees and performance that applications need and
-expect. Take a look at the [research themes](#research-themes) I am working on
-at the moment.
+expect. Take a look at the broad [research themes](#research-themes) I have been
+working on!
 
 </div>
 
