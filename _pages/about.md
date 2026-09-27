@@ -119,9 +119,11 @@ performance that applications need and expect. Take a look at the broad
   <div class="theme-card">
     <div class="theme-name">Reliability and fault tolerance</div>
     <div class="theme-blurb">
-      What should a system promise, and what should it charge for that
-      promise? I work on finer-grained fault tolerance and recovery, so that
-      the guarantees a system provides match the faults it actually sees.
+      What guarantees should a system promise, and what is the cost of such
+      abstractions? I work on fine-grained fault modeling for consensus,
+      efficient crash recovery in databases, and rollback resistance in trusted
+      storage. I also worked on finding where guarantees, such as crash
+      consistency, are violated.
     </div>
     {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
   </div>
