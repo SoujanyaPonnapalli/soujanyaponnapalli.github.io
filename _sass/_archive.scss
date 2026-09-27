@@ -850,3 +850,10 @@
   font-weight: $font-weight-bold;
   color: $award-color;
 }
+
+
+/* Collaborators: one row per person, the name bold and the affiliation plain,
+   so the two do not run together down a long list. */
+.person-name {
+  font-weight: $font-weight-semibold;
+}
