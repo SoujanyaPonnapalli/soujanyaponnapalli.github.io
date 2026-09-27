@@ -110,7 +110,7 @@ performance that applications need and expect. Take a look at the broad
     <div class="theme-blurb">
       How should multiple tenants share resources? Resource-sharing mechanisms
       that bound the performance interference a tenant suffers, in databases,
-      the OS page cache, and LLM inference engines. Further, making these
+      the OS page cache, and LLM inference engines. Also, making these
       systems fast and I/O-efficient.
     </div>
     {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::|Metronome::vldb27/metronome|RainBlock::atc21/rainblock|mLSM::hotstorage18/mlsm" %}
@@ -122,7 +122,7 @@ performance that applications need and expect. Take a look at the broad
       What guarantees should a system promise, and what is the cost of such
       abstractions? Fine-grained fault modeling for consensus, efficient crash
       recovery in databases, and rollback resistance in trusted storage.
-      Further, finding where guarantees, such as crash consistency, are
+      Also, finding where guarantees, such as crash consistency, are
       violated.
     </div>
     {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::https://patents.google.com/patent/US20240152429A1/en" %}
@@ -143,7 +143,7 @@ performance that applications need and expect. Take a look at the broad
     <div class="theme-name">Systems for AI</div>
     <div class="theme-blurb">
       Using agents to synthesize specialized systems, for workloads, cost
-      budgets, or deployment settings, just in time. Further, how do these
+      budgets, or deployment settings, just in time. Also, how do these
       systems change when agents, not humans, are the primary client?
       Agent-first systems design.
     </div>
