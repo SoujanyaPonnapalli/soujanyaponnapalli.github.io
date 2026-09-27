@@ -282,18 +282,17 @@ performance that applications need and expect. Take a look at the broad
   <li>I have mentored women in CS (WiCS) at UT Austin, and researchers at
     conferences.</li>
   <li>I co-founded and chaired the Graduate Application Assistance Program (GAAP) at UT Austin.</li>
-  <li>I have organized research seminars at both my institutions: the Sky Systems
-    Seminar and the Databases Seminar at Berkeley, and the Systems Seminar at
-    UT Austin's Lab for Advanced Systems Research.</li>
+  <li>I co-organize the <a href="https://sky.cs.berkeley.edu/" target="_blank" rel="noopener noreferrer">Sky Systems Seminar</a>
+    at Berkeley, and have organized the Databases Seminar there and the Systems
+    Seminar at UT Austin's Lab for Advanced Systems Research.</li>
 </ul>
 
 ### Get in Touch!
 -----
 
 <p class="page-intro">
-  I co-organize the <a href="https://sky.cs.berkeley.edu/" target="_blank" rel="noopener noreferrer">Sky Systems Seminar</a>
-  at Berkeley. If you would like to present your recent systems research, or just want to talk
-  about any of the above, please reach out:
+  If you would like to present your recent systems research at one of the seminars
+  above, or just want to talk about any of this, please reach out:
   {% comment %}
     Written out, and clickable through the same js-email reassembly the sidebar
     uses. A literal mailto: here would put the address straight back into the
