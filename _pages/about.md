@@ -53,7 +53,10 @@ they expect.
   {% if top_venues contains post.conf %}{% assign is_top = true %}{% endif %}
   {% assign is_accepted = true %}
   {% if post.status and post.status != '' %}{% assign is_accepted = false %}{% endif %}
-  {% if is_top and is_accepted %}
+  {% comment %} An entry can opt out of this list with `selected: false`. {% endcomment %}
+  {% assign is_selected = true %}
+  {% if post.selected == false %}{% assign is_selected = false %}{% endif %}
+  {% if is_top and is_accepted and is_selected %}
   {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
 <div class="list__item publication-item">
 <div class="publication-row">
