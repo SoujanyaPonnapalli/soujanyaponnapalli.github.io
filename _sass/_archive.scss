@@ -296,19 +296,20 @@
   }
 
   /* Cite alone sits at the right edge; paper, talk and slides stay grouped
-     at the left. Rendered as a bare icon rather than a badge, so the least
-     important link carries the least weight. */
-  .publication-link-cite {
+     at the left. It keeps the badge box so it matches the other links, but
+     shows only an icon in a lighter grey: the least useful link to a reader
+     skimming for papers, so the least ink. */
+  /* `a.` so this outranks .publication-link-item, which sets the badge's
+     colour and is declared later in this file. */
+  a.publication-link-cite {
     margin-left: auto;
-    align-self: center;
-    padding: 0.2em 0.3em;
-    color: $gray;
-    font-size: $publication-font-size;
-    line-height: 1;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: $lightest-text;
 
     &:hover,
     &:focus {
-      color: $link-color;
+      color: $gray;
     }
   }
 

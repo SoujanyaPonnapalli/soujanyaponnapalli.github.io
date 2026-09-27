@@ -69,6 +69,8 @@ $font-weight-bold           : 700;
 /* Matei Zaharia's palette, read off the custom properties in his
    modern-style.css: --muted, --heading, --rule, --panel, --text, --link. */
 $gray                       : #5f6368;  /* --muted */
+/* One step lighter than --muted, for the least important marks on a page */
+$lightest-text              : #9aa0a6;
 $dark-gray                  : #5f6368;  /* --muted */
 $darker-gray                : #151b26;  /* --heading */
 $light-gray                 : #deded8;  /* --rule */
