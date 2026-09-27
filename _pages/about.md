@@ -111,20 +111,19 @@ working on!
       How do you give one tenant a guarantee when it shares storage, page
       cache and inference capacity with every other tenant? I design isolation
       mechanisms that put a bound on the interference a tenant can suffer,
-      rather than hoping the average case holds.
+      and cut the cost of the shared path itself.
     </div>
-    {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::" %}
+    {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::|Metronome::vldb27/metronome" %}
   </div>
 
   <div class="theme-card">
-    <div class="theme-name">Fault tolerance and replication</div>
+    <div class="theme-name">Reliability and fault tolerance</div>
     <div class="theme-blurb">
       What should a system promise, and what should it charge for that
-      promise? I work on cheaper logging, finer-grained fault tolerance and
-      recovery, so that the guarantees a system provides match the faults it
-      actually sees.
+      promise? I work on finer-grained fault tolerance and recovery, so that
+      the guarantees a system provides match the faults it actually sees.
     </div>
-    {% include theme-papers.html items="Metronome::vldb27/metronome|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
+    {% include theme-papers.html items="Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::" %}
   </div>
 
   <div class="theme-card">
