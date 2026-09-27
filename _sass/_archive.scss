@@ -602,6 +602,9 @@
 .people-names {
   flex: 1;
   min-width: 0;
+  /* The same small size the rest of the site uses; these columns were still
+     at body size while every other page had moved down. */
+  font-size: $publication-font-size;
   padding: 0.7em;
   background: $body-color;
   border: 1px solid $border-color;
