@@ -38,7 +38,12 @@ they expect.
 {% assign top_venues = "SIGMOD,VLDB,SOSP,OSDI,ATC,HotOS" | split: "," %}
 {% assign pubs = site.publications | sort: 'order' %}
 
-<div class="news-timeline">
+{% comment %}
+  Same badge-and-card markup the publications page uses, via the .list__item
+  wrapper its styles hang off, so the two pages share one badge width, one
+  title alignment and one award colour. Compact here: title and award only,
+  with the key insight and the paper links left to the full list.
+{% endcomment %}
 {% for post in pubs %}
   {% comment %}
     Liquid evaluates and/or right to left, so each condition gets its own flag.
@@ -50,16 +55,32 @@ they expect.
   {% if post.status and post.status != '' %}{% assign is_accepted = false %}{% endif %}
   {% if is_top and is_accepted %}
   {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
-  <div class="news-item">
-    <div class="news-year">{{ post.conf }}'{{ post.confyear | append: '' | slice: -2, 2 }}</div>
-    <div class="news-content">
-      <a href="{{ paper_url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-      {% if post.award and post.award != '' %}<br><span class="publication-award">{{ post.award }}</span>{% endif %}
+<div class="list__item publication-item">
+<div class="publication-row">
+  <div class="publication-badges">
+    <div class="publication-badge">
+      <span class="publication-badge-conf">{{ post.conf }}</span>
+      <span class="publication-badge-year">{{ post.confyear }}</span>
     </div>
+    {% if post.conf2 and post.conf2 != '' %}
+    <div class="publication-badge">
+      <span class="publication-badge-conf">{{ post.conf2 }}</span>
+      <span class="publication-badge-year">{{ post.confyear2 }}</span>
+    </div>
+    {% endif %}
   </div>
+  <div class="publication-body">
+    <h2 class="archive__item-title publication-title" itemprop="headline">
+      <a href="{{ paper_url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+    </h2>
+    {% if post.award and post.award != '' %}
+    <p class="publication-status"><span class="publication-award">{{ post.award }}</span></p>
+    {% endif %}
+  </div>
+</div>
+</div>
   {% endif %}
 {% endfor %}
-</div>
 
 <p class="page-intro">
   This is a selection. The <a href="{{ base_path }}/publications/">full list of publications</a>
