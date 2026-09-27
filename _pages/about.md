@@ -108,10 +108,10 @@ performance that applications need and expect. Take a look at the broad
   <div class="theme-card">
     <div class="theme-name">Performance and multi-tenancy</div>
     <div class="theme-blurb">
-      How should multiple tenants share resources? I design resource-sharing
-      mechanisms that bound the performance interference a tenant suffers in
-      databases, the OS page cache, and LLM inference engines. I also work on
-      making systems fast and I/O-efficient.
+      How should multiple tenants share resources? Resource-sharing mechanisms
+      that bound the performance interference a tenant suffers, in databases,
+      the OS page cache, and LLM inference engines. Further, making these
+      systems fast and I/O-efficient.
     </div>
     {% include theme-papers.html items="Delta Fair Sharing::vldb27/delta-fair-sharing|Token Latency Fairness::arxiv26/token-latency-fairness|Page Cache Fairness::|Metronome::vldb27/metronome|RainBlock::atc21/rainblock|mLSM::hotstorage18/mlsm" %}
   </div>
@@ -120,10 +120,10 @@ performance that applications need and expect. Take a look at the broad
     <div class="theme-name">Reliability and fault tolerance</div>
     <div class="theme-blurb">
       What guarantees should a system promise, and what is the cost of such
-      abstractions? I work on fine-grained fault modeling for consensus,
-      efficient crash recovery in databases, and rollback resistance in trusted
-      storage. I also worked on finding where guarantees, such as crash
-      consistency, are violated.
+      abstractions? Fine-grained fault modeling for consensus, efficient crash
+      recovery in databases, and rollback resistance in trusted storage.
+      Further, finding where guarantees, such as crash consistency, are
+      violated.
     </div>
     {% include theme-papers.html items="Rollbaccine::sigmod26/rollbaccine|Real Life Is Uncertain::powder|Powder::|Fugue::|CrashMonkey::osdi18/crashmonkey|Recoverable Processes::https://patents.google.com/patent/US20240152429A1/en" %}
   </div>
@@ -142,10 +142,10 @@ performance that applications need and expect. Take a look at the broad
   <div class="theme-card">
     <div class="theme-name">Systems for AI</div>
     <div class="theme-blurb">
-      When should a system be specialized, and for whom? I work on using
-      agents to synthesize specialized systems just in time, for a given
-      workload and setting. I also work on agent-first design: how these
-      systems should change when agents, not humans, are the primary client.
+      Using agents to synthesize specialized systems, for workloads, cost
+      budgets, or deployment settings, just in time. Further, how do these
+      systems change when agents, not humans, are the primary client?
+      Agent-first systems design.
     </div>
     {% include theme-papers.html items="Supporting Our AI Overlords::saa25/agent-first-data-systems|Just-in-Time Systems::mlforsys26/just-in-time-systems" %}
   </div>
