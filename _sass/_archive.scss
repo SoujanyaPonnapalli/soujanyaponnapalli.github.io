@@ -539,11 +539,11 @@
    matching the badge + card treatment on the publications page.
    ========================================================================== */
 
-/* Lead-in paragraph above the badge rows on the collaborators and mentoring
-   pages. Starts at the section badges rather than indenting to the names
-   column, and runs the full width of the rows below it - badge column, gap
-   and names column - so it ends flush with the right edge of the cards. */
-.people-intro {
+/* Lead-in paragraph above the badge rows on the publications, collaborators
+   and mentoring pages. Runs the full width of the rows below it - badge
+   column, gap and card column - so it starts level with the badges and ends
+   flush with the right edge of the cards. */
+.page-intro {
   margin: 0 0 1.5rem;
   font-size: $publication-font-size;
   line-height: 1.7;
