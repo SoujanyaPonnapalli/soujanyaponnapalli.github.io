@@ -162,7 +162,7 @@
   .publication-row {
     display: flex;
     gap: 1rem;
-    align-items: center; /* badge sits vertically centred against the card */
+    align-items: flex-start; /* badge lines up with the top of the card */
   }
 
   /* Column holding one badge per venue, so a paper that appeared at two
@@ -582,7 +582,7 @@
 .people-section {
   display: flex;
   gap: 1rem;
-  align-items: center;   /* badge centred against the card, as on publications */
+  align-items: flex-start;   /* badge lines up with the top of the card */
   margin-bottom: 1rem;
   font-size: 1em;        /* same as the body text on the home page */
   line-height: 1.6;
