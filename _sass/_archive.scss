@@ -159,38 +159,52 @@
     }
   }
 
+  /* One card per entry, with the venue inset behind a hairline rather than
+     floating in a second box beside it. `stretch` lets the venue column run
+     the full height; `overflow: hidden` keeps its corners inside the radius. */
   .publication-row {
     display: flex;
-    gap: 1rem;
-    align-items: flex-start; /* badge lines up with the top of the card */
+    align-items: stretch;
+    gap: 0;
+    background: $body-color;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
   }
 
   /* Column holding one badge per venue, so a paper that appeared at two
      venues stacks them. The fixed width lives here so every title still
      starts on the same line, whatever the conference name. */
+  /* The inset venue column. Its top padding matches the body's, so the venue
+     and the title share a first line; the fixed width keeps every title
+     starting at the same x. rem rather than em because the two columns run at
+     different font sizes. */
   .publication-badges {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.35rem;
     flex-shrink: 0;
     width: 128px;
+    padding: 0.7rem 0.75rem;
+    background: #f8f8f6;
+    border-right: 1px solid $border-color;
+    text-align: center;
   }
 
+  /* The box now belongs to the column, so each venue inside it is just text.
+     A paper with two venues stacks them here. */
   .publication-badge {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 100%;
-    /* Top padding matches the card's 0.7em so both first lines start at the
-       same y; the venue's line-height matches the title's below, so the two
-       sit on one baseline rather than three pixels apart. */
-    padding: 0.7rem 0.75rem 0.5rem;
-    background: #f8f8f6;
-    border: 1px solid #deded8;
-    border-radius: 6px;
     line-height: 1.25;
-    text-align: center;
   }
 
   .publication-badge-conf {
@@ -205,19 +219,11 @@
     color: #000;
   }
 
+  /* Inside the card now, so it carries no border or shadow of its own. */
   .publication-body {
     flex: 1;
     min-width: 0; /* let long titles wrap instead of stretching the row */
-    padding: 0.7em;
-    background: $body-color;
-    border: 1px solid $border-color;
-    border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    transition: box-shadow 0.3s ease;
-
-    &:hover {
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
+    padding: 0.7rem 0.75rem;
   }
 
   .publication-status {
@@ -226,18 +232,22 @@
     color: #5f6368;
   }
 
-  /* Stack the badge above the text on narrow screens */
+  /* On a phone the card turns vertical and the divider goes with it, so the
+     venue becomes a header strip rather than a separate box. */
   @media (max-width: 34em) {
     .publication-row {
       flex-direction: column;
-      gap: 0.6rem;
     }
 
     .publication-badges {
       flex-direction: row;
-      gap: 0.4rem;
+      justify-content: flex-start;
+      gap: 0.6rem;
       width: auto;
-      align-self: flex-start;
+      padding: 0.5rem 0.75rem;
+      border-right: 0;
+      border-bottom: 1px solid $border-color;
+      text-align: left;
     }
 
     .publication-badge {
@@ -596,25 +606,38 @@
   font-size: $publication-font-size;
 }
 
+/* Same single-card treatment as the publication rows: the section label is
+   inset behind a hairline instead of sitting in a box of its own. */
 .people-section {
   display: flex;
-  gap: 1rem;
-  align-items: flex-start;   /* badge lines up with the top of the card */
-  margin-bottom: 1rem;
+  align-items: stretch;
+  gap: 0;
+  margin-bottom: 0.5rem;
   font-size: 1em;        /* same as the body text on the home page */
   line-height: 1.6;
+  background: $body-color;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .people-label {
   flex-shrink: 0;
   /* Body-sized and bold, so the section titles read as titles. Wider than the
-     publication badges because "Undergraduate" needs 124px at this size. */
+     publication badges because "Undergraduate" needs 124px at this size.
+     Padding in rem, matching .people-names, so both first lines start level
+     despite the two columns running at different font sizes. */
   width: 152px;
   font-size: 1em;
-  padding: 0.5rem 0.75rem;
+  padding: 0.7rem 0.75rem;
   background: #f8f8f6;
-  border: 1px solid #deded8;
-  border-radius: 6px;
+  border-right: 1px solid $border-color;
   text-align: center;
   font-weight: $font-weight-bold;
   color: #000;
@@ -627,16 +650,7 @@
   /* The same small size the rest of the site uses; these columns were still
      at body size while every other page had moved down. */
   font-size: $publication-font-size;
-  padding: 0.7em;
-  background: $body-color;
-  border: 1px solid $border-color;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s ease;
-
-  &:hover {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
+  padding: 0.7rem 0.75rem;
 
   p {
     margin: 0 0 0.6em;
@@ -658,8 +672,12 @@
 
   .people-label {
     width: auto;
-    align-self: flex-start;
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-right: 0;
+    border-bottom: 1px solid $border-color;
   }
+
 }
 
 /* Mentoring page: badge stacks "<group>" over "students", matching the
@@ -667,6 +685,20 @@
 .people-label-group,
 .people-label-kind {
   display: block;
+}
+
+/* On a phone the label is a full-width header strip, so the two halves sit on
+   one line. Declared after the block rule above, which it would otherwise tie
+   with on specificity and lose to on source order. */
+@media (max-width: 34em) {
+  .people-label-group,
+  .people-label-kind {
+    display: inline;
+  }
+
+  .people-label-group::after {
+    content: " ";
+  }
 }
 
 .mentee {
@@ -829,12 +861,12 @@
   }
 
   .publication-body {
-    padding: 0.4em 0.75em;
+    padding: 0.4rem 0.75rem;
   }
 
-  .publication-badge {
-    /* Matches this page's tighter .publication-body padding of 0.4em. */
-    padding: 0.4rem 0.75rem 0.35rem;
+  .publication-badges {
+    /* Same top padding as the body beside it, so the two first lines align. */
+    padding: 0.4rem 0.75rem;
   }
 
   .publication-status {
