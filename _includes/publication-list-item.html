@@ -56,21 +56,26 @@
       <p class="publication-insight" itemprop="description">{{ post.keyinsight | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     {% endif %}
 
+    {% comment %}
+      Paper sits on its own at the left; talk, slides and cite group at the
+      right. The split is done with margin-right:auto on the Paper link rather
+      than two wrappers, so a paper with no extras still lines up.
+    {% endcomment %}
     <div class="publication-links">
       {% if post.pdfurl and post.pdfurl != '' or post.paperurl and post.paperurl != '' %}
         {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
         {% if post.downloadurl and post.downloadurl != '' %}{% assign paper_url = post.downloadurl %}{% endif %}
-        <a href="{{ paper_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer"><i class="fas fa-download" aria-hidden="true"></i> Paper</a>
+        <a href="{{ paper_url }}" class="publication-link-item publication-link-paper" target="_blank" rel="noopener noreferrer"><i class="fas fa-download" aria-hidden="true"></i> Paper</a>
       {% endif %}
-      {% if post.citationurl and post.citationurl != '' %}
-        {% if post.citationurl contains '://' %}{% assign cite_url = post.citationurl %}{% else %}{% assign cite_url = post.citationurl | prepend: base_path %}{% endif %}
-        <a href="{{ cite_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Cite</a>
+      {% if post.talkurl and post.talkurl != '' %}
+        <a href="{{ post.talkurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Talk</a>
       {% endif %}
       {% if post.slidesurl and post.slidesurl != '' %}
         <a href="{{ post.slidesurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Slides</a>
       {% endif %}
-      {% if post.talkurl and post.talkurl != '' %}
-        <a href="{{ post.talkurl }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Talk</a>
+      {% if post.citationurl and post.citationurl != '' %}
+        {% if post.citationurl contains '://' %}{% assign cite_url = post.citationurl %}{% else %}{% assign cite_url = post.citationurl | prepend: base_path %}{% endif %}
+        <a href="{{ cite_url }}" class="publication-link-item" target="_blank" rel="noopener noreferrer">Cite</a>
       {% endif %}
     </div>
 
