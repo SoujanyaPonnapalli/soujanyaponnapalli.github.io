@@ -291,8 +291,8 @@ performance that applications need and expect. Take a look at the broad
 -----
 
 <p class="page-intro">
-  If you would like to present your recent systems research at one of the seminars
-  above, or just want to talk about any of this, please reach out:
+  If you would like to present your systems research at the Sky seminar, or just
+  want to talk about any of this, please reach out:
   {% comment %}
     Written out, and clickable through the same js-email reassembly the sidebar
     uses. A literal mailto: here would put the address straight back into the
