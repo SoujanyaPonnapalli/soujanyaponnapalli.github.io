@@ -207,6 +207,25 @@
     line-height: 1.25;
   }
 
+  /* A second venue gets a short rule above it, so the four lines read as two
+     venues rather than one block. Short and centred rather than full width:
+     it is a separator, not a section break. */
+  .publication-badge + .publication-badge {
+    position: relative;
+    padding-top: 0.45rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 28px;
+      height: 1px;
+      margin-left: -14px;
+      background: $border-color;
+    }
+  }
+
   .publication-badge-conf {
     line-height: 1.5;   /* same line box as .publication-title */
     font-size: $publication-font-size;
@@ -254,6 +273,15 @@
       flex-direction: row;
       gap: 0.4em;
       width: auto;
+    }
+
+    /* Side by side here, so the row gap already separates them. */
+    .publication-badge + .publication-badge {
+      padding-top: 0;
+
+      &::before {
+        content: none;
+      }
     }
   }
 
