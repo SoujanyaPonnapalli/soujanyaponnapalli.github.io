@@ -9,6 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
+<p class="page-intro">
+  Here's my CV. You can also download my
+  <a href="{{ base_path }}/soujanya-resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>
+  and <a href="{{ base_path }}/soujanya-cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+  as PDFs!
+</p>
+
 <!-- [CV Download Link!]({{ base_path }}/soujanya-cv.pdf) -->
 
 <a href="{{ base_path }}/soujanya-cv.pdf" target="_blank">
