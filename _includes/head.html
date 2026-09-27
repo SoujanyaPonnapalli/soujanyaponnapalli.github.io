@@ -36,5 +36,13 @@
      data-turbo-track="reload" above forces a real reload when main.css
      changes, so a deploy can never leave a page on a stale stylesheet. -->
 <script src="{{ base_path }}/assets/js/turbo.min.js" defer></script>
+<script>
+  // Mark the document once Turbo starts swapping bodies, so the theme's
+  // staggered fade-in runs on the first load and never again. This event
+  // does not fire on the initial page load, only on Turbo visits.
+  addEventListener("turbo:before-render", function () {
+    document.documentElement.classList.add("turbo-visited");
+  }, { once: true });
+</script>
 
 <meta http-equiv="cleartype" content="on">

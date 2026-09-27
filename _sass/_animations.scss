@@ -19,3 +19,33 @@
     opacity: 1;
   }
 }
+/*
+   First load only
+   ========================================================================== */
+
+/*
+   The theme fades the chrome in on load, staggered: .masthead at 0.15s,
+   .page__hero at 0.25s, #main at 0.35s, .page__footer at 0.45s. The
+   animations use fill-mode `both`, so each element sits at opacity 0 until
+   its delay elapses.
+
+   On a full page load that reads as the page arriving. Under Turbo the
+   document is reused, so it replayed on every click and the nav bar and
+   sidebar blinked out and back for up to 0.65s each time. Turbo's permanent
+   elements could not help: the nodes were being kept, they were just being
+   animated from transparent again.
+
+   .turbo-visited is set on <html> at the first turbo:before-render, which
+   never fires on the initial load, so the first visit still animates.
+*/
+.turbo-visited {
+  .masthead,
+  .breadcrumbs,
+  #main,
+  .page__footer,
+  .page__hero,
+  .page__hero--overlay {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
