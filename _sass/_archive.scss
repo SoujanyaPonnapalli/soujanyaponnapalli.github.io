@@ -290,6 +290,11 @@
   /* Paper title at body-text size, sitting directly on top of the venue */
   .publication-title {
     font-size: $publication-font-size !important;
+    /* Unbolded on every page, not just the home page. The title is already the
+       entry point: it is blue, it comes first, and grey status text and black
+       body text follow it. At 600 it also competed with the venue badge beside
+       it, which is 600 too. */
+    font-weight: $font-weight-normal !important;
     line-height: 1.5;
     margin-bottom: 0 !important;
   }
@@ -798,6 +803,12 @@
 
 .mentee-who {
   min-width: 0;
+
+  /* A bare <strong> renders at 700; .person-name on the collaborators page is
+     600, and the two lists should agree. */
+  strong {
+    font-weight: $font-weight-semibold;
+  }
 }
 
 /* A column of pills rather than a wrapped row: one project per line. */
@@ -959,13 +970,13 @@
 }
 
 
-/* Home page publication and news cards. The publications page keeps its bolder
-   titles and roomier cards, where a title sits above status text and an
-   insight; here each card is a single line, so it reads better light and
-   tight. Scoped by .page__content, which only the `single` layout renders. */
+/* Home page publication and news cards: each is a single line here, so they want
+   tighter spacing than the publications page, where a title sits above status
+   text and an insight. The weight now lives on the base rule, so the same card
+   reads the same way on every page.
+   Scoped by .page__content, which only the `single` layout renders. */
 .page__content {
   .publication-title {
-    font-weight: $font-weight-normal !important;
     /* The theme puts 0.5em of margin above and below every
        .archive__item-title, and a further 0.5em of bottom padding. All three
        showed as dead space inside these single-line cards. */
