@@ -12,9 +12,13 @@
 
 - title: "Real Life Is Uncertain. Consensus Should Be Too!"
   permalink: powder
-  venue: { name: HotOS, when: 2025 }
-  note: Also presented at HPTS, 2026.
+  venue: { name: HPTS, when: 2026 }
+  note: From our HotOS 2025 paper.
   slides: https://sigops.org/s/conferences/hotos/2025/slides/slides69.pdf
+
+- title: "Metronome: I/O-Efficient Logging for State Machine Replication"
+  permalink: vldb27/metronome
+  venue: { name: Sky Retreat, when: 2025 }
 
 - title: "Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance"
   venue: { name: ETH Zurich, when: 2025 }
