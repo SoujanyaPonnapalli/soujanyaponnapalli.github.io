@@ -16,3 +16,6 @@ node_modules
 package-lock.json
 
 
+
+# macOS iCloud placeholder stubs, committed by accident
+*.icloud
