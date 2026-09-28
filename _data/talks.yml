@@ -36,25 +36,10 @@
   note: Invited talk. Also given at the UT Austin Systems Seminar.
   video: https://www.youtube.com/watch?v=KBlS81En1bY
 
-- title: "DINOMO: An Elastic, Scalable, High-Performance Key-Value Store for Disaggregated Persistent Memory"
-  permalink: vldb/dinomo
-  venues:
-    - { name: VLDB, when: Sep 2022 }
-
 - title: "A Systematic Approach to Scalably Saturate PM Bandwidth"
   venues:
     - { name: SRC, when: 2022 }
   slides: /slides/7.5_soujanya_ponnapalli.pdf
-
-- title: "WineFS: Hugepage-Aware File System for PM that Ages Gracefully"
-  permalink: sosp21/winefs
-  venues:
-    - { name: SOSP, when: Oct 2021 }
-
-- title: "Software-Defined Data Protection: Low Overhead Policy Compliance at the Storage Layer is Within Reach!"
-  permalink: vldb/sdp
-  venues:
-    - { name: VLDB, when: Aug 2021 }
 
 - title: "RainBlock: Faster Transaction Processing in Public Blockchains"
   permalink: atc21/rainblock
@@ -67,11 +52,6 @@
     - { name: MSR Redmond, when: 2020 }
     - { name: VMware Research, when: 2019 }
   note: First given at HotStorage, July 2018.
-
-- title: "CrashMonkey and ACE: Systematically Testing File-System Crash Consistency"
-  permalink: tocs/crashmonkey
-  venues:
-    - { name: Heisenbug }
 
 - title: "CrashML: Making Systematic Crash Testing of File Systems Feasible"
   permalink: osdi18/crashmonkey
