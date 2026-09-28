@@ -1,0 +1,80 @@
+# Talks, in the order they appear on /talks/ — there is no sort key, so file order
+# is render order, the same convention as _data/mentees.yml.
+#
+# Ordering rule: most recent giving first. A talk given at several venues lists them
+# newest-first under `venues`; keep that list to two, because a third badge makes the
+# 128px column taller than the card body. Any further venues go in `note`.
+#
+# Links resolve in this order: an explicit `slides:` / `video:` / `poster:` here, else
+# `permalink:` looked up in _publications for its slidesurl / talkurl / posterurl, else
+# the pill is omitted. Venue names are kept short; the badge column fits ~104px of text.
+
+- title: "Real Life Is Uncertain. Consensus Should Be Too!"
+  permalink: powder
+  venues:
+    - { name: HPTS, when: 2026 }
+    - { name: HotOS, when: May 2025 }
+  slides: https://sigops.org/s/conferences/hotos/2025/slides/slides69.pdf
+
+- title: "Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance"
+  venues:
+    - { name: ETH Zurich, when: Jun 2025 }
+  note: Invited talk
+  slides: /slides/ETH-SuRI.pptx
+
+- title: "Recovery can be Simple! Asynchronous Logging for Distributed Transactions"
+  venues:
+    - { name: Sky Retreat, when: Fall 2024 }
+    - { name: MSR Redmond, when: Summer 2022 }
+  slides: /slides/Sky-Retreat-24-Soujanya.pdf
+  poster: /posters/cascades.jpg
+
+- title: "RainBlock: Faster Transaction Processing in Public Blockchains"
+  venues:
+    - { name: SDC, when: 2022 }
+    - { name: MSR Redmond, when: 2022 }
+  note: Invited talk. Also given at the UT Austin Systems Seminar.
+  video: https://www.youtube.com/watch?v=KBlS81En1bY
+
+- title: "DINOMO: An Elastic, Scalable, High-Performance Key-Value Store for Disaggregated Persistent Memory"
+  permalink: vldb/dinomo
+  venues:
+    - { name: VLDB, when: Sep 2022 }
+
+- title: "A Systematic Approach to Scalably Saturate PM Bandwidth"
+  venues:
+    - { name: SRC, when: 2022 }
+  slides: /slides/7.5_soujanya_ponnapalli.pdf
+
+- title: "WineFS: Hugepage-Aware File System for PM that Ages Gracefully"
+  permalink: sosp21/winefs
+  venues:
+    - { name: SOSP, when: Oct 2021 }
+
+- title: "Software-Defined Data Protection: Low Overhead Policy Compliance at the Storage Layer is Within Reach!"
+  permalink: vldb/sdp
+  venues:
+    - { name: VLDB, when: Aug 2021 }
+
+- title: "RainBlock: Faster Transaction Processing in Public Blockchains"
+  permalink: atc21/rainblock
+  venues:
+    - { name: ATC, when: Jul 2021 }
+
+- title: "mLSM: Making Authenticated Storage Faster in Ethereum"
+  permalink: hotstorage18/mlsm
+  venues:
+    - { name: MSR Redmond, when: 2020 }
+    - { name: VMware Research, when: 2019 }
+  note: First given at HotStorage, July 2018.
+
+- title: "CrashMonkey and ACE: Systematically Testing File-System Crash Consistency"
+  permalink: tocs/crashmonkey
+  venues:
+    - { name: Heisenbug }
+
+- title: "CrashML: Making Systematic Crash Testing of File Systems Feasible"
+  permalink: osdi18/crashmonkey
+  venues:
+    - { name: OSDI, when: Oct 2018 }
+  note: Poster session

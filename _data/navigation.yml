@@ -6,11 +6,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  # - title: "Posters"
-  #   url: /posters/    
-
-  # - title: "Talks"
-  #   url: /talks/    
+  - title: "Talks and Coverage"
+    url: /talks/
 
   - title: "Collaborators"
     url: /collaborators/

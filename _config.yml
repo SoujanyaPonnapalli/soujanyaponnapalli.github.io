@@ -202,9 +202,6 @@ collections:
     # output on, each entry also published at /collaborators/collaborators-1/.
     output: false
     permalink: /:collection/:path/
-  talks:
-    output: false
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -276,14 +273,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
