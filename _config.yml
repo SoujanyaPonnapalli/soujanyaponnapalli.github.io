@@ -221,10 +221,6 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: "images/src_tyrantKV.pdf"
-    values:
-      sitemap: false
-  - scope:
       path: "SoujanyaPonnapalli.pdf"
     values:
       sitemap: false

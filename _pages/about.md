@@ -13,7 +13,7 @@ description: "Soujanya Ponnapalli is a postdoctoral scholar at UC Berkeley's Sky
 I am a systems researcher. I love building systems that are not just fast and
 scalable, but also **reliable**, providing strong guarantees, such as performance
 isolation and fault tolerance, in practice.<br>
-<strong class="job-market">I am on the job market for Fall 2027!</strong>
+<strong class="job-market">I am on the job market!</strong>
 
 I am a postdoctoral scholar at the [University of California, Berkeley](https://www.berkeley.edu/),
   working with [Natacha Crooks](https://nacrooks.github.io/) and
