@@ -190,7 +190,9 @@
     flex-direction: column;
     gap: 0.35rem;
     flex-shrink: 0;
-    width: 128px;
+    /* 140px leaves 112px of text, which fits the longest venue used as a
+       badge ("MSR Redmond", 107px) on one line. */
+    width: 140px;
     padding: 0.7rem 0.75rem;
     background: #f8f8f6;
     border-right: 1px solid $border-color;
@@ -692,10 +694,10 @@
      heavier, darker tier than the content it labels, which inverted the
      hierarchy - the shaded column already says "this is a label".
 
-     128px, the same as the publication venue column, so every page on the
+     140px, the same as the publication venue column, so every page on the
      site shares one label width. Padding in rem so both columns' first lines
      start level despite running at different font sizes. */
-  width: 128px;
+  width: 140px;
   font-size: $publication-font-size;
   padding: 0.7rem 0.75rem;
   background: #f8f8f6;

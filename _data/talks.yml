@@ -17,12 +17,12 @@
   slides: https://sigops.org/s/conferences/hotos/2025/slides/slides69.pdf
 
 - title: "Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance"
-  venue: { name: ETH Zurich, when: Jun 2025 }
+  venue: { name: ETH Zurich, when: 2025 }
   note: Invited talk.
   slides: /slides/ETH-SuRI.pptx
 
 - title: "Recovery can be Simple! Asynchronous Logging for Distributed Transactions"
-  venue: { name: MSR Redmond, when: Summer 2022 }
+  venue: { name: MSR Redmond, when: 2022 }
   note: Also presented at the Sky Retreat, Fall 2024.
   slides: /slides/Sky-Retreat-24-Soujanya.pdf
   poster: /posters/cascades.jpg
@@ -38,14 +38,14 @@
 
 - title: "RainBlock: Faster Transaction Processing in Public Blockchains"
   permalink: atc21/rainblock
-  venue: { name: ATC, when: Jul 2021 }
+  venue: { name: ATC, when: 2021 }
 
 - title: "CrashML: Making Systematic Crash Testing of File Systems Feasible"
   permalink: osdi18/crashmonkey
-  venue: { name: OSDI, when: Oct 2018 }
+  venue: { name: OSDI, when: 2018 }
   note: Poster session.
 
 - title: "mLSM: Making Authenticated Storage Faster in Ethereum"
   permalink: hotstorage18/mlsm
-  venue: { name: HotStorage, when: Jul 2018 }
+  venue: { name: HotStorage, when: 2018 }
   note: Also presented at VMware Research, 2019, and Microsoft Research, Redmond, 2020.
