@@ -12,8 +12,8 @@
 
 - title: "Real Life Is Uncertain. Consensus Should Be Too!"
   permalink: powder
-  venue: { name: HPTS, when: 2026 }
-  note: First presented at HotOS, May 2025.
+  venue: { name: HotOS, when: 2025 }
+  note: Also presented at HPTS, 2026.
   slides: https://sigops.org/s/conferences/hotos/2025/slides/slides69.pdf
 
 - title: "Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance"
@@ -22,14 +22,14 @@
   slides: /slides/ETH-SuRI.pptx
 
 - title: "Recovery can be Simple! Asynchronous Logging for Distributed Transactions"
-  venue: { name: MSR Redmond, when: 2022 }
-  note: Also presented at the Sky Retreat, Fall 2024.
+  venue: { name: Sky Retreat, when: 2024 }
+  note: Also presented at Microsoft Research, Redmond, 2022.
   slides: /slides/Sky-Retreat-24-Soujanya.pdf
   poster: /posters/cascades.jpg
 
 - title: "RainBlock: Faster Transaction Processing in Public Blockchains"
-  venue: { name: MSR Redmond, when: 2022 }
-  note: Invited talk. Also presented at the Storage Developer Conference, 2022, and the UT Austin Systems Seminar.
+  venue: { name: SDC, when: 2022 }
+  note: Also presented as an invited talk at Microsoft Research, Redmond, 2022, and at the UT Austin Systems Seminar.
   video: https://www.youtube.com/watch?v=KBlS81En1bY
 
 - title: "A Systematic Approach to Scalably Saturate PM Bandwidth"
