@@ -6,8 +6,21 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+{% comment %}
+  The name leads, then the page: "Soujanya Ponnapalli -- Publications". The
+  home page's own title is already the name, so appending it would say it
+  twice; there the tab is just the name.
+{% endcomment %}
+{% comment %}
+  `tab_title` is for pages that want a name in the browser tab but no heading
+  on the page, like the CV. An empty string is truthy in Liquid, so the blank
+  title there has to be tested for explicitly or it leaves a dangling dash.
+{% endcomment %}
+{% assign tab = page.tab_title | default: page.title %}
+{% if tab != blank and tab != site.title %}
+  {% assign seo_title = site.title | append: " " | append: site.title_separator | append: " " | append: tab %}
+{% else %}
+  {% assign seo_title = site.title %}
 {% endif %}
 
 {% if seo_title %}

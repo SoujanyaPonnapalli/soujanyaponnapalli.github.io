@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "" #"CV"
+tab_title: "CV"   # browser tab only; the page shows no heading
 permalink: /cv/
 author_profile: true
 redirect_from:
