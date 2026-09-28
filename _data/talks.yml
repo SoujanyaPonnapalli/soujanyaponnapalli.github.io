@@ -13,7 +13,6 @@
 - title: "Real Life Is Uncertain. Consensus Should Be Too!"
   permalink: powder
   venue: { name: HPTS, when: 2026 }
-  note: From our HotOS 2025 paper.
   slides: https://sigops.org/s/conferences/hotos/2025/slides/slides69.pdf
 
 - title: "Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance"
