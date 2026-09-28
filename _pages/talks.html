@@ -143,12 +143,10 @@ description: "Talks Soujanya Ponnapalli has given at HPTS, HotOS, VLDB, SOSP, AT
 <div class="list__item publication-item">
 <div class="publication-row">
   <div class="publication-badges">
-    {% for v in talk.venues %}
-      <div class="publication-badge">
-        <span class="publication-badge-conf">{{ v.name }}</span>
-        {% if v.when %}<span class="publication-badge-year">{{ v.when }}</span>{% endif %}
-      </div>
-    {% endfor %}
+    <div class="publication-badge">
+      <span class="publication-badge-conf">{{ talk.venue.name }}</span>
+      {% if talk.venue.when %}<span class="publication-badge-year">{{ talk.venue.when }}</span>{% endif %}
+    </div>
   </div>
   <div class="publication-body">
     {%- comment %}

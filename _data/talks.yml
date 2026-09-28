@@ -1,9 +1,10 @@
 # Talks, in the order they appear on /talks/ — there is no sort key, so file order
 # is render order, the same convention as _data/mentees.yml.
 #
-# Ordering rule: most recent giving first. A talk given at several venues lists them
-# newest-first under `venues`; keep that list to two, because a third badge makes the
-# 128px column taller than the card body. Any further venues go in `note`.
+# `venue` is the badge: one per talk, the most notable place it was given. A talk
+# given more than once names the others in `note`, which renders as grey text under
+# the title. Keep the file ordered by the badge's date, so the badges read down the
+# page in reverse chronology.
 #
 # Links resolve in this order: an explicit `slides:` / `video:` / `poster:` here, else
 # `permalink:` looked up in _publications for its slidesurl / talkurl / posterurl, else
@@ -11,50 +12,40 @@
 
 - title: "Real Life Is Uncertain. Consensus Should Be Too!"
   permalink: powder
-  venues:
-    - { name: HPTS, when: 2026 }
-    - { name: HotOS, when: May 2025 }
+  venue: { name: HPTS, when: 2026 }
+  note: First presented at HotOS, May 2025.
   slides: https://sigops.org/s/conferences/hotos/2025/slides/slides69.pdf
 
 - title: "Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance"
-  venues:
-    - { name: ETH Zurich, when: Jun 2025 }
-  note: Invited talk
+  venue: { name: ETH Zurich, when: Jun 2025 }
+  note: Invited talk.
   slides: /slides/ETH-SuRI.pptx
 
 - title: "Recovery can be Simple! Asynchronous Logging for Distributed Transactions"
-  venues:
-    - { name: Sky Retreat, when: Fall 2024 }
-    - { name: MSR Redmond, when: Summer 2022 }
+  venue: { name: MSR Redmond, when: Summer 2022 }
+  note: Also presented at the Sky Retreat, Fall 2024.
   slides: /slides/Sky-Retreat-24-Soujanya.pdf
   poster: /posters/cascades.jpg
 
 - title: "RainBlock: Faster Transaction Processing in Public Blockchains"
-  venues:
-    - { name: SDC, when: 2022 }
-    - { name: MSR Redmond, when: 2022 }
-  note: Invited talk. Also given at the UT Austin Systems Seminar.
+  venue: { name: MSR Redmond, when: 2022 }
+  note: Invited talk. Also presented at the Storage Developer Conference, 2022, and the UT Austin Systems Seminar.
   video: https://www.youtube.com/watch?v=KBlS81En1bY
 
 - title: "A Systematic Approach to Scalably Saturate PM Bandwidth"
-  venues:
-    - { name: SRC, when: 2022 }
+  venue: { name: SRC, when: 2022 }
   slides: /slides/7.5_soujanya_ponnapalli.pdf
 
 - title: "RainBlock: Faster Transaction Processing in Public Blockchains"
   permalink: atc21/rainblock
-  venues:
-    - { name: ATC, when: Jul 2021 }
-
-- title: "mLSM: Making Authenticated Storage Faster in Ethereum"
-  permalink: hotstorage18/mlsm
-  venues:
-    - { name: MSR Redmond, when: 2020 }
-    - { name: VMware Research, when: 2019 }
-  note: First given at HotStorage, July 2018.
+  venue: { name: ATC, when: Jul 2021 }
 
 - title: "CrashML: Making Systematic Crash Testing of File Systems Feasible"
   permalink: osdi18/crashmonkey
-  venues:
-    - { name: OSDI, when: Oct 2018 }
-  note: Poster session
+  venue: { name: OSDI, when: Oct 2018 }
+  note: Poster session.
+
+- title: "mLSM: Making Authenticated Storage Faster in Ethereum"
+  permalink: hotstorage18/mlsm
+  venue: { name: HotStorage, when: Jul 2018 }
+  note: Also presented at VMware Research, 2019, and Microsoft Research, Redmond, 2020.
