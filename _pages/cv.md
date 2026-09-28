@@ -6,6 +6,7 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+description: "Curriculum vitae and resume for Soujanya Ponnapalli: publications, industry research at Microsoft Research and VMware, service, awards and teaching."
 ---
 
 {% include base_path %}

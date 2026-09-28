@@ -1,11 +1,11 @@
 ---
 permalink: /
 title: "Soujanya Ponnapalli"
-excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+description: "Soujanya Ponnapalli is a postdoctoral scholar at UC Berkeley's Sky Computing Lab, working on distributed and storage systems. On the job market for Fall 2027."
 ---
 
 <div class="page-lead" markdown="1">
@@ -13,7 +13,7 @@ redirect_from:
 I am a systems researcher. I love building systems that are not just fast and
 scalable, but also **reliable**, providing strong guarantees, such as performance
 isolation and fault tolerance, in practice.<br>
-<strong class="job-market">I am on the job market this year!</strong>
+<strong class="job-market">I am on the job market for Fall 2027!</strong>
 
 I am a postdoctoral scholar at the [University of California, Berkeley](https://www.berkeley.edu/),
   working with [Natacha Crooks](https://nacrooks.github.io/) and
@@ -159,6 +159,22 @@ performance that applications need and expect. Take a look at the broad
   Same badge-and-card structure as the selected publications above, so the year
   badges line up with the venue badges and the cards share one left edge.
 {% endcomment %}
+
+<div class="list__item publication-item">
+<div class="publication-row">
+  <div class="publication-badges">
+    <div class="publication-badge">
+      <span class="publication-badge-conf">2026</span>
+    </div>
+  </div>
+  <div class="publication-body">
+    <div class="news-content">
+      Talk at <a href="http://hpts.ws/" target="_blank" rel="noopener noreferrer">HPTS 2026</a>, Asilomar<br>
+      <a href="https://dl.acm.org/doi/pdf/10.1145/3713082.3730374" target="_blank" rel="noopener noreferrer">Real Life Is Uncertain. Consensus Should Be Too!</a>
+    </div>
+  </div>
+</div>
+</div>
 
 <div class="list__item publication-item">
 <div class="publication-row">

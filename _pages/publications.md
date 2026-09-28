@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+description: "Eighteen papers on storage and distributed systems at VLDB, SIGMOD, SOSP, OSDI, ATC and HotOS, each with the key insight behind the work."
 ---
 
 {% include base_path %}

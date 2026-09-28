@@ -38,6 +38,15 @@
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 
+{% comment %}
+  The theme computed seo_description and then only used it for og: and
+  twitter:. Without a plain meta description Google writes its own snippet
+  from whatever text it finds first.
+{% endcomment %}
+{% if seo_description %}
+  <meta name="description" content="{{ seo_description }}">
+{% endif %}
+
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
 {% if seo_author %}
   {% if seo_author.twitter %}
@@ -132,6 +141,16 @@
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name" : "{{ site.social.name | default: site.name }}",
       "url" : {{ seo_url | jsonify }},
+      "jobTitle" : "Postdoctoral Scholar",
+      "description" : {{ site.description | jsonify }},
+      "affiliation" : {
+        "@type" : "Organization",
+        "name" : "University of California, Berkeley"
+      },
+      "alumniOf" : [
+        { "@type" : "Organization", "name" : "The University of Texas at Austin" },
+        { "@type" : "Organization", "name" : "International Institute of Information Technology, Hyderabad" }
+      ],
       "sameAs" : {{ site.social.links | jsonify }}
     }
   </script>
