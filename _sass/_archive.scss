@@ -630,6 +630,16 @@
    page: there the theme sets `.page__content p { font-size: 1em }`, which
    outranks a bare class and left this paragraph at body size while the blocks
    around it were smaller. Archive-layout pages need the bare selector. */
+/* Body prose on a content page. The theme's `.page__content p { font-size: 1em }`
+   leaves a bare paragraph at 16px, the only 16px text on the site, so page copy
+   needs the same doubled selector .page-intro uses to outrank it. */
+.page-copy,
+.page__content .page-copy {
+  margin: 0 0 1.5rem;
+  font-size: $publication-font-size;
+  line-height: 1.7;
+}
+
 .page-intro,
 .page__content .page-intro {
   margin: 0 0 1.5rem;
