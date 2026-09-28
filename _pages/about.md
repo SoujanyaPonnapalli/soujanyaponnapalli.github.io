@@ -186,7 +186,7 @@ performance that applications need and expect. Take a look at the broad
   <div class="publication-body">
     <div class="news-content">
       Invited for a talk at ETH Zurich, 06-18-2025<br>
-      Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!
+      <a href="{{ base_path }}/slides/ETH-SuRI.pptx">Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance!</a>
     </div>
   </div>
 </div>
