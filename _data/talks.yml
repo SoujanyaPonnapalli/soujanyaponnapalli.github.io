@@ -16,14 +16,14 @@
   note: From our HotOS 2025 paper.
   slides: https://sigops.org/s/conferences/hotos/2025/slides/slides69.pdf
 
-- title: "Metronome: I/O-Efficient Logging for State Machine Replication"
-  permalink: vldb27/metronome
-  venue: { name: Sky Retreat, when: 2025 }
-
 - title: "Rethinking Fault Tolerance: Abstractions, Guarantees, and Performance"
   venue: { name: ETH Zurich, when: 2025 }
   note: Invited talk.
   slides: /slides/ETH-SuRI.pptx
+
+- title: "Metronome: I/O-Efficient Logging for State Machine Replication"
+  permalink: vldb27/metronome
+  venue: { name: Sky Retreat, when: 2025 }
 
 - title: "Recovery can be Simple! Asynchronous Logging for Distributed Transactions"
   venue: { name: Sky Retreat, when: 2024 }
