@@ -716,6 +716,8 @@
 .people-names {
   flex: 1;
   min-width: 0;
+  /* named so .mentee can ask this column's width rather than the window's */
+  container: people / inline-size;
   /* The same small size the rest of the site uses; these columns were still
      at body size while every other page had moved down. */
   font-size: $publication-font-size;
@@ -775,7 +777,12 @@
    a different height under each name. */
 .mentee {
   display: grid;
-  grid-template-columns: 252px 1fr;
+  /* Stacked by default; the two-column form is switched on by a container query
+     below. A media query cannot do this job: the squeeze comes from the author
+     sidebar taking the content column, so the window can be wide while this row
+     is not. Browsers without container queries keep the stacked form, which is
+     the safe direction to fail in. */
+  grid-template-columns: 1fr;
   gap: 0.35rem 0.9rem;
   align-items: start;
   padding: 0.45em 0;
@@ -790,13 +797,15 @@
     padding-bottom: 0;
   }
 
-  /* 252px is set by the longest entry, "Charisse Ivana Yeung, UC Berkeley".
-     Anything narrower wraps the longest names onto a second line, which is
-     what the fixed column exists to avoid. */
-  /* $medium is 768px, which is sooner than this layout needs to give up:
-     a 768px viewport still leaves ~430px for the pills. */
+  /* 252px is the longest entry, "Charisse Ivana Yeung, UC Berkeley"; anything
+     narrower wraps the longest names onto a second line. 520px is that column
+     plus the gap plus enough room for a pill to be worth putting beside it. */
+  @container people (min-width: 520px) {
+    grid-template-columns: 252px 1fr;
+    gap: 0.35rem 0.9rem;
+  }
+
   @media (max-width: 34em) {
-    grid-template-columns: 1fr;
     gap: 0.2rem;
   }
 }
