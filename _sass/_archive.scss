@@ -803,12 +803,6 @@
 
 .mentee-who {
   min-width: 0;
-
-  /* A bare <strong> renders at 700; .person-name on the collaborators page is
-     600, and the two lists should agree. */
-  strong {
-    font-weight: $font-weight-semibold;
-  }
 }
 
 /* A column of pills rather than a wrapped row: one project per line. */
@@ -1029,6 +1023,14 @@
 
 /* Collaborators: one row per person, the name bold and the affiliation plain,
    so the two do not run together down a long list. */
+/* Names are plain; the affiliation beside them is grey. The colour carries the
+   split between person and place, so neither needs bold - which keeps these
+   lists light where 36 bold names ran heavy. Used by the collaborators page and
+   the mentoring page, so the two read alike. */
 .person-name {
-  font-weight: $font-weight-semibold;
+  font-weight: $font-weight-normal;
+}
+
+.person-affil {
+  color: $gray;
 }

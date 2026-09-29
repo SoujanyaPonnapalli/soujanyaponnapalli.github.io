@@ -29,7 +29,7 @@ description: "The PhD, Masters and undergraduate students Soujanya Ponnapalli ha
           reader can see which ones lead somewhere.
         {% endcomment %}
         <div class="mentee">
-          <div class="mentee-who"><strong>{{ s.name }}</strong>, {{ s.where }}</div>
+          <div class="mentee-who"><span class="person-name">{{ s.name }}</span><span class="person-affil">, {{ s.where }}</span></div>
           <div class="mentee-projects">
             {% for pr in s.projects %}
               {%- assign href = '' -%}

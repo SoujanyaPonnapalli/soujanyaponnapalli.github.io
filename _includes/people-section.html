@@ -23,7 +23,7 @@
       {%- if person == '' -%}{%- continue -%}{%- endif -%}
       {%- assign name = person | split: ',' | first -%}
       {%- assign affiliation = person | remove_first: name | remove_first: ',' | strip -%}
-      <div class="person"><strong class="person-name">{{ name }}</strong>{% if affiliation != '' %}, {{ affiliation }}{% endif %}</div>
+      <div class="person"><span class="person-name">{{ name }}</span>{% if affiliation != '' %}<span class="person-affil">, {{ affiliation }}</span>{% endif %}</div>
     {%- endfor -%}
   </div>
 </div>
