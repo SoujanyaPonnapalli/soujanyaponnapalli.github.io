@@ -312,6 +312,21 @@
   .publication-award {
     font-weight: $font-weight-bold;
     color: $award-color;
+
+    /* A link inside the award text would otherwise take the theme's link
+       blue and break the red phrase in half. Keep the award colour and let
+       the underline carry the signal that it is a link. */
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+
+      &:hover,
+      &:focus {
+        color: inherit;
+        text-decoration-thickness: 2px;
+      }
+    }
   }
 
   /* Key insight - matches the body text size */
