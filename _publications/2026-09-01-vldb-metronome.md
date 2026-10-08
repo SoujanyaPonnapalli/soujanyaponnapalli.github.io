@@ -12,6 +12,7 @@ status: 'Under revision'
 # Shown on the homepage's Selected Publications despite being in review;
 # without this the list is accepted work only.
 selected: true
+award: 'In adoption talks with Neon'
 # Key insight: 2-3 lines, shown under the venue on the publications page.
 keyinsight: 'In state machine replicated systems, every replica writes to a persistent write-ahead log before committing, so that it can recover from a crash. Logging at every replica is both inefficient and unnecessary: tolerating *f* crash-stop failures requires only a majority (*f* + 1) of replicas to log persistently. With Metronome, we log only at a majority of replicas, improving both commit throughput and I/O efficiency.'
 paperurl: 'https://github.com/SoujanyaPonnapalli/Metronome/blob/main/Tech_Report.pdf'
