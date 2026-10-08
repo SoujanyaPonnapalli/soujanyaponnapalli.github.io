@@ -54,16 +54,17 @@ performance that applications need and expect. Take a look at the broad
 {% for post in pubs %}
   {% comment %}
     Liquid evaluates and/or right to left, so each condition gets its own flag.
-    Only accepted work is listed here; the full list carries the rest.
+    Accepted work at a top venue is listed by default; the full list carries the
+    rest. An entry overrides that either way with `selected:` - true pulls work
+    that is still in review up here, false drops an accepted paper.
   {% endcomment %}
   {% assign is_top = false %}
   {% if top_venues contains post.conf %}{% assign is_top = true %}{% endif %}
-  {% assign is_accepted = true %}
-  {% if post.status and post.status != '' %}{% assign is_accepted = false %}{% endif %}
-  {% comment %} An entry can opt out of this list with `selected: false`. {% endcomment %}
-  {% assign is_selected = true %}
-  {% if post.selected == false %}{% assign is_selected = false %}{% endif %}
-  {% if is_top and is_accepted and is_selected %}
+  {% assign is_listed = true %}
+  {% if post.status and post.status != '' %}{% assign is_listed = false %}{% endif %}
+  {% if post.selected == true %}{% assign is_listed = true %}{% endif %}
+  {% if post.selected == false %}{% assign is_listed = false %}{% endif %}
+  {% if is_top and is_listed %}
   {% if post.pdfurl and post.pdfurl != '' %}{% assign paper_url = post.pdfurl %}{% else %}{% assign paper_url = post.paperurl %}{% endif %}
 <div class="list__item publication-item">
 <div class="publication-row">
@@ -86,8 +87,20 @@ performance that applications need and expect. Take a look at the broad
     <h2 class="archive__item-title publication-title" itemprop="headline">
       <a href="{{ paper_url }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
     </h2>
-    {% if post.award and post.award != '' %}
-    <p class="publication-status"><span class="publication-award">{{ post.award }}</span></p>
+    {% comment %}
+      Same status/award line as the publications page, so a paper that is up
+      here while still in review says so, rather than reading as published.
+    {% endcomment %}
+    {% assign has_status = false %}
+    {% if post.status and post.status != '' %}{% assign has_status = true %}{% endif %}
+    {% assign has_award = false %}
+    {% if post.award and post.award != '' %}{% assign has_award = true %}{% endif %}
+    {% if has_status or has_award %}
+    <p class="publication-status">
+      {%- if has_status -%}{{ post.status }}{%- endif -%}
+      {%- if has_status and has_award %} &middot; {% endif -%}
+      {%- if has_award -%}<span class="publication-award">{{ post.award }}</span>{%- endif -%}
+    </p>
     {% endif %}
   </div>
 </div>
