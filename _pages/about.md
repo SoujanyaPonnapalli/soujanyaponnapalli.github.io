@@ -296,7 +296,7 @@ performance that applications need and expect. Take a look at the broad
 <ul class="service-rows">
   <li><span class="service-role">Program Committee</span><span>OSDI'26, NSDI'26, ATC'25, NSDI'25, EuroSys'25</span></li>
   <li><span class="service-role">External Review Committee</span><span>FAST'25, ATC'24, NSDI'19</span></li>
-  <li><span class="service-role">Journal Reviewer</span><span>ACM TOCS 2024</span></li>
+  <li><span class="service-role">Journal Reviewer</span><span>ACM TOS 2024</span></li>
   <li><span class="service-role">NSF Reviewer</span><span>Proposal review panel, 2026</span></li>
   {% comment %} GAAP lives under Mentoring and Leadership, not here. {% endcomment %}
   <li><span class="service-role">Other</span><span>Hallway discussion lead, SOSP'21<br>
