@@ -73,6 +73,10 @@
       where: UC Berkeley
       projects:
         - title: Page Cache Fairness
+          label: Poster
+          # /preview rather than the /edit link: it opens view-only for anyone,
+          # with no editor chrome and no deep link to one slide.
+          url: https://docs.google.com/presentation/d/1arQ_6M-1S_GMU1uC8SFhAfQ46Eg2nBBoc3mx7sdDDEs/preview
     - name: Souvik Banerjee
       where: UT Austin
       projects:
