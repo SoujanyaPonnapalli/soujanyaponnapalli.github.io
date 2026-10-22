@@ -182,7 +182,7 @@ performance that applications need and expect. Take a look at the broad
   </div>
   <div class="publication-body">
     <div class="news-content">
-      Talk at <a href="http://hpts.ws/" target="_blank" rel="noopener noreferrer">HPTS 2026</a>, Asilomar<br>
+      Talk at <a href="http://hpts.ws/" target="_blank" rel="noopener noreferrer">HPTS 2026</a>, Asilomar, California<br>
       <a href="https://dl.acm.org/doi/pdf/10.1145/3713082.3730374" target="_blank" rel="noopener noreferrer">Real Life Is Uncertain. Consensus Should Be Too!</a>
     </div>
   </div>
@@ -294,7 +294,7 @@ performance that applications need and expect. Take a look at the broad
 -----
 
 <ul class="service-rows">
-  <li><span class="service-role">Program Committee</span><span>OSDI'26, NSDI'26, ATC'25, NSDI'25, EuroSys'25</span></li>
+  <li><span class="service-role">Program Committee</span><span>ATC'27, OSDI'26, NSDI'26, ATC'25, NSDI'25, EuroSys'25</span></li>
   <li><span class="service-role">External Review Committee</span><span>FAST'25, ATC'24, NSDI'19</span></li>
   <li><span class="service-role">Journal Reviewer</span><span>ACM TOS 2024</span></li>
   <li><span class="service-role">NSF Reviewer</span><span>Proposal review panel, 2026</span></li>
