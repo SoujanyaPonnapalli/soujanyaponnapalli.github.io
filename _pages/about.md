@@ -24,7 +24,7 @@ Before that, I completed my PhD at [UT Austin](https://www.utexas.edu/) with
   [Systems and Storage Lab](https://utsaslab.cs.utexas.edu/) and the
   [Lab for Advanced Systems Research](https://www.cs.utexas.edu/lasr/).
 My dissertation aimed at
-  [minimizing I/O bottlenecks to achieve scalable, high-throughput systems](https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf).
+  [minimizing I/O bottlenecks to achieve scalable, high-throughput systems](https://repositories.lib.utexas.edu/items/1ac7df4f-b926-440d-8fc9-93c57df799b4).
 Prior to that, I earned my Bachelor's with Honors in Computer Science and
   Engineering from [IIIT Hyderabad](https://iiit.ac.in/), where I worked with
   [Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
@@ -246,7 +246,7 @@ performance that applications need and expect. Take a look at the broad
   </div>
   <div class="publication-body">
     <div class="news-content">
-      <a href="https://people.eecs.berkeley.edu/~soujanya/dissertation.pdf" target="_blank" rel="noopener noreferrer">Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems</a><br>
+      <a href="https://repositories.lib.utexas.edu/items/1ac7df4f-b926-440d-8fc9-93c57df799b4" target="_blank" rel="noopener noreferrer">Minimizing I/O Bottlenecks to Achieve Scalable and High-Throughput Systems</a><br>
       Vijay Chidambaram, Emmett Witchel, James Bornholt, Jonathan Goldstein, Natacha Crooks
     </div>
   </div>
