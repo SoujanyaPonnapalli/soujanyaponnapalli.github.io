@@ -1,3 +1,8 @@
 <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
+{% comment %}
+  The academicpages template put a "Sitemap" link here pointing at /sitemap/,
+  but _pages/sitemap.md is published: false, so that 404'd on every page.
+  jekyll-sitemap still emits /sitemap.xml for crawlers, which is the one that
+  matters, and a human-facing sitemap is not wanted - so no link here.
+{% endcomment %}
 <!-- end custom footer snippets -->
