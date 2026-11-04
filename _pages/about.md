@@ -26,7 +26,7 @@ Before that, I completed my PhD at [UT Austin](https://www.utexas.edu/) with
 My dissertation aimed at
   [minimizing I/O bottlenecks to achieve scalable, high-throughput systems](https://repositories.lib.utexas.edu/items/1ac7df4f-b926-440d-8fc9-93c57df799b4).
 Prior to that, I earned my Bachelor's with Honors in Computer Science and
-  Engineering from [IIIT Hyderabad](https://iiit.ac.in/), where I worked with
+  Engineering from [IIIT Hyderabad](https://www.iiit.ac.in/), where I worked with
   [Suresh Purini](https://www.iiit.ac.in/people/faculty/psuresh/).
 I have always been equally passionate about [academic]({{ base_path }}/publications/)
   and [non-academic]({{ base_path }}/parallel-life/) pursuits, and in recognition,
