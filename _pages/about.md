@@ -10,9 +10,9 @@ description: "Soujanya Ponnapalli is a postdoctoral scholar at UC Berkeley's Sky
 
 <div class="page-lead" markdown="1">
 
-I am a systems researcher. I love building systems that are not just fast and
-scalable, but also **reliable**, providing strong guarantees, such as performance
-isolation and fault tolerance, in practice.<br>
+I am a systems researcher. I build fast and **reliable** systems that provide
+practical guarantees under realistic conditions for emerging applications and
+computing paradigms.<br>
 <strong class="job-market">I am on the job market!</strong>
 
 I am a postdoctoral scholar at the [University of California, Berkeley](https://www.berkeley.edu/),
