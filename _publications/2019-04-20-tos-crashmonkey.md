@@ -5,7 +5,7 @@ collection: publications
 permalink: 'tocs/crashmonkey'
 date: 2019-04-20
 venue: 'ACM Transactions on Storage (TOS) 2019'
-order: 16
+order: 17
 conf: 'TOS'
 confyear: 2019
 # Key insight: 2-3 lines, shown under the venue on the publications page.

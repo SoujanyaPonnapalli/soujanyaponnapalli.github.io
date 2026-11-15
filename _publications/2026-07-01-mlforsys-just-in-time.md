@@ -5,7 +5,7 @@ collection: publications
 permalink: 'mlforsys26/just-in-time-systems'
 date: 2026-07-01
 venue: 'MLForSys 2026'
-order: 3
+order: 4
 conf: 'MLForSys'
 confyear: 2026
 # Key insight: 2-3 lines, shown under the venue on the publications page.

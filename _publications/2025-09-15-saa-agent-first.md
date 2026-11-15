@@ -5,7 +5,7 @@ collection: publications
 permalink: 'saa25/agent-first-data-systems'
 date: 2026-01-01
 venue: 'CIDR 2026'
-order: 5
+order: 6
 conf: 'CIDR'
 confyear: 2026
 conf2: 'SAA'

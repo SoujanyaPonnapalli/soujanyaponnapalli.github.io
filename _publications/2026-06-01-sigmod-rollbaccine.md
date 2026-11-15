@@ -5,7 +5,7 @@ collection: publications
 permalink: 'sigmod26/rollbaccine'
 date: 2026-06-01
 venue: 'SIGMOD 2026'
-order: 4
+order: 5
 conf: 'SIGMOD'
 confyear: 2026
 # Key insight: 2-3 lines, shown under the venue on the publications page.

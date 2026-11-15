@@ -4,9 +4,9 @@ authors: 'Tyler Griggs, Soujanya Ponnapalli, Dev Bali, Wenjie Ma, James DeLoye, 
 collection: publications
 permalink: 'vldb27/delta-fair-sharing'
 date: 2026-08-01
-venue: 'VLDB 2027'
+venue: 'USENIX OSDI 2027'
 order: 2
-conf: 'VLDB'
+conf: 'OSDI'
 confyear: 2027
 status: 'Under submission'
 # Key insight: 2-3 lines, shown under the venue on the publications page.
